@@ -1,20 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:spotify="http://www.spotify.com/ns/rss"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+    xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
- <title>Matt and Shane's Secret Podcast</title>
- <description>Grab onto this fast moving train and witness two comedians rise to victory and splendor. This is easily the funniest podcast out there. The rest are pretty meh.</description>
- <language>en-gb</language>
- <copyright>none</copyright>
- <link>https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/old-testament.rss</link>
- <image>
-   <url>https://megaphone.imgix.net/podcasts/b38b7390-de88-11ef-906f-97532119452a/image/4e2f621385dc1bae867ea60318d734cd.jpg</url>
-   <title>Matt and Shane's Secret Podcast</title>
-   <link>https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/old-testament.rss</link>
- </image>
- <generator>csv2rss.sh v 0.01</generator>
- <ttl>263520</ttl>
-<lastBuildDate>Sat, 17 May 2025 14:54:28 +0100</lastBuildDate>
-<pubDate>Sat, 17 May 2025 14:54:28 +0100</pubDate>
+    <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/old-testament.xml" rel="self" type="application/rss+xml"/>
+    <title>Matt and Shane's Secret Podcast</title>
+    <description>Grab onto this fast moving train and witness two comedians rise to victory and splendor. This is easily the funniest podcast out there. The rest are pretty meh.</description>
+    <language>en-gb</language>
+    <copyright>none</copyright>
+    <link>https://raw.githubusercontent.com/Stephan5/rss</link>
+    <image>
+       <url>https://megaphone.imgix.net/podcasts/b38b7390-de88-11ef-906f-97532119452a/image/4e2f621385dc1bae867ea60318d734cd.jpg</url>
+       <title>Matt and Shane's Secret Podcast</title>
+       <link>https://raw.githubusercontent.com/Stephan5/rss</link>
+    </image>
+    <generator>csv2rss.sh v 0.01</generator>
+    <ttl>1440</ttl>
+<lastBuildDate>Sat, 17 May 2025 15:22:32 +0100</lastBuildDate>
+<pubDate>Sat, 17 May 2025 15:22:32 +0100</pubDate>
 
 <item>
 <link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%201%20-%20Inaugral%20Business.mp3</link>
