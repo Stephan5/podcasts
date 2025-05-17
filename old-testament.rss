@@ -5,11 +5,11 @@
  <description>Grab onto this fast moving train and witness two comedians rise to victory and splendor. This is easily the funniest podcast out there. The rest are pretty meh.</description>
  <language>en-gb</language>
  <copyright>none</copyright>
- <link>https://www.dropbox.com/scl/fi/zzi189qlostq3cdshzufk/old-testament.rss?rlkey=310a0ky3ye60a0aulqkuu8si2&st=3ildi7iz&dl=1</link>
+ <link>https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/old-testament.rss</link>
  <image>
    <url>https://megaphone.imgix.net/podcasts/b38b7390-de88-11ef-906f-97532119452a/image/4e2f621385dc1bae867ea60318d734cd.jpg</url>
    <title>Matt and Shane's Secret Podcast</title>
-   <link>https://www.dropbox.com/scl/fi/zzi189qlostq3cdshzufk/old-testament.rss?rlkey=310a0ky3ye60a0aulqkuu8si2&st=3ildi7iz&dl=1</link>
+   <link>https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/old-testament.rss</link>
  </image>
  <generator>csv2rss.sh v 0.01</generator>
  <ttl>263520</ttl>
