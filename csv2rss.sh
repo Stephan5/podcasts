@@ -23,8 +23,6 @@ except Exception:
 ' "$input"
 }
 
-command_issued="$0 $*"
-
 # Input Defaults
 input_file=""
 repo_dir=""
@@ -33,14 +31,16 @@ podcast_description=""
 podcast_image_link=""
 csv_delimiter=","
 
+command_issued="$0"
+
 while [[ $# -gt 0 ]]; do
   case "$1" in
-    --repo-dir) repo_dir="$2"; shift 2 ;;
-    --title) podcast_title="$2"; shift 2 ;;
-    --description) podcast_description="$2"; shift 2 ;;
-    --image-link) podcast_image_link="$2"; shift 2 ;;
-    --delimiter) csv_delimiter="$2"; shift 2 ;;
-    --) shift; break ;;
+    --repo-dir) repo_dir="$2"; command_issued="$command_issued $1 \"$2\""; shift 2 ;;
+    --title) podcast_title="$2"; command_issued="$command_issued $1 \"$2\""; shift 2 ;;
+    --description) podcast_description="$2"; command_issued="$command_issued $1 \"$2\""; shift 2 ;;
+    --image-link) podcast_image_link="$2"; command_issued="$command_issued $1 \"$2\""; shift 2 ;;
+    --delimiter) csv_delimiter="$2"; command_issued="$command_issued $1 \"$2\""; shift 2 ;;
+    --) command_issued="$command_issued $1"; shift; break ;;
     --*) echo "Unknown option: $1" >&2; exit 1 ;;
     *)  # Positional arg
       if [[ -z "$input_file" ]]; then
@@ -123,13 +123,13 @@ while IFS= read -r line; do
   item_link=$(url_encode "$item_link")
   content_length=$(curl "$item_link" --location --silent --head --fail | grep "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
 
-  item_desc=${item_description:-"Episode $item_number of Matt and Shane's Secret Podcast"}
+  item_desc=${item_description:-"$item_title - Episode $item_number of $podcast_title"}
 
   {
     echo "<item>" >> "$output_file";
     echo "<link>$item_link</link>";
     echo "<guid>$item_link</guid>";
-    echo "<title>$item_title</title>";
+    echo "<title>$item_number - $item_title</title>";
     echo "<description>$item_desc</description>";
     echo "<pubDate>$item_date</pubDate>";
     echo "<enclosure url=\"$item_link\" length=\"$content_length\" type=\"audio/mpeg\"/>";
