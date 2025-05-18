@@ -12,7 +12,9 @@
 <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/mssp/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Matt and Shane's Secret Podcast</title>
-    <description>Grab onto this fast moving train and witness two comedians rise to victory and splendor.<br/><br/>Generated using Stephan5/rss</description>
+    <description>Grab onto this fast moving train and witness two comedians rise to victory and splendor.
+        <br/><br/>
+        Generated using Stephan5/rss</description>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/rss/tree/main/mssp</link>
