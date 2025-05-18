@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:spotify="http://www.spotify.com/ns/rss"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+     xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+    <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/geoff/feed.xml" rel="self" type="application/rss+xml"/>
+    <title>The Geoff Show</title>
+    <description>
+    Generated using <a href="https://github.com/Stephan5/rss/tree/main/geoff">Stephan5/rss</a></description>
+    <language>en-gb</language>
+    <copyright>none</copyright>
+    <link>https://github.com/Stephan5/rss/tree/main/geoff</link>
+    <image>
+       <url>https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/geoff/image.jpg</url>
+       <title>The Geoff Show</title>
+       <link>https://github.com/Stephan5/rss/tree/main/geoff</link>
+    </image>
+    <generator>csv2rss.sh v 0.01</generator>
+    <ttl>1440</ttl>
+<lastBuildDate>Sun, 18 May 2025 23:29:50 +0100</lastBuildDate>
+<pubDate>Sun, 18 May 2025 23:29:50 +0100</pubDate>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060103Tuesday/The%20Geoff%20Show%20-%202006%2001%2003%20-%20Tuesday.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060103Tuesday/The%20Geoff%20Show%20-%202006%2001%2003%20-%20Tuesday.mp3</guid>
+<title>1 - 2006 01 03 - Tuesday</title>
+<description>2006 01 03 - Tuesday - Episode 1 of The Geoff Show</description>
+<pubDate>Tue, 03 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060103Tuesday/The%20Geoff%20Show%20-%202006%2001%2003%20-%20Tuesday.mp3" length="62240111" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2084%20-%20Big%20Snoring%20Poppas%20%5BJun.%206%2C%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2084%20-%20Big%20Snoring%20Poppas%20%5BJun.%206%2C%202018%5D.mp3</guid>
+<title>2 - 2006 01 04 - Wednesday</title>
+<description>2006 01 04 - Wednesday - Episode 2 of The Geoff Show</description>
+<pubDate>Wed, 04 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2084%20-%20Big%20Snoring%20Poppas%20%5BJun.%206%2C%202018%5D.mp3" length="88016685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060105Thursday/The%20Geoff%20Show%20-%202006%2001%2005%20-%20Thursday.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060105Thursday/The%20Geoff%20Show%20-%202006%2001%2005%20-%20Thursday.mp3</guid>
+<title>3 - 2006 01 05 - Thursday</title>
+<description>2006 01 05 - Thursday - Episode 3 of The Geoff Show</description>
+<pubDate>Thu, 05 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060105Thursday/The%20Geoff%20Show%20-%202006%2001%2005%20-%20Thursday.mp3" length="31870668" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060109Monday/The%20Geoff%20Show%20-%202006%2001%2009%20-%20Monday.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060109Monday/The%20Geoff%20Show%20-%202006%2001%2009%20-%20Monday.mp3</guid>
+<title>4 - 2006 01 09 - Monday</title>
+<description>2006 01 09 - Monday - Episode 4 of The Geoff Show</description>
+<pubDate>Mon, 09 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060109Monday/The%20Geoff%20Show%20-%202006%2001%2009%20-%20Monday.mp3" length="32542103" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060110Tuesday/The%20Geoff%20Show%20-%202006%2001%2010%20-%20Tuesday.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060110Tuesday/The%20Geoff%20Show%20-%202006%2001%2010%20-%20Tuesday.mp3</guid>
+<title>5 - 2006 01 10 - Tuesday</title>
+<description>2006 01 10 - Tuesday - Episode 5 of The Geoff Show</description>
+<pubDate>Tue, 10 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060110Tuesday/The%20Geoff%20Show%20-%202006%2001%2010%20-%20Tuesday.mp3" length="30396315" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060111Wednesday/The%20Geoff%20Show%20-%202006%2001%2011%20-%20Wednesday.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060111Wednesday/The%20Geoff%20Show%20-%202006%2001%2011%20-%20Wednesday.mp3</guid>
+<title>6 - 2006 01 11 - Wednesday</title>
+<description>2006 01 11 - Wednesday - Episode 6 of The Geoff Show</description>
+<pubDate>Wed, 11 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060111Wednesday/The%20Geoff%20Show%20-%202006%2001%2011%20-%20Wednesday.mp3" length="29984223" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060112Thursday/The%20Geoff%20Show%20-%202006%2001%2012%20-%20Thursday.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060112Thursday/The%20Geoff%20Show%20-%202006%2001%2012%20-%20Thursday.mp3</guid>
+<title>7 - 2006 01 12 - Thursday</title>
+<description>2006 01 12 - Thursday - Episode 7 of The Geoff Show</description>
+<pubDate>Thu, 12 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060112Thursday/The%20Geoff%20Show%20-%202006%2001%2012%20-%20Thursday.mp3" length="25910785" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060116Monday/The%20Geoff%20Show%20-%202006%2001%2016%20-%20Monday.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060116Monday/The%20Geoff%20Show%20-%202006%2001%2016%20-%20Monday.mp3</guid>
+<title>8 - 2006 01 16 - Monday</title>
+<description>2006 01 16 - Monday - Episode 8 of The Geoff Show</description>
+<pubDate>Mon, 16 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060116Monday/The%20Geoff%20Show%20-%202006%2001%2016%20-%20Monday.mp3" length="31983507" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060117Tuesday/The%20Geoff%20Show%20-%202006%2001%2017%20-%20Tuesday.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060117Tuesday/The%20Geoff%20Show%20-%202006%2001%2017%20-%20Tuesday.mp3</guid>
+<title>9 - 2006 01 17 - Tuesday</title>
+<description>2006 01 17 - Tuesday - Episode 9 of The Geoff Show</description>
+<pubDate>Tue, 17 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060117Tuesday/The%20Geoff%20Show%20-%202006%2001%2017%20-%20Tuesday.mp3" length="33100511" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060118Wednesday/The%20Geoff%20Show%20-%202006%2001%2018%20-%20Wednesday.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060118Wednesday/The%20Geoff%20Show%20-%202006%2001%2018%20-%20Wednesday.mp3</guid>
+<title>10 - 2006 01 18 - Wednesday</title>
+<description>2006 01 18 - Wednesday - Episode 10 of The Geoff Show</description>
+<pubDate>Wed, 18 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060118Wednesday/The%20Geoff%20Show%20-%202006%2001%2018%20-%20Wednesday.mp3" length="32388951" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060119Thursday1/The%20Geoff%20Show%20-%202006%2001%2019%20-%20Thursday%201.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060119Thursday1/The%20Geoff%20Show%20-%202006%2001%2019%20-%20Thursday%201.mp3</guid>
+<title>11 - 2006 01 19 - Thursday</title>
+<description>2006 01 19 - Thursday - Episode 11 of The Geoff Show</description>
+<pubDate>Thu, 19 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060119Thursday1/The%20Geoff%20Show%20-%202006%2001%2019%20-%20Thursday%201.mp3" length="33081923" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://archive.org/download/TheGeoffShow20060119Thursday2Podcast/The%20Geoff%20Show%20-%202006%2001%2019%20-%20Thursday%202%20Podcast.mp3</link>
+<guid>https://archive.org/download/TheGeoffShow20060119Thursday2Podcast/The%20Geoff%20Show%20-%202006%2001%2019%20-%20Thursday%202%20Podcast.mp3</guid>
+<title>12 - Podcast Party 1</title>
+<description>Podcast Party 1 - Episode 12 of The Geoff Show</description>
+<pubDate>Thu, 19 Jan 2006 03:00:00 GMT</pubDate>
+<enclosure url="https://archive.org/download/TheGeoffShow20060119Thursday2Podcast/The%20Geoff%20Show%20-%202006%2001%2019%20-%20Thursday%202%20Podcast.mp3" length="46027279" type="audio/mpeg"/>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,1 @@
+./csv2rss.sh --repo-dir "geoff" --title "The Geoff Show" --image-link "https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/geoff/image.jpg" --delimiter ";"
