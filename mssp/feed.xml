@@ -2,21 +2,22 @@
 <rss version="2.0"
      xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-    <atom:link href="https://github.com/Stephan5/rss/mssp/tree/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/mssp/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Matt and Shane's Secret Podcast</title>
-    <description>Grab onto this fast moving train and witness two comedians rise to victory and splendor.</description>
+    <description>Grab onto this fast moving train and witness two comedians rise to victory and splendor.
+    Generated using <a href="https://github.com/Stephan5/rss/tree/main/mssp">Stephan5/rss</a></description>
     <language>en-gb</language>
     <copyright>none</copyright>
-    <link>https://github.com/Stephan5/rss/mssp</link>
+    <link>https://github.com/Stephan5/rss/tree/main/mssp</link>
     <image>
        <url>https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/00/fe/d2/00fed269-058c-1fc9-7c52-061940ee7e93/source/1200x630bb.jpg</url>
        <title>Matt and Shane's Secret Podcast</title>
-       <link>https://github.com/Stephan5/rss/mssp</link>
+       <link>https://github.com/Stephan5/rss/tree/main/mssp</link>
     </image>
     <generator>csv2rss.sh v 0.01</generator>
     <ttl>1440</ttl>
-<lastBuildDate>Sun, 18 May 2025 19:35:35 +0100</lastBuildDate>
-<pubDate>Sun, 18 May 2025 19:35:35 +0100</pubDate>
+<lastBuildDate>Sun, 18 May 2025 19:57:11 +0100</lastBuildDate>
+<pubDate>Sun, 18 May 2025 19:57:11 +0100</pubDate>
 
 <item>
 <link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%201%20-%20Inaugral%20Business.mp3</link>

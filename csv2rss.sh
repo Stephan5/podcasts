@@ -1,23 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-# This script takes a CSV file of podcast episodes along with other podcast details and outputs an XML feed file
-# The CSV must be of the form: ordinal,title,description,date,link
-# Where ordinal and description are optional.
-
-# Example invocation:
-#   ./csv2rss.sh ./feed.csv \
-#     --repo-dir "mssp" \
-#     --title "Matt and Shane's Secret Podcast" \
-#     --description "Grab onto this fast moving train and witness two comedians rise to victory and splendor." \
-#     --image-link "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/00/fe/d2/00fed269-058c-1fc9-7c52-061940ee7e93/source/1200x630bb.jpg"
-
-# Where "repo-dir" is the directory within the rss repo you would like to store your output file and consequently forms part of the feed URL
-
-# Requirements:
-#  * GNU getopt (brew install gnu-getopt on macOS)
-#  * Must be ran from the top-level of the `rss` repo.
-
 validate_rfc2822_date() {
   local input="$1"
 
@@ -81,19 +64,11 @@ cp "$input_file" "$csv_file"
 
 output_file="${output_file:-${csv_file%%.csv}.xml}"
 feed_filename=$(basename "$output_file")
-repo_link="https://github.com/Stephan5/rss/$repo_dir"
-self_feed_link="$repo_link/tree/main/$feed_filename"
+repo="Stephan5/rss"
+repo_link="https://github.com/$repo/tree/main/$repo_dir"
+self_feed_link="https://raw.githubusercontent.com/$repo/refs/heads/main/$repo_dir/$feed_filename"
 
-echo "$command_issued" >> "./$repo_dir/cmd.txt"
-
-#echo "Input file: $input_file"
-#echo "Input filename: $csv_filename"
-#echo "Output file: $output_file"
-#echo "Output filename: $feed_filename"
-#echo "Repo dir: $repo_dir"
-#echo "Podcast title: $podcast_title"
-#echo "Podcast description: ${podcast_description:-<none>}"
-#echo "Podcast image link: ${podcast_image_link:-<none>}"
+echo "$command_issued" > "./$repo_dir/cmd.txt"
 
 cat > "$output_file" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -102,7 +77,8 @@ cat > "$output_file" <<EOF
 <channel>
     <atom:link href="$self_feed_link" rel="self" type="application/rss+xml"/>
     <title>$podcast_title</title>
-    <description>$podcast_description</description>
+    <description>$podcast_description
+    Generated using <a href="$repo_link">$repo</a></description>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>$repo_link</link>
@@ -162,5 +138,4 @@ cat >> "$output_file" <<EOF
 </rss>
 EOF
 
-#
-# echo 'Please check result with: https://validator.w3.org/feed/#validate_by_input '
+echo 'Check result with: https://validator.livewire.io'
