@@ -5,18 +5,16 @@ This script takes a CSV file of podcast episodes along with other podcast detail
 The CSV must be of the form: ordinal,title,description,date,link
 Where either ordinal or description are optional.
 
-Example invocation:
 ```shell
  $ pwd 
  /Users/REDACTED/REDACTED/rss
  
- $  ./csv2rss.sh ./feed.csv \
-      --repo-dir "mssp" \
-      --title "Matt and Shane's Secret Podcast" \
-      --description "Grab onto this fast moving train and witness two comedians rise to victory and splendor." \
-      --image-link "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/00/fe/d2/00fed269-058c-1fc9-7c52-061940ee7e93/source/1200x630bb.jpg"
+ $ ./csv2rss.sh ./feed.csv \
+     --repo-dir "mssp" \
+     --title "Matt and Shane's Secret Podcast" \
+     --description "Grab onto this fast moving train and witness two comedians rise to victory and splendor." \
+     --image-link "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/00/fe/d2/00fed269-058c-1fc9-7c52-061940ee7e93/source/1200x630bb.jpg"
 ```
-
 Where "repo-dir" is the directory within the rss repo you would like to store your output file and consequently forms part of the feed URL
 
 Requirements:
