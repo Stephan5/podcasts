@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:spotify="http://www.spotify.com/ns/rss"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+    xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+    <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/old-testament.xml" rel="self" type="application/rss+xml"/>
+    <title>Matt and Shane's Secret Podcast</title>
+    <description>Grab onto this fast moving train and witness two comedians rise to victory and splendor. This is easily the funniest podcast out there. The rest are pretty meh.</description>
+    <language>en-gb</language>
+    <copyright>none</copyright>
+    <link>https://github.com/Stephan5/rss</link>
+    <image>
+       <url>https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/00/fe/d2/00fed269-058c-1fc9-7c52-061940ee7e93/source/1200x630bb.jpg</url>
+       <title>Matt and Shane's Secret Podcast</title>
+       <link>https://github.com/Stephan5/rss</link>
+    </image>
+    <generator>csv2rss.sh v 0.01</generator>
+    <ttl>1440</ttl>
+<lastBuildDate>Sun, 18 May 2025 13:48:48 +0100</lastBuildDate>
+<pubDate>Sun, 18 May 2025 13:48:48 +0100</pubDate>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%201%20-%20Inaugral%20Business.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%201%20-%20Inaugral%20Business.mp3</guid>
+<title>Inaugral Business</title>
+<description>Episode 1 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 22 Nov 2016 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%201%20-%20Inaugral%20Business.mp3" length="84922605" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%202%20-%20Mudslingin_%20%5BNov.%2022,%202016%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%202%20-%20Mudslingin_%20%5BNov.%2022,%202016%5D.mp3</guid>
+<title>Mudslingin'</title>
+<description>Episode 2 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 22 Nov 2016 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%202%20-%20Mudslingin_%20%5BNov.%2022,%202016%5D.mp3" length="108283245" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%203%20-%20Somehow%20still%20on%20top,%20somehow%20still%20winning%20%5BNov.%2029,%202016%5D(1).mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%203%20-%20Somehow%20still%20on%20top,%20somehow%20still%20winning%20%5BNov.%2029,%202016%5D(1).mp3</guid>
+<title>Somehow still on top, somehow still winning</title>
+<description>Episode 3 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 29 Nov 2016 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%203%20-%20Somehow%20still%20on%20top,%20somehow%20still%20winning%20%5BNov.%2029,%202016%5D(1).mp3" length="76482285" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%204%20-%20Cross-Fit%20Dudes%20%5BDec.%206,%202016%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%204%20-%20Cross-Fit%20Dudes%20%5BDec.%206,%202016%5D.mp3</guid>
+<title>Cross-Fit Dudes</title>
+<description>Episode 4 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 13 Dec 2016 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%204%20-%20Cross-Fit%20Dudes%20%5BDec.%206,%202016%5D.mp3" length="39440685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%205%20-%20Trump%20and%20Kanye,%20The%20Ultimate%20Alliance%20%5BDec.%2013,%202016%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%205%20-%20Trump%20and%20Kanye,%20The%20Ultimate%20Alliance%20%5BDec.%2013,%202016%5D.mp3</guid>
+<title>Trump and Kanye, The Ultimate Alliance</title>
+<description>Episode 5 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 20 Dec 2016 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%205%20-%20Trump%20and%20Kanye,%20The%20Ultimate%20Alliance%20%5BDec.%2013,%202016%5D.mp3" length="30672813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%206%20-%20MTV_s%20New%20Years%20Resolutions%20%5BDec.%2020,%202016%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%206%20-%20MTV_s%20New%20Years%20Resolutions%20%5BDec.%2020,%202016%5D.mp3</guid>
+<title>MTV's New Years Resolutions</title>
+<description>Episode 6 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 27 Dec 2016 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%206%20-%20MTV_s%20New%20Years%20Resolutions%20%5BDec.%2020,%202016%5D.mp3" length="37840941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%207%20-%20RIP%20Carrie%20Fisher%20You%20were%20a%20babe%20%5BDec.%2027,%202016%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%207%20-%20RIP%20Carrie%20Fisher%20You%20were%20a%20babe%20%5BDec.%2027,%202016%5D.mp3</guid>
+<title>RIP Carrie Fisher You were a babe</title>
+<description>Episode 7 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 04 Jan 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%207%20-%20RIP%20Carrie%20Fisher%20You%20were%20a%20babe%20%5BDec.%2027,%202016%5D.mp3" length="25584813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%208%20-%20Cumming%20into%202017%20%5BJan.%204,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%208%20-%20Cumming%20into%202017%20%5BJan.%204,%202017%5D.mp3</guid>
+<title>Cumming into 2017</title>
+<description>Episode 8 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 11 Jan 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%208%20-%20Cumming%20into%202017%20%5BJan.%204,%202017%5D.mp3" length="34784685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%209%20-%20The%20Cast%20still%20lives,%20still%20reigns%20supreme%20%5BJan.%2011,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%209%20-%20The%20Cast%20still%20lives,%20still%20reigns%20supreme%20%5BJan.%2011,%202017%5D.mp3</guid>
+<title>The Cast still lives, still reigns supreme</title>
+<description>Episode 9 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 17 Jan 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%209%20-%20The%20Cast%20still%20lives,%20still%20reigns%20supreme%20%5BJan.%2011,%202017%5D.mp3" length="40608813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2010%20-%20The%20ObamaBiden%20Canada%20Conspiracy%20%5BJan.%2017,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2010%20-%20The%20ObamaBiden%20Canada%20Conspiracy%20%5BJan.%2017,%202017%5D.mp3</guid>
+<title>The ObamaBiden Canada Conspiracy</title>
+<description>Episode 10 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 24 Jan 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2010%20-%20The%20ObamaBiden%20Canada%20Conspiracy%20%5BJan.%2017,%202017%5D.mp3" length="35296557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2011%20-%20Special%20Guest%20Dan%20Soder%20%5BJan.%2024,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2011%20-%20Special%20Guest%20Dan%20Soder%20%5BJan.%2024,%202017%5D.mp3</guid>
+<title>Special Guest Dan Soder</title>
+<description>Episode 11 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 31 Jan 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2011%20-%20Special%20Guest%20Dan%20Soder%20%5BJan.%2024,%202017%5D.mp3" length="29328813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2012%20-%20Boy%20Scouts---with%20special%20guest%20Rich%20Vos%21%20%5BJan.%2031,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2012%20-%20Boy%20Scouts---with%20special%20guest%20Rich%20Vos%21%20%5BJan.%2031,%202017%5D.mp3</guid>
+<title>Boy Scouts---with special guest Rich Vos!</title>
+<description>Episode 12 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 07 Feb 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2012%20-%20Boy%20Scouts---with%20special%20guest%20Rich%20Vos%21%20%5BJan.%2031,%202017%5D.mp3" length="40368813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2013%20-%20How%20can%20we%20not%20talk%20about%20family%20%5BFeb.%207,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2013%20-%20How%20can%20we%20not%20talk%20about%20family%20%5BFeb.%207,%202017%5D.mp3</guid>
+<title>How can we not talk about family</title>
+<description>Episode 13 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 15 Feb 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2013%20-%20How%20can%20we%20not%20talk%20about%20family%20%5BFeb.%207,%202017%5D.mp3" length="49248813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2014%20-%20A%20better%20effort%20from%20all%20of%20you...%20%5BFeb.%2015,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2014%20-%20A%20better%20effort%20from%20all%20of%20you...%20%5BFeb.%2015,%202017%5D.mp3</guid>
+<title>A better effort from all of you...</title>
+<description>Episode 14 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 21 Feb 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2014%20-%20A%20better%20effort%20from%20all%20of%20you...%20%5BFeb.%2015,%202017%5D.mp3" length="40560813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2015%20-%20Milo-mania%21%20%5BFeb.%2021,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2015%20-%20Milo-mania%21%20%5BFeb.%2021,%202017%5D.mp3</guid>
+<title>Milo-mania!</title>
+<description>Episode 15 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 28 Feb 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2015%20-%20Milo-mania%21%20%5BFeb.%2021,%202017%5D.mp3" length="37376685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2016%20-%20My%20dog%20is%20not%20gay%20%5BFeb.%2028,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2016%20-%20My%20dog%20is%20not%20gay%20%5BFeb.%2028,%202017%5D.mp3</guid>
+<title>My dog is not gay</title>
+<description>Episode 16 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 07 Mar 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2016%20-%20My%20dog%20is%20not%20gay%20%5BFeb.%2028,%202017%5D.mp3" length="39184941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2017%20-%20Blizzards%20and%20the%20Bachelor%20%5BMar.%207,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2017%20-%20Blizzards%20and%20the%20Bachelor%20%5BMar.%207,%202017%5D.mp3</guid>
+<title>Blizzards and the Bachelor</title>
+<description>Episode 17 of Matt and Shane's Secret Podcast</description>
+<pubDate>Thu, 16 Mar 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2017%20-%20Blizzards%20and%20the%20Bachelor%20%5BMar.%207,%202017%5D.mp3" length="42224685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2018%20-%20The%20Oxygen%20Network%20%5BMar.%2016,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2018%20-%20The%20Oxygen%20Network%20%5BMar.%2016,%202017%5D.mp3</guid>
+<title>The Oxygen Network</title>
+<description>Episode 18 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 21 Mar 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2018%20-%20The%20Oxygen%20Network%20%5BMar.%2016,%202017%5D.mp3" length="52832685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2019%20-%20Dick%20Renaissance%20%5BMar.%2021,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2019%20-%20Dick%20Renaissance%20%5BMar.%2021,%202017%5D.mp3</guid>
+<title>Dick Renaissance</title>
+<description>Episode 19 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 28 Mar 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2019%20-%20Dick%20Renaissance%20%5BMar.%2021,%202017%5D.mp3" length="44976813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2020%20-%20Song%20of%20Songs%20%5BMar.%2028,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2020%20-%20Song%20of%20Songs%20%5BMar.%2028,%202017%5D.mp3</guid>
+<title>Song of Songs</title>
+<description>Episode 20 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 04 Apr 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2020%20-%20Song%20of%20Songs%20%5BMar.%2028,%202017%5D.mp3" length="34832685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2021%20-%20Alt-Right%20Fred%20%5BApr.%204,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2021%20-%20Alt-Right%20Fred%20%5BApr.%204,%202017%5D.mp3</guid>
+<title>Alt-Right Fred</title>
+<description>Episode 21 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 11 Apr 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2021%20-%20Alt-Right%20Fred%20%5BApr.%204,%202017%5D.mp3" length="34832685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2022%20-%20We%20Are%20the%20Lions%20%5BApr.%2011,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2022%20-%20We%20Are%20the%20Lions%20%5BApr.%2011,%202017%5D.mp3</guid>
+<title>We Are the Lions</title>
+<description>Episode 22 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 19 Apr 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2022%20-%20We%20Are%20the%20Lions%20%5BApr.%2011,%202017%5D.mp3" length="47776557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2023%20-%20The%20Night%20Cast%20(vol%201)%20%5BApr.%2019,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2023%20-%20The%20Night%20Cast%20(vol%201)%20%5BApr.%2019,%202017%5D.mp3</guid>
+<title>The Night Cast (vol 1)</title>
+<description>Episode 23 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 26 Apr 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2023%20-%20The%20Night%20Cast%20(vol%201)%20%5BApr.%2019,%202017%5D.mp3" length="57920685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2024%20-%20A%20Secret%20within%20a%20secret%20%5BApr.%2026,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2024%20-%20A%20Secret%20within%20a%20secret%20%5BApr.%2026,%202017%5D.mp3</guid>
+<title>A Secret within a secret</title>
+<description>Episode 24 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 03 May 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2024%20-%20A%20Secret%20within%20a%20secret%20%5BApr.%2026,%202017%5D.mp3" length="81744813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2025%20-%20Sodom%20and%20Gomorrah%20%5BMay%203,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2025%20-%20Sodom%20and%20Gomorrah%20%5BMay%203,%202017%5D.mp3</guid>
+<title>Sodom and Gomorrah</title>
+<description>Episode 25 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 10 May 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2025%20-%20Sodom%20and%20Gomorrah%20%5BMay%203,%202017%5D.mp3" length="63392685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2026%20-%20Clap%20Back%20%5BMay%2010,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2026%20-%20Clap%20Back%20%5BMay%2010,%202017%5D.mp3</guid>
+<title>Clap Back</title>
+<description>Episode 26 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 17 May 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2026%20-%20Clap%20Back%20%5BMay%2010,%202017%5D.mp3" length="66864813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2027%20-%20Q+%20%5BMay%2017,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2027%20-%20Q+%20%5BMay%2017,%202017%5D.mp3</guid>
+<title>Q+</title>
+<description>Episode 27 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 24 May 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2027%20-%20Q+%20%5BMay%2017,%202017%5D.mp3" length="80529837" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2028%20-%20Set%20Life%20%5BMay%2024,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2028%20-%20Set%20Life%20%5BMay%2024,%202017%5D.mp3</guid>
+<title>Set Life</title>
+<description>Episode 28 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 31 May 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2028%20-%20Set%20Life%20%5BMay%2024,%202017%5D.mp3" length="48496557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2029%20-%20To%20Catch%20a%20Prophet%20%5BMay%2031,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2029%20-%20To%20Catch%20a%20Prophet%20%5BMay%2031,%202017%5D.mp3</guid>
+<title>To Catch a Prophet</title>
+<description>Episode 29 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 07 Jun 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2029%20-%20To%20Catch%20a%20Prophet%20%5BMay%2031,%202017%5D.mp3" length="47680557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2030%20-%20Tokyo%20Partners%20%5BJun.%207,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2030%20-%20Tokyo%20Partners%20%5BJun.%207,%202017%5D.mp3</guid>
+<title>Tokyo Partners</title>
+<description>Episode 30 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 14 Jun 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2030%20-%20Tokyo%20Partners%20%5BJun.%207,%202017%5D.mp3" length="80272557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2031%20-%20Femmes%20and%20Supremmes%20%5BJun.%2014,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2031%20-%20Femmes%20and%20Supremmes%20%5BJun.%2014,%202017%5D.mp3</guid>
+<title>Femmes and Supremmes</title>
+<description>Episode 31 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 19 Jun 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2031%20-%20Femmes%20and%20Supremmes%20%5BJun.%2014,%202017%5D.mp3" length="58160685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2032%20-%20Liza%20Slesh%20%5BJun.%2019,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2032%20-%20Liza%20Slesh%20%5BJun.%2019,%202017%5D.mp3</guid>
+<title>Liza Slesh</title>
+<description>Episode 32 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 28 Jun 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2032%20-%20Liza%20Slesh%20%5BJun.%2019,%202017%5D.mp3" length="62464557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2033%20-%20Shit%20Night%20%5BJun.%2028,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2033%20-%20Shit%20Night%20%5BJun.%2028,%202017%5D.mp3</guid>
+<title>Shit Night</title>
+<description>Episode 33 of Matt and Shane's Secret Podcast</description>
+<pubDate>Thu, 06 Jul 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2033%20-%20Shit%20Night%20%5BJun.%2028,%202017%5D.mp3" length="65280813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2034%20-%20Hardcore%20History%20%5BJul.%206,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2034%20-%20Hardcore%20History%20%5BJul.%206,%202017%5D.mp3</guid>
+<title>Hardcore History</title>
+<description>Episode 34 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 12 Jul 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2034%20-%20Hardcore%20History%20%5BJul.%206,%202017%5D.mp3" length="62048685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2035%20-%20The%20Secret%20Life%20of%20Morons%20%5BJul.%2012,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2035%20-%20The%20Secret%20Life%20of%20Morons%20%5BJul.%2012,%202017%5D.mp3</guid>
+<title>The Secret Life of Morons</title>
+<description>Episode 35 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 19 Jul 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2035%20-%20The%20Secret%20Life%20of%20Morons%20%5BJul.%2012,%202017%5D.mp3" length="87696813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2036%20-%20The%20Rocky%20Shores%20of%20Reality%20%5BJul.%2019,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2036%20-%20The%20Rocky%20Shores%20of%20Reality%20%5BJul.%2019,%202017%5D.mp3</guid>
+<title>The Rocky Shores of Reality</title>
+<description>Episode 36 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 24 Jul 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2036%20-%20The%20Rocky%20Shores%20of%20Reality%20%5BJul.%2019,%202017%5D.mp3" length="66880941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2037%20-%20Sound%20hound%20%5BJul.%2024,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2037%20-%20Sound%20hound%20%5BJul.%2024,%202017%5D.mp3</guid>
+<title>Sound hound</title>
+<description>Episode 37 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 02 Aug 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2037%20-%20Sound%20hound%20%5BJul.%2024,%202017%5D.mp3" length="64864557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2038%20-%20Dong%20Wax%20%5BAug.%202,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2038%20-%20Dong%20Wax%20%5BAug.%202,%202017%5D.mp3</guid>
+<title>Dong Wax</title>
+<description>Episode 38 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 09 Aug 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2038%20-%20Dong%20Wax%20%5BAug.%202,%202017%5D.mp3" length="84672813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2039%20-%20Friday%20Night%20Lights%20%5BAug.%209,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2039%20-%20Friday%20Night%20Lights%20%5BAug.%209,%202017%5D.mp3</guid>
+<title>Friday Night Lights</title>
+<description>Episode 39 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 14 Aug 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2039%20-%20Friday%20Night%20Lights%20%5BAug.%209,%202017%5D.mp3" length="65296941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2040%20-%20Live%20Cast%208.11.17%20part%201%20%5BAug.%2014,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2040%20-%20Live%20Cast%208.11.17%20part%201%20%5BAug.%2014,%202017%5D.mp3</guid>
+<title>Live Cast 8.11.17 part 1</title>
+<description>Episode 40 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 16 Aug 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2040%20-%20Live%20Cast%208.11.17%20part%201%20%5BAug.%2014,%202017%5D.mp3" length="30880557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2041%20-%20Butt%20Stuff%20%5BAug.%2016,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2041%20-%20Butt%20Stuff%20%5BAug.%2016,%202017%5D.mp3</guid>
+<title>Butt Stuff</title>
+<description>Episode 41 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 23 Aug 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2041%20-%20Butt%20Stuff%20%5BAug.%2016,%202017%5D.mp3" length="52720557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2042%20-%20We_re%20Smart%20Now%20%5BAug.%2023,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2042%20-%20We_re%20Smart%20Now%20%5BAug.%2023,%202017%5D.mp3</guid>
+<title>We're Smart Now</title>
+<description>Episode 42 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 30 Aug 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2042%20-%20We_re%20Smart%20Now%20%5BAug.%2023,%202017%5D.mp3" length="95456685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2043%20-%20Racist%20Werewolf%20%5BAug.%2030,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2043%20-%20Racist%20Werewolf%20%5BAug.%2030,%202017%5D.mp3</guid>
+<title>Racist Werewolf</title>
+<description>Episode 43 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 06 Sep 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2043%20-%20Racist%20Werewolf%20%5BAug.%2030,%202017%5D.mp3" length="70672557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2044%20-%20Michael%20Myers%20%5BSep.%206,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2044%20-%20Michael%20Myers%20%5BSep.%206,%202017%5D.mp3</guid>
+<title>Michael Myers</title>
+<description>Episode 44 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 13 Sep 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2044%20-%20Michael%20Myers%20%5BSep.%206,%202017%5D.mp3" length="56324683" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2045%20-%20Pewdie%20Pie%20%5BSep.%2013,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2045%20-%20Pewdie%20Pie%20%5BSep.%2013,%202017%5D.mp3</guid>
+<title>Pewdie Pie</title>
+<description>Episode 45 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 20 Sep 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2045%20-%20Pewdie%20Pie%20%5BSep.%2013,%202017%5D.mp3" length="102800685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2046%20-%20The%20Other%20Sister%20%5BSep.%2020,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2046%20-%20The%20Other%20Sister%20%5BSep.%2020,%202017%5D.mp3</guid>
+<title>The Other Sister</title>
+<description>Episode 46 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 27 Sep 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2046%20-%20The%20Other%20Sister%20%5BSep.%2020,%202017%5D.mp3" length="57344685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2047%20-%20The%20Almighty%20Knee%20%5BSep.%2027,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2047%20-%20The%20Almighty%20Knee%20%5BSep.%2027,%202017%5D.mp3</guid>
+<title>The Almighty Knee</title>
+<description>Episode 47 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 03 Oct 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2047%20-%20The%20Almighty%20Knee%20%5BSep.%2027,%202017%5D.mp3" length="54992685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2048%20-%20Our%20First%20Black%20Guest%20%5BOct.%203,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2048%20-%20Our%20First%20Black%20Guest%20%5BOct.%203,%202017%5D.mp3</guid>
+<title>Our First Black Guest</title>
+<description>Episode 48 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 11 Oct 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2048%20-%20Our%20First%20Black%20Guest%20%5BOct.%203,%202017%5D.mp3" length="58144557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2049%20-%20War%20of%20the%20Roses%20%5BOct.%2011,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2049%20-%20War%20of%20the%20Roses%20%5BOct.%2011,%202017%5D.mp3</guid>
+<title>War of the Roses</title>
+<description>Episode 49 of Matt and Shane's Secret Podcast</description>
+<pubDate>Thu, 12 Oct 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2049%20-%20War%20of%20the%20Roses%20%5BOct.%2011,%202017%5D.mp3" length="60816813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2050%20-%20Bert_s%20Guide%20to%20Surviving%20Prison%20%5BOct.%2012,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2050%20-%20Bert_s%20Guide%20to%20Surviving%20Prison%20%5BOct.%2012,%202017%5D.mp3</guid>
+<title>Bert's Guide to Surviving Prison</title>
+<description>Episode 50 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 25 Oct 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2050%20-%20Bert_s%20Guide%20to%20Surviving%20Prison%20%5BOct.%2012,%202017%5D.mp3" length="116368557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2052%20-%20Dog%20Park%20Etiquette%20%5BOct.%2025,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2052%20-%20Dog%20Park%20Etiquette%20%5BOct.%2025,%202017%5D.mp3</guid>
+<title>Dog Park Etiquette</title>
+<description>Episode 52 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 01 Nov 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2052%20-%20Dog%20Park%20Etiquette%20%5BOct.%2025,%202017%5D.mp3" length="91024557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2053%20-%20A%20Spooky%20Wooky%20_Ween%20%5BNov.%201,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2053%20-%20A%20Spooky%20Wooky%20_Ween%20%5BNov.%201,%202017%5D.mp3</guid>
+<title>A Spooky Wooky 'Ween</title>
+<description>Episode 53 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 08 Nov 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2053%20-%20A%20Spooky%20Wooky%20_Ween%20%5BNov.%201,%202017%5D.mp3" length="82320813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2054%20-%20I_m%20Crumming%20%5BNov.%208,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2054%20-%20I_m%20Crumming%20%5BNov.%208,%202017%5D.mp3</guid>
+<title>I'm Crumming</title>
+<description>Episode 54 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 15 Nov 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2054%20-%20I_m%20Crumming%20%5BNov.%208,%202017%5D.mp3" length="66544557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2055%20-%20Fapgate%20%5BNov.%2015,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2055%20-%20Fapgate%20%5BNov.%2015,%202017%5D.mp3</guid>
+<title>Fapgate</title>
+<description>Episode 55 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 29 Nov 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2055%20-%20Fapgate%20%5BNov.%2015,%202017%5D.mp3" length="95440941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2056%20-%20Live%20Castaddressing%20the%20haterz%20%5BNov.%2029,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2056%20-%20Live%20Castaddressing%20the%20haterz%20%5BNov.%2029,%202017%5D.mp3</guid>
+<title>Live Castaddressing the haterz</title>
+<description>Episode 56 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 06 Dec 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2056%20-%20Live%20Castaddressing%20the%20haterz%20%5BNov.%2029,%202017%5D.mp3" length="72240813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2057%20-%20The%2048%20Laws%20of%20Lauer%20%5BDec.%206,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2057%20-%20The%2048%20Laws%20of%20Lauer%20%5BDec.%206,%202017%5D.mp3</guid>
+<title>The 48 Laws of Lauer</title>
+<description>Episode 57 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 13 Dec 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2057%20-%20The%2048%20Laws%20of%20Lauer%20%5BDec.%206,%202017%5D.mp3" length="72608685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2058%20-%20Quintessential%20%5BDec.%2013,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2058%20-%20Quintessential%20%5BDec.%2013,%202017%5D.mp3</guid>
+<title>Quintessential</title>
+<description>Episode 58 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 20 Dec 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2058%20-%20Quintessential%20%5BDec.%2013,%202017%5D.mp3" length="80656557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2059%20-%20Triggered%20by%20Star%20Wars%20%5BDec.%2020,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2059%20-%20Triggered%20by%20Star%20Wars%20%5BDec.%2020,%202017%5D.mp3</guid>
+<title>Triggered by Star Wars</title>
+<description>Episode 59 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 27 Dec 2017 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2059%20-%20Triggered%20by%20Star%20Wars%20%5BDec.%2020,%202017%5D.mp3" length="63872685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2060%20-%20No%20Breaks%20%5BDec.%2027,%202017%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2060%20-%20No%20Breaks%20%5BDec.%2027,%202017%5D.mp3</guid>
+<title>No Breaks</title>
+<description>Episode 60 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 03 Jan 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2060%20-%20No%20Breaks%20%5BDec.%2027,%202017%5D.mp3" length="86960685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2061%20-%20New%20Year_s%20Rezzolutions%20%5BJan.%203,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2061%20-%20New%20Year_s%20Rezzolutions%20%5BJan.%203,%202018%5D.mp3</guid>
+<title>New Year's Rezzolutions</title>
+<description>Episode 61 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 09 Jan 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2061%20-%20New%20Year_s%20Rezzolutions%20%5BJan.%203,%202018%5D.mp3" length="62592813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2062%20-%20Golden%20Cousins%20%5BJan.%209,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2062%20-%20Golden%20Cousins%20%5BJan.%209,%202018%5D.mp3</guid>
+<title>Golden Cousins</title>
+<description>Episode 62 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 16 Jan 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2062%20-%20Golden%20Cousins%20%5BJan.%209,%202018%5D.mp3" length="66368685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2063%20-%20Matt%20and%20Shane_s%20Catholic%20Podcast%20%5BJan.%2016,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2063%20-%20Matt%20and%20Shane_s%20Catholic%20Podcast%20%5BJan.%2016,%202018%5D.mp3</guid>
+<title>Matt and Shane's Catholic Podcast</title>
+<description>Episode 63 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 24 Jan 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2063%20-%20Matt%20and%20Shane_s%20Catholic%20Podcast%20%5BJan.%2016,%202018%5D.mp3" length="121568685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2064%20-%20The%20Danish%20Submarine%20%5BJan.%2024,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2064%20-%20The%20Danish%20Submarine%20%5BJan.%2024,%202018%5D.mp3</guid>
+<title>The Danish Submarine</title>
+<description>Episode 64 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 31 Jan 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2064%20-%20The%20Danish%20Submarine%20%5BJan.%2024,%202018%5D.mp3" length="71184813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2065%20-%20Grammy_s%20So%20Male%20%5BJan.%2031,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2065%20-%20Grammy_s%20So%20Male%20%5BJan.%2031,%202018%5D.mp3</guid>
+<title>Grammy's So Male</title>
+<description>Episode 65 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 07 Feb 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2065%20-%20Grammy_s%20So%20Male%20%5BJan.%2031,%202018%5D.mp3" length="65936685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2066%20-%20Gimme%20a%20Juicer%20%5BFeb.%207,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2066%20-%20Gimme%20a%20Juicer%20%5BFeb.%207,%202018%5D.mp3</guid>
+<title>Gimme a Juicer</title>
+<description>Episode 66 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 14 Feb 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2066%20-%20Gimme%20a%20Juicer%20%5BFeb.%207,%202018%5D.mp3" length="73952685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2067%20-%20The%20Storm%20Card%20%5BFeb.%2014,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2067%20-%20The%20Storm%20Card%20%5BFeb.%2014,%202018%5D.mp3</guid>
+<title>The Storm Card</title>
+<description>Episode 67 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 21 Feb 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2067%20-%20The%20Storm%20Card%20%5BFeb.%2014,%202018%5D.mp3" length="91136685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2068%20-%20The%20Creation%20of%20Knowledge%20%5BFeb.%2021,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2068%20-%20The%20Creation%20of%20Knowledge%20%5BFeb.%2021,%202018%5D.mp3</guid>
+<title>The Creation of Knowledge</title>
+<description>Episode 68 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 27 Feb 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2068%20-%20The%20Creation%20of%20Knowledge%20%5BFeb.%2021,%202018%5D.mp3" length="126448557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2069%20-%20ManhoodCanada.Com%20%5BFeb.%2027,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2069%20-%20ManhoodCanada.Com%20%5BFeb.%2027,%202018%5D.mp3</guid>
+<title>ManhoodCanada.Com</title>
+<description>Episode 69 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 07 Mar 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2069%20-%20ManhoodCanada.Com%20%5BFeb.%2027,%202018%5D.mp3" length="100240941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2070%20-%20Eastwood_s%20Wet%20Dream%20%5BMar.%207,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2070%20-%20Eastwood_s%20Wet%20Dream%20%5BMar.%207,%202018%5D.mp3</guid>
+<title>Eastwood's Wet Dream</title>
+<description>Episode 70 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 14 Mar 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2070%20-%20Eastwood_s%20Wet%20Dream%20%5BMar.%207,%202018%5D.mp3" length="97168557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2071%20-%20Army%20Hammer%20%5BMar.%2014,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2071%20-%20Army%20Hammer%20%5BMar.%2014,%202018%5D.mp3</guid>
+<title>Army Hammer</title>
+<description>Episode 71 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 21 Mar 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2071%20-%20Army%20Hammer%20%5BMar.%2014,%202018%5D.mp3" length="84400557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2072%20-%20Interview%20With%20a%20Front%20Man%20%5BMar.%2021,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2072%20-%20Interview%20With%20a%20Front%20Man%20%5BMar.%2021,%202018%5D.mp3</guid>
+<title>Interview With a Front Man</title>
+<description>Episode 72 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 28 Mar 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2072%20-%20Interview%20With%20a%20Front%20Man%20%5BMar.%2021,%202018%5D.mp3" length="92368557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2073%20-%20The%20Great%20Debate%20%5BMar.%2028,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2073%20-%20The%20Great%20Debate%20%5BMar.%2028,%202018%5D.mp3</guid>
+<title>The Great Debate</title>
+<description>Episode 73 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 04 Apr 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2073%20-%20The%20Great%20Debate%20%5BMar.%2028,%202018%5D.mp3" length="89712813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2074%20-%20The%20Epic%20Saga%20%5BApr.%204,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2074%20-%20The%20Epic%20Saga%20%5BApr.%204,%202018%5D.mp3</guid>
+<title>The Epic Saga</title>
+<description>Episode 74 of Matt and Shane's Secret Podcast</description>
+<pubDate>Sun, 08 Apr 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2074%20-%20The%20Epic%20Saga%20%5BApr.%204,%202018%5D.mp3" length="97488813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2075%20-%20The%20Curious%20Case%20of%20Male%20Circumcision%20%5BApr.%208,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2075%20-%20The%20Curious%20Case%20of%20Male%20Circumcision%20%5BApr.%208,%202018%5D.mp3</guid>
+<title>The Curious Case of Male Circumcision</title>
+<description>Episode 75 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 11 Apr 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2075%20-%20The%20Curious%20Case%20of%20Male%20Circumcision%20%5BApr.%208,%202018%5D.mp3" length="77376813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2076%20-%20The%20T%20Castle%20%5BApr.%2011,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2076%20-%20The%20T%20Castle%20%5BApr.%2011,%202018%5D.mp3</guid>
+<title>The T Castle</title>
+<description>Episode 76 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 18 Apr 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2076%20-%20The%20T%20Castle%20%5BApr.%2011,%202018%5D.mp3" length="89232813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2077%20-%20Crap-Top%20Recording%20%5BApr.%2018,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2077%20-%20Crap-Top%20Recording%20%5BApr.%2018,%202018%5D.mp3</guid>
+<title>Crap-Top Recording</title>
+<description>Episode 77 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 25 Apr 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2077%20-%20Crap-Top%20Recording%20%5BApr.%2018,%202018%5D.mp3" length="52768941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2078%20-%20Children%20of%20the%20Bread%20%5BApr.%2025,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2078%20-%20Children%20of%20the%20Bread%20%5BApr.%2025,%202018%5D.mp3</guid>
+<title>Children of the Bread</title>
+<description>Episode 78 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 02 May 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2078%20-%20Children%20of%20the%20Bread%20%5BApr.%2025,%202018%5D.mp3" length="64160685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2079%20-%20PiMp$,%20Hoggz,%20N%20Double%20Saws%20%5BMay%202,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2079%20-%20PiMp$,%20Hoggz,%20N%20Double%20Saws%20%5BMay%202,%202018%5D.mp3</guid>
+<title>PiMp$, Hoggz, N Double Saws</title>
+<description>Episode 79 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 09 May 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2079%20-%20PiMp$,%20Hoggz,%20N%20Double%20Saws%20%5BMay%202,%202018%5D.mp3" length="69808557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2080%20-%20Nukes%20on%20Nukes%20on%20Nukes%20%5BMay%209,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2080%20-%20Nukes%20on%20Nukes%20on%20Nukes%20%5BMay%209,%202018%5D.mp3</guid>
+<title>Nukes on Nukes on Nukes</title>
+<description>Episode 80 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 16 May 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2080%20-%20Nukes%20on%20Nukes%20on%20Nukes%20%5BMay%209,%202018%5D.mp3" length="76464813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2081%20-%20The%20Morning%20Blowout%20%5BMay%2016,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2081%20-%20The%20Morning%20Blowout%20%5BMay%2016,%202018%5D.mp3</guid>
+<title>The Morning Blowout</title>
+<description>Episode 81 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 23 May 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2081%20-%20The%20Morning%20Blowout%20%5BMay%2016,%202018%5D.mp3" length="72000813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2082%20-%20Ideological%20Laser%20Tag%20%5BMay%2023,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2082%20-%20Ideological%20Laser%20Tag%20%5BMay%2023,%202018%5D.mp3</guid>
+<title>Ideological Laser Tag</title>
+<description>Episode 82 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 30 May 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2082%20-%20Ideological%20Laser%20Tag%20%5BMay%2023,%202018%5D.mp3" length="68144685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2083%20-%20Locker%20Room%20Talk%20of%20Yore%20%5BMay%2030,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2083%20-%20Locker%20Room%20Talk%20of%20Yore%20%5BMay%2030,%202018%5D.mp3</guid>
+<title>Locker Room Talk of Yore</title>
+<description>Episode 83 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 06 Jun 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2083%20-%20Locker%20Room%20Talk%20of%20Yore%20%5BMay%2030,%202018%5D.mp3" length="74976813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2084%20-%20Big%20Snoring%20Poppas%20%5BJun.%206,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2084%20-%20Big%20Snoring%20Poppas%20%5BJun.%206,%202018%5D.mp3</guid>
+<title>Big Snoring Poppas</title>
+<description>Episode 84 of Matt and Shane's Secret Podcast</description>
+<pubDate>Thu, 14 Jun 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2084%20-%20Big%20Snoring%20Poppas%20%5BJun.%206,%202018%5D.mp3" length="88016685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2085%20-%20Kang%20on%20Top%20%5BJun.%2014,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2085%20-%20Kang%20on%20Top%20%5BJun.%2014,%202018%5D.mp3</guid>
+<title>Kang on Top</title>
+<description>Episode 85 of Matt and Shane's Secret Podcast</description>
+<pubDate>Fri, 22 Jun 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2085%20-%20Kang%20on%20Top%20%5BJun.%2014,%202018%5D.mp3" length="134288685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2086%20-%20Double%20Stanky%20%20%5BJun.%2022,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2086%20-%20Double%20Stanky%20%20%5BJun.%2022,%202018%5D.mp3</guid>
+<title>Double Stanky</title>
+<description>Episode 86 of Matt and Shane's Secret Podcast</description>
+<pubDate>Fri, 29 Jun 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2086%20-%20Double%20Stanky%20%20%5BJun.%2022,%202018%5D.mp3" length="70560813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2087%20-%20Gargoyle%20Attack%20%5BJun.%2029,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2087%20-%20Gargoyle%20Attack%20%5BJun.%2029,%202018%5D.mp3</guid>
+<title>Gargoyle Attack</title>
+<description>Episode 87 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 10 Jul 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2087%20-%20Gargoyle%20Attack%20%5BJun.%2029,%202018%5D.mp3" length="86544813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2088%20-%20New%20Low%20%5BJul.%2010,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2088%20-%20New%20Low%20%5BJul.%2010,%202018%5D.mp3</guid>
+<title>New Low</title>
+<description>Episode 88 of Matt and Shane's Secret Podcast</description>
+<pubDate>Sun, 22 Jul 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2088%20-%20New%20Low%20%5BJul.%2010,%202018%5D.mp3" length="80864685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2089%20-%20Bad%20Dog%20Park%20%5BJul.%2022,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2089%20-%20Bad%20Dog%20Park%20%5BJul.%2022,%202018%5D.mp3</guid>
+<title>Bad Dog Park</title>
+<description>Episode 89 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 24 Jul 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2089%20-%20Bad%20Dog%20Park%20%5BJul.%2022,%202018%5D.mp3" length="72576813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2090%20-%20Trying%202%20Wrangle%20Mah%20B%21tch%20%5BJul.%2024,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2090%20-%20Trying%202%20Wrangle%20Mah%20B%21tch%20%5BJul.%2024,%202018%5D.mp3</guid>
+<title>Trying 2 Wrangle Mah B!tch</title>
+<description>Episode 90 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 31 Jul 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2090%20-%20Trying%202%20Wrangle%20Mah%20B%21tch%20%5BJul.%2024,%202018%5D.mp3" length="88576941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2091%20-%20Red%20Scare%20%5BJul.%2031,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2091%20-%20Red%20Scare%20%5BJul.%2031,%202018%5D.mp3</guid>
+<title>Red Scare</title>
+<description>Episode 91 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 08 Aug 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2091%20-%20Red%20Scare%20%5BJul.%2031,%202018%5D.mp3" length="83216685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2092%20-%20Lights,%20Camera,%20Action%20%5BAug.%208,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2092%20-%20Lights,%20Camera,%20Action%20%5BAug.%208,%202018%5D.mp3</guid>
+<title>Lights, Camera, Action</title>
+<description>Episode 92 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 08 Aug 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2092%20-%20Lights,%20Camera,%20Action%20%5BAug.%208,%202018%5D.mp3" length="80800557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2093%20(Patreon)%20-%20LIVE%20CAST%20%233%20%5BAug.%20,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2093%20(Patreon)%20-%20LIVE%20CAST%20%233%20%5BAug.%20,%202018%5D.mp3</guid>
+<title>CAST #3</title>
+<description>Episode 93 of Matt and Shane's Secret Podcast</description>
+<pubDate>Sat, 25 Aug 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2093%20(Patreon)%20-%20LIVE%20CAST%20%233%20%5BAug.%20,%202018%5D.mp3" length="78560685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2094%20-%20Saurian%20Greed%20%5BAug.%2025,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2094%20-%20Saurian%20Greed%20%5BAug.%2025,%202018%5D.mp3</guid>
+<title>Saurian Greed</title>
+<description>Episode 94 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 04 Sep 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2094%20-%20Saurian%20Greed%20%5BAug.%2025,%202018%5D.mp3" length="68336685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2095%20-%20The%20Naughty%20Universe%20%5BSep.%204,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2095%20-%20The%20Naughty%20Universe%20%5BSep.%204,%202018%5D.mp3</guid>
+<title>The Naughty Universe</title>
+<description>Episode 95 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 11 Sep 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2095%20-%20The%20Naughty%20Universe%20%5BSep.%204,%202018%5D.mp3" length="66544557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2096%20-%20The%20Shat%20Revelations%20%5BSep.%2011,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2096%20-%20The%20Shat%20Revelations%20%5BSep.%2011,%202018%5D.mp3</guid>
+<title>The Shat Revelations</title>
+<description>Episode 96 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 18 Sep 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2096%20-%20The%20Shat%20Revelations%20%5BSep.%2011,%202018%5D.mp3" length="57552813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2097%20-%20Feel%20Da%20Luh%20%5BSep.%2018,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2097%20-%20Feel%20Da%20Luh%20%5BSep.%2018,%202018%5D.mp3</guid>
+<title>Feel Da Luh</title>
+<description>Episode 97 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 25 Sep 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2097%20-%20Feel%20Da%20Luh%20%5BSep.%2018,%202018%5D.mp3" length="90496941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2098%20-%20Ka-Pow%21%20%5BSep.%2025,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2098%20-%20Ka-Pow%21%20%5BSep.%2025,%202018%5D.mp3</guid>
+<title>Ka-Pow!</title>
+<description>Episode 98 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 09 Oct 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2098%20-%20Ka-Pow%21%20%5BSep.%2025,%202018%5D.mp3" length="89248557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2099%20-%20The%20Great%20Divide%20%5BOct.%209,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2099%20-%20The%20Great%20Divide%20%5BOct.%209,%202018%5D.mp3</guid>
+<title>The Great Divide</title>
+<description>Episode 99 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 16 Oct 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%2099%20-%20The%20Great%20Divide%20%5BOct.%209,%202018%5D.mp3" length="72848685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20100%20-%20Triple%20Diggies%20%5BOct.%2016,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20100%20-%20Triple%20Diggies%20%5BOct.%2016,%202018%5D.mp3</guid>
+<title>Triple Diggies</title>
+<description>Episode 100 of Matt and Shane's Secret Podcast</description>
+<pubDate>Fri, 26 Oct 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20100%20-%20Triple%20Diggies%20%5BOct.%2016,%202018%5D.mp3" length="86368557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20101%20-%20Bombs%20over%20Blackface%20%5BOct.%2026,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20101%20-%20Bombs%20over%20Blackface%20%5BOct.%2026,%202018%5D.mp3</guid>
+<title>Bombs over Blackface</title>
+<description>Episode 101 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 05 Nov 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20101%20-%20Bombs%20over%20Blackface%20%5BOct.%2026,%202018%5D.mp3" length="97360941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20102%20-%20The%20Captain_s%20Code%20%5BNov.%205,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20102%20-%20The%20Captain_s%20Code%20%5BNov.%205,%202018%5D.mp3</guid>
+<title>The Captain's Code</title>
+<description>Episode 102 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 06 Nov 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20102%20-%20The%20Captain_s%20Code%20%5BNov.%205,%202018%5D.mp3" length="81760557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20103%20-%20Voting%20Stickers%20%5BNov.%206,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20103%20-%20Voting%20Stickers%20%5BNov.%206,%202018%5D.mp3</guid>
+<title>Voting Stickers</title>
+<description>Episode 103 of Matt and Shane's Secret Podcast</description>
+<pubDate>Sat, 17 Nov 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20103%20-%20Voting%20Stickers%20%5BNov.%206,%202018%5D.mp3" length="82496685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20104%20-%20Erotic%20Reflection%20%5BNov.%2017,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20104%20-%20Erotic%20Reflection%20%5BNov.%2017,%202018%5D.mp3</guid>
+<title>Erotic Reflection</title>
+<description>Episode 104 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 19 Nov 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20104%20-%20Erotic%20Reflection%20%5BNov.%2017,%202018%5D.mp3" length="93056685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20105%20-%20The%20Concrete%20Pit%20%5BNov.%2019,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20105%20-%20The%20Concrete%20Pit%20%5BNov.%2019,%202018%5D.mp3</guid>
+<title>The Concrete Pit</title>
+<description>Episode 105 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 27 Nov 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20105%20-%20The%20Concrete%20Pit%20%5BNov.%2019,%202018%5D.mp3" length="77152557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20106%20-%20Gerbie_s%20Grool%20%5BNov.%2027,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20106%20-%20Gerbie_s%20Grool%20%5BNov.%2027,%202018%5D.mp3</guid>
+<title>Gerbie's Grool</title>
+<description>Episode 106 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 03 Dec 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20106%20-%20Gerbie_s%20Grool%20%5BNov.%2027,%202018%5D.mp3" length="146032941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20107%20-%20Noooo%21%20%5BDec.%203,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20107%20-%20Noooo%21%20%5BDec.%203,%202018%5D.mp3</guid>
+<title>Noooo!</title>
+<description>Episode 107 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 10 Dec 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20107%20-%20Noooo%21%20%5BDec.%203,%202018%5D.mp3" length="75536685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20108%20-%20DFS%20%5BDec.%2010,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20108%20-%20DFS%20%5BDec.%2010,%202018%5D.mp3</guid>
+<title>DFS</title>
+<description>Episode 108 of Matt and Shane's Secret Podcast</description>
+<pubDate>Thu, 20 Dec 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20108%20-%20DFS%20%5BDec.%2010,%202018%5D.mp3" length="79840557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20109%20-%20Sky%20World%20%5BDec.%2020,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20109%20-%20Sky%20World%20%5BDec.%2020,%202018%5D.mp3</guid>
+<title>Sky World</title>
+<description>Episode 109 of Matt and Shane's Secret Podcast</description>
+<pubDate>Sat, 29 Dec 2018 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20109%20-%20Sky%20World%20%5BDec.%2020,%202018%5D.mp3" length="62992557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20110%20-%20Sexxxual%20Hitman%20%5BDec.%2029,%202018%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20110%20-%20Sexxxual%20Hitman%20%5BDec.%2029,%202018%5D.mp3</guid>
+<title>Sexxxual Hitman</title>
+<description>Episode 110 of Matt and Shane's Secret Podcast</description>
+<pubDate>Fri, 04 Jan 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20110%20-%20Sexxxual%20Hitman%20%5BDec.%2029,%202018%5D.mp3" length="89984685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20111%20-%20Wounded%20%5BJan.%204,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20111%20-%20Wounded%20%5BJan.%204,%202019%5D.mp3</guid>
+<title>Wounded</title>
+<description>Episode 111 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 15 Jan 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20111%20-%20Wounded%20%5BJan.%204,%202019%5D.mp3" length="97952685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20112%20-%20Sad%20Stories%20%5BJan.%2015,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20112%20-%20Sad%20Stories%20%5BJan.%2015,%202019%5D.mp3</guid>
+<title>Sad Stories</title>
+<description>Episode 112 of Matt and Shane's Secret Podcast</description>
+<pubDate>Sun, 20 Jan 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20112%20-%20Sad%20Stories%20%5BJan.%2015,%202019%5D.mp3" length="63904557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20113%20-%20Daemons%20%5BJan.%2020,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20113%20-%20Daemons%20%5BJan.%2020,%202019%5D.mp3</guid>
+<title>Daemons</title>
+<description>Episode 113 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 28 Jan 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20113%20-%20Daemons%20%5BJan.%2020,%202019%5D.mp3" length="82240557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20114%20-%20Shreddin_%20Gnar%20%5BJan.%2028,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20114%20-%20Shreddin_%20Gnar%20%5BJan.%2028,%202019%5D.mp3</guid>
+<title>Shreddin' Gnar</title>
+<description>Episode 114 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 05 Feb 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20114%20-%20Shreddin_%20Gnar%20%5BJan.%2028,%202019%5D.mp3" length="81248685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20115%20-%20Nicean%20Secrets%20%5BFeb.%205,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20115%20-%20Nicean%20Secrets%20%5BFeb.%205,%202019%5D.mp3</guid>
+<title>Nicean Secrets</title>
+<description>Episode 115 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 11 Feb 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20115%20-%20Nicean%20Secrets%20%5BFeb.%205,%202019%5D.mp3" length="106640685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20116%20-%20Classified%20%5BFeb.%2011,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20116%20-%20Classified%20%5BFeb.%2011,%202019%5D.mp3</guid>
+<title>Classified</title>
+<description>Episode 116 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 18 Feb 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20116%20-%20Classified%20%5BFeb.%2011,%202019%5D.mp3" length="89808813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20117%20-%20O_Contact%20%5BFeb.%2018,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20117%20-%20O_Contact%20%5BFeb.%2018,%202019%5D.mp3</guid>
+<title>O'Contact</title>
+<description>Episode 117 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 26 Feb 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20117%20-%20O_Contact%20%5BFeb.%2018,%202019%5D.mp3" length="109936557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20118%20-%20The%20Lazarus%20Cast%20%5BFeb.%2026,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20118%20-%20The%20Lazarus%20Cast%20%5BFeb.%2026,%202019%5D.mp3</guid>
+<title>The Lazarus Cast</title>
+<description>Episode 118 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 04 Mar 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20118%20-%20The%20Lazarus%20Cast%20%5BFeb.%2026,%202019%5D.mp3" length="114192813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20119%20-%20Stone%20Cold_s%20Bastard%20%5BMar.%204,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20119%20-%20Stone%20Cold_s%20Bastard%20%5BMar.%204,%202019%5D.mp3</guid>
+<title>Stone Cold's Bastard</title>
+<description>Episode 119 of Matt and Shane's Secret Podcast</description>
+<pubDate>Thu, 07 Mar 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20119%20-%20Stone%20Cold_s%20Bastard%20%5BMar.%204,%202019%5D.mp3" length="66272685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20120%20-%20H.E.D.D.%20%5BMar.%207,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20120%20-%20H.E.D.D.%20%5BMar.%207,%202019%5D.mp3</guid>
+<title>H.E.D.D.</title>
+<description>Episode 120 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 19 Mar 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20120%20-%20H.E.D.D.%20%5BMar.%207,%202019%5D.mp3" length="92112813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20121%20-%20Wolf%20Stats%20%5BMar.%2019,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20121%20-%20Wolf%20Stats%20%5BMar.%2019,%202019%5D.mp3</guid>
+<title>Wolf Stats</title>
+<description>Episode 121 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 26 Mar 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20121%20-%20Wolf%20Stats%20%5BMar.%2019,%202019%5D.mp3" length="70784685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20122%20-%20Saudi%20Chicken%20Prince%20%5BMar.%2026,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20122%20-%20Saudi%20Chicken%20Prince%20%5BMar.%2026,%202019%5D.mp3</guid>
+<title>Saudi Chicken Prince</title>
+<description>Episode 122 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 01 Apr 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20122%20-%20Saudi%20Chicken%20Prince%20%5BMar.%2026,%202019%5D.mp3" length="89856813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20123%20-%20B.I.G.%20S.I.S.T.E.R.%20%5BApr.%201,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20123%20-%20B.I.G.%20S.I.S.T.E.R.%20%5BApr.%201,%202019%5D.mp3</guid>
+<title>B.I.G. S.I.S.T.E.R.</title>
+<description>Episode 123 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 10 Apr 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20123%20-%20B.I.G.%20S.I.S.T.E.R.%20%5BApr.%201,%202019%5D.mp3" length="106192557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20124%20-%20G-Pass%20%5BApr.%2010,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20124%20-%20G-Pass%20%5BApr.%2010,%202019%5D.mp3</guid>
+<title>G-Pass</title>
+<description>Episode 124 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 16 Apr 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20124%20-%20G-Pass%20%5BApr.%2010,%202019%5D.mp3" length="74016813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20125%20-%20Who%20Had%20_Em%20%5BApr.%2016,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20125%20-%20Who%20Had%20_Em%20%5BApr.%2016,%202019%5D.mp3</guid>
+<title>Who Had 'Em</title>
+<description>Episode 125 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 22 Apr 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20125%20-%20Who%20Had%20_Em%20%5BApr.%2016,%202019%5D.mp3" length="77024685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20126%20-%20SWAPCAST%20W%20Ya%20F%23cked%20It%20%5BApr.%2022,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20126%20-%20SWAPCAST%20W%20Ya%20F%23cked%20It%20%5BApr.%2022,%202019%5D.mp3</guid>
+<title>SWAPCAST W Ya F#cked It</title>
+<description>Episode 126 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 01 May 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20126%20-%20SWAPCAST%20W%20Ya%20F%23cked%20It%20%5BApr.%2022,%202019%5D.mp3" length="75392685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20127%20-%20Vision%20of%20Love%20%5BMay%201,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20127%20-%20Vision%20of%20Love%20%5BMay%201,%202019%5D.mp3</guid>
+<title>Vision of Love</title>
+<description>Episode 127 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 08 May 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20127%20-%20Vision%20of%20Love%20%5BMay%201,%202019%5D.mp3" length="69744813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20128%20-%20R.I.P.%20Orlando%20Bloom%20%5BMay%208,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20128%20-%20R.I.P.%20Orlando%20Bloom%20%5BMay%208,%202019%5D.mp3</guid>
+<title>R.I.P. Orlando Bloom</title>
+<description>Episode 128 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 14 May 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20128%20-%20R.I.P.%20Orlando%20Bloom%20%5BMay%208,%202019%5D.mp3" length="70384941" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20129%20-%20A%20New%20Fool%20%5BMay%2014,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20129%20-%20A%20New%20Fool%20%5BMay%2014,%202019%5D.mp3</guid>
+<title>A New Fool</title>
+<description>Episode 129 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 21 May 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20129%20-%20A%20New%20Fool%20%5BMay%2014,%202019%5D.mp3" length="92816685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20130%20-%20Double%20Donger%20%5BMay%2021,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20130%20-%20Double%20Donger%20%5BMay%2021,%202019%5D.mp3</guid>
+<title>Double Donger</title>
+<description>Episode 130 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 29 May 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20130%20-%20Double%20Donger%20%5BMay%2021,%202019%5D.mp3" length="81600813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20131%20-%20The%20Poors%20%5BMay%2029,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20131%20-%20The%20Poors%20%5BMay%2029,%202019%5D.mp3</guid>
+<title>The Poors</title>
+<description>Episode 131 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 04 Jun 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20131%20-%20The%20Poors%20%5BMay%2029,%202019%5D.mp3" length="88224813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20132%20-%20Gerbies%20In%20Space%20%5BJun.%204,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20132%20-%20Gerbies%20In%20Space%20%5BJun.%204,%202019%5D.mp3</guid>
+<title>Gerbies In Space</title>
+<description>Episode 132 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 11 Jun 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20132%20-%20Gerbies%20In%20Space%20%5BJun.%204,%202019%5D.mp3" length="122064813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20133%20-%20STUCK%20%5BJun.%2011,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20133%20-%20STUCK%20%5BJun.%2011,%202019%5D.mp3</guid>
+<title>STUCK</title>
+<description>Episode 133 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 17 Jun 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20133%20-%20STUCK%20%5BJun.%2011,%202019%5D.mp3" length="100768557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20134%20-%20Canadian%20Parade%20%5BJun.%2017,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20134%20-%20Canadian%20Parade%20%5BJun.%2017,%202019%5D.mp3</guid>
+<title>Canadian Parade</title>
+<description>Episode 134 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 26 Jun 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20134%20-%20Canadian%20Parade%20%5BJun.%2017,%202019%5D.mp3" length="81280557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20135%20-%20Can_t%20Cuck%20This%20%5BJun.%2026,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20135%20-%20Can_t%20Cuck%20This%20%5BJun.%2026,%202019%5D.mp3</guid>
+<title>Can't Cuck This</title>
+<description>Episode 135 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 02 Jul 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20135%20-%20Can_t%20Cuck%20This%20%5BJun.%2026,%202019%5D.mp3" length="128864685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20136%20-%20Live%20@%20The%20Stand%20w%20Nick%20Mullen%20%5BJul.%202,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20136%20-%20Live%20@%20The%20Stand%20w%20Nick%20Mullen%20%5BJul.%202,%202019%5D.mp3</guid>
+<title>Live @ The Stand w Nick Mullen</title>
+<description>Episode 136 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 08 Jul 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20136%20-%20Live%20@%20The%20Stand%20w%20Nick%20Mullen%20%5BJul.%202,%202019%5D.mp3" length="58160685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20137%20-%20The%20War%20Room%20%5BJul.%208,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20137%20-%20The%20War%20Room%20%5BJul.%208,%202019%5D.mp3</guid>
+<title>The War Room</title>
+<description>Episode 137 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 17 Jul 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20137%20-%20The%20War%20Room%20%5BJul.%208,%202019%5D.mp3" length="123280557" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20138%20-%20Geezer%20League%20%5BJul.%2017,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20138%20-%20Geezer%20League%20%5BJul.%2017,%202019%5D.mp3</guid>
+<title>Geezer League</title>
+<description>Episode 138 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 22 Jul 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20138%20-%20Geezer%20League%20%5BJul.%2017,%202019%5D.mp3" length="79392813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20139%20-%20The%20Grid%20of%20Interaction%20%5BJul.%2022,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20139%20-%20The%20Grid%20of%20Interaction%20%5BJul.%2022,%202019%5D.mp3</guid>
+<title>The Grid of Interaction</title>
+<description>Episode 139 of Matt and Shane's Secret Podcast</description>
+<pubDate>Wed, 31 Jul 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20139%20-%20The%20Grid%20of%20Interaction%20%5BJul.%2022,%202019%5D.mp3" length="113216685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20140%20-%20Within%20the%20Walls%20of%20the%20Kremlin%20%5BJul.%2031,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20140%20-%20Within%20the%20Walls%20of%20the%20Kremlin%20%5BJul.%2031,%202019%5D.mp3</guid>
+<title>Within the Walls of the Kremlin</title>
+<description>Episode 140 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 05 Aug 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20140%20-%20Within%20the%20Walls%20of%20the%20Kremlin%20%5BJul.%2031,%202019%5D.mp3" length="112976685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20141%20-%20Awash%20in%20Propagander%20%5BAug.%205,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20141%20-%20Awash%20in%20Propagander%20%5BAug.%205,%202019%5D.mp3</guid>
+<title>Awash in Propagander</title>
+<description>Episode 141 of Matt and Shane's Secret Podcast</description>
+<pubDate>Thu, 15 Aug 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20141%20-%20Awash%20in%20Propagander%20%5BAug.%205,%202019%5D.mp3" length="133728813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20142%20-%20War%20Room%20II-Pt%201%20%5BAug.%2015,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20142%20-%20War%20Room%20II-Pt%201%20%5BAug.%2015,%202019%5D.mp3</guid>
+<title>War Room II-Pt 1</title>
+<description>Episode 142 of Matt and Shane's Secret Podcast</description>
+<pubDate>Thu, 22 Aug 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20142%20-%20War%20Room%20II-Pt%201%20%5BAug.%2015,%202019%5D.mp3" length="118896813" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20143%20-%20Everything%20is%20Fcking%20Asshoe%21%21%21%20%5BAug.%2022,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20143%20-%20Everything%20is%20Fcking%20Asshoe%21%21%21%20%5BAug.%2022,%202019%5D.mp3</guid>
+<title>Everything is Fcking Asshoe!!!</title>
+<description>Episode 143 of Matt and Shane's Secret Podcast</description>
+<pubDate>Mon, 26 Aug 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20143%20-%20Everything%20is%20Fcking%20Asshoe%21%21%21%20%5BAug.%2022,%202019%5D.mp3" length="87056685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20144%20-%20A.I.%20is%20Racist%20%5BAug.%2026,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20144%20-%20A.I.%20is%20Racist%20%5BAug.%2026,%202019%5D.mp3</guid>
+<title>A.I. is Racist</title>
+<description>Episode 144 of Matt and Shane's Secret Podcast</description>
+<pubDate>Tue, 03 Sep 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20144%20-%20A.I.%20is%20Racist%20%5BAug.%2026,%202019%5D.mp3" length="61664685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20146%20-%20Live%20from%20Shane_s%20Parent_s%20Basement%20%5BSep.%203,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20146%20-%20Live%20from%20Shane_s%20Parent_s%20Basement%20%5BSep.%203,%202019%5D.mp3</guid>
+<title>Live from Shane's Parent's Basement</title>
+<description>Episode 146 of Matt and Shane's Secret Podcast</description>
+<pubDate>Sun, 08 Sep 2019 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20146%20-%20Live%20from%20Shane_s%20Parent_s%20Basement%20%5BSep.%203,%202019%5D.mp3" length="61184685" type="audio/mpeg"/>
+</item>
+
+<item>
+<link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20147%20-%20Ephemerality%20%5BSep.%208,%202019%5D.mp3</link>
+<guid>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20147%20-%20Ephemerality%20%5BSep.%208,%202019%5D.mp3</guid>
+<title>Ephemerality</title>
+<description>Episode 147 of Matt and Shane's Secret Podcast</description>
+<pubDate>Fri, 11 Sep 2020 03:00:00 GMT</pubDate>
+<enclosure url="https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%20147%20-%20Ephemerality%20%5BSep.%208,%202019%5D.mp3" length="112352685" type="audio/mpeg"/>
+</item>
+
+</channel>
+</rss>
