@@ -9,7 +9,8 @@ Where either ordinal or description are optional.
  $ pwd 
  /Users/REDACTED/REDACTED/rss
  
- $ ./csv2rss.sh ./feed.csv \
+ $ ./csv2rss.sh ./mssp/feed.csv \
+     --delimiter ";" \
      --repo-dir "mssp" \
      --title "Matt and Shane's Secret Podcast" \
      --description "Grab onto this fast moving train and witness two comedians rise to victory and splendor." \
