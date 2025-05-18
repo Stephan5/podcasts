@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-     xmlns:atom="http://www.w3.org/2005/Atom">
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/mssp/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Matt and Shane's Secret Podcast</title>
