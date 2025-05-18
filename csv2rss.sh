@@ -128,9 +128,20 @@ while IFS= read -r line; do
     exit 1
   fi
 
-  # encode URL & extract content length
+  # encode URL
   item_link=$(url_encode "$item_link")
-  content_length=$(curl "$item_link" --location --silent --head --fail | grep "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
+
+  response_headers=$(curl --silent --head --fail "$item_link")
+  redirect_location=$(echo "$response_headers" | grep -i "^location:" | cut -d " " -f 2 | tr -d '\r\n[:space:]' || true)
+
+  # If there's a redirect, fetch the content-length from the redirect target
+  if [[ -n "$redirect_location" ]]; then
+    content_length=$(curl --silent --head --fail "$redirect_location" | grep -i "Content-Length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
+  else
+    content_length=$(echo "$response_headers" | grep -i "Content-Length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
+  fi
+
+  item_link=${redirect_location:-$item_link}
 
   item_desc=${item_description:-"$item_title - Episode $item_number of $podcast_title"}
 
