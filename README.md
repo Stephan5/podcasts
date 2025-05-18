@@ -21,4 +21,4 @@ Requirements:
  * Run from the top-level of the `rss` repo.
 
 ## TODO
-- [ ] Generate for all directories
+- [x] Generate for all directories
