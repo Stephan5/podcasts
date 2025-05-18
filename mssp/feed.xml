@@ -13,20 +13,20 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/mssp/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Matt and Shane's Secret Podcast</title>
     <description>Grab onto this fast moving train and witness two comedians rise to victory and splendor.
-        <br/><br/>
-        Generated using Stephan5/rss</description>
+    <br/><br/>
+     Generated using Stephan5/rss</description>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/rss/tree/main/mssp</link>
     <image>
-       <url>https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/00/fe/d2/00fed269-058c-1fc9-7c52-061940ee7e93/source/1200x630bb.jpg</url>
+       <url>https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/mssp/image.jpg</url>
        <title>Matt and Shane's Secret Podcast</title>
        <link>https://github.com/Stephan5/rss/tree/main/mssp</link>
     </image>
     <generator>csv2rss.sh v 0.01</generator>
     <ttl>1440</ttl>
-<lastBuildDate>Sun, 18 May 2025 23:58:50 +0100</lastBuildDate>
-<pubDate>Sun, 18 May 2025 23:58:50 +0100</pubDate>
+<lastBuildDate>Mon, 19 May 2025 00:23:38 +0100</lastBuildDate>
+<pubDate>Mon, 19 May 2025 00:23:38 +0100</pubDate>
 
 <item>
 <link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%201%20-%20Inaugral%20Business.mp3</link>

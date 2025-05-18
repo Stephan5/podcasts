@@ -74,8 +74,13 @@ fi
 output_file="${output_file:-${csv_file%%.csv}.xml}"
 feed_filename=$(basename "$output_file")
 repo="Stephan5/rss"
+raw_content="https://raw.githubusercontent.com/$repo/refs/heads/main/$repo_dir"
 repo_link="https://github.com/$repo/tree/main/$repo_dir"
-self_feed_link="https://raw.githubusercontent.com/$repo/refs/heads/main/$repo_dir/$feed_filename"
+self_feed_link="$raw_content/$feed_filename"
+
+if [[ -z "$podcast_image_link" ]]; then
+  podcast_image_link="$raw_content/image.jpg"
+fi
 
 echo "$command_issued" > "./$repo_dir/cmd.txt"
 
