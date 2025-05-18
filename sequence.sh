@@ -9,7 +9,7 @@ while [[ $# -gt 0 ]]; do
     --delimiter) csv_delimiter="$2"; shift 2 ;;
     --) shift; break ;;
     --*) echo "Unknown option: $1" >&2; exit 1 ;;
-    *)  # Positional arg
+    *)
       if [[ -z "$input_file" ]]; then
         input_file="$1"
       else
