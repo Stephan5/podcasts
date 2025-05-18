@@ -3,7 +3,7 @@
 
 ## TODO
 
-  - [ ] Reorganise repo
-  - [ ] Generalise and commit css2xml script
-  - [ ] Handle single quotes in URLs
-  - [ ] Document inputs to script and required CSV formatting
+  - [x] Reorganise repo
+  - [x] Generalise and commit css2rss script
+  - [x] Handle single quotes in URLs
+  - [x] Document inputs to script and required CSV formatting
