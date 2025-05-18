@@ -45,6 +45,7 @@ while [[ $# -gt 0 ]]; do
     *)  # Positional arg
       if [[ -z "$input_file" ]]; then
         input_file="$1"
+        command_issued="$command_issued $1"
       else
         echo "Unexpected extra argument: $1" >&2
         exit 1
@@ -66,7 +67,9 @@ csv_file=./"$repo_dir"/"$csv_filename"
 
 # Create repo dir and Copy input file to it
 mkdir -p "$repo_dir"
-cp "$input_file" "$csv_file"
+if [[ "$(realpath "$input_file")" != "$(realpath "$csv_file")" ]]; then
+  cp "$input_file" "$csv_file"
+fi
 
 output_file="${output_file:-${csv_file%%.csv}.xml}"
 feed_filename=$(basename "$output_file")
@@ -92,7 +95,8 @@ cat > "$output_file" <<EOF
     <atom:link href="$self_feed_link" rel="self" type="application/rss+xml"/>
     <title>$podcast_title</title>
     <description>$podcast_description
-    Generated using <a href="$repo_link">$repo</a></description>
+
+    Generated using $repo</description>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>$repo_link</link>

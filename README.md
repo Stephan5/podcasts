@@ -19,3 +19,6 @@ Where "repo-dir" is the directory within the rss repo you would like to store yo
 
 Requirements:
  * Run from the top-level of the `rss` repo.
+
+## TODO
+- [ ] Generate for all directories
