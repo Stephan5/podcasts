@@ -23,3 +23,5 @@ Requirements:
 
 ## TODO
 - [x] Generate for all directories
+- [x] Add script for append arbitrary pre-formatted items 
+- [ ] Add some rudimentary tests

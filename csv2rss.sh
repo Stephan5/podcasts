@@ -68,6 +68,7 @@ if [[ "$(realpath "$input_file")" != "$(realpath "$csv_file")" ]]; then
   cp "$input_file" "$csv_file"
 fi
 
+tmp_file=$(mktemp)
 output_file="${output_file:-${csv_file%%.csv}.xml}"
 feed_filename=$(basename "$output_file")
 repo="Stephan5/rss"
@@ -79,7 +80,7 @@ if [[ -z "$podcast_image_link" ]]; then
   podcast_image_link="$raw_content/image.jpg"
 fi
 
-cat > "$output_file" <<EOF
+cat > "$tmp_file" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:atom="http://www.w3.org/2005/Atom"
@@ -113,7 +114,7 @@ EOF
   echo "<lastBuildDate>$(date -R)</lastBuildDate>";
   echo "<pubDate>$(date -R)</pubDate>";
   echo
-} >> "$output_file"
+} >> "$tmp_file"
 
 while IFS= read -r line; do
   IFS=$csv_delimiter read -r item_number item_title item_description item_date item_link <<< "$line"
@@ -123,26 +124,27 @@ while IFS= read -r line; do
     exit 1
   fi
 
-  # encode URL
+  # encode URL & extract content length
   item_link=$(url_encode "$item_link")
+  content_length=$(curl "$item_link" --location --silent --head --fail | grep "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
 
-  response_headers=$(curl --silent --head --fail "$item_link")
-  redirect_location=$(echo "$response_headers" | grep -i "^Location:" | cut -d " " -f 2 | tr -d '\r\n[:space:]' || true)
-
-  # FIXME I don't think extracting the redirects is necessary (or even desired), and can just use "curl -L" to follow all redirects to validate links and get content length
-  # If there's a redirect, fetch the content-length from the redirect target
-  if [[ -n "$redirect_location" ]]; then
-    content_length=$(curl --silent --head --fail "$redirect_location" | grep -i "Content-Length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
-  else
-    content_length=$(echo "$response_headers" | grep -i "Content-Length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
-  fi
-
-  item_link=${redirect_location:-$item_link}
+#  response_headers=$(curl --silent --head --fail "$item_link")
+#  redirect_location=$(echo "$response_headers" | grep -i "^Location:" | cut -d " " -f 2 | tr -d '\r\n[:space:]' || true)
+#
+#  # FIXME I don't think extracting the redirects is necessary (or even desired), and can just use "curl -L" to follow all redirects to validate links and get content length
+#  # If there's a redirect, fetch the content-length from the redirect target
+#  if [[ -n "$redirect_location" ]]; then
+#    content_length=$(curl --silent --head --fail "$redirect_location" | grep -i "Content-Length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
+#  else
+#    content_length=$(echo "$response_headers" | grep -i "Content-Length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
+#  fi
+#
+#  item_link=${redirect_location:-$item_link}
 
   item_desc=${item_description:-"$item_title - Episode $item_number of $podcast_title"}
 
   {
-    echo "<item>" >> "$output_file";
+    echo "<item>";
     echo "<link>$item_link</link>";
     echo "<guid>$item_link</guid>";
     echo "<title>$item_number - $item_title</title>";
@@ -151,14 +153,17 @@ while IFS= read -r line; do
     echo "<enclosure url=\"$item_link\" length=\"$content_length\" type=\"audio/mpeg\"/>";
     echo "</item>";
     echo
-  } >> "$output_file"
+  } >> "$tmp_file"
 
 done < <(tail -n +2 "$input_file")
 
-cat >> "$output_file" <<EOF
+cat >> "$tmp_file" <<EOF
 </channel>
 </rss>
 EOF
+
+cp "$output_file" "$output_file".old
+mv "$tmp_file" "$output_file"
 
 echo "Created podcast RSS XML feed: $(realpath "$output_file")"
 echo 'Check with: https://validator.livewire.io'
