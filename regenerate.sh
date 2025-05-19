@@ -4,23 +4,19 @@ set -euo pipefail
 dirs=("geoff" "mssp")
 
 for dir in "${dirs[@]}"; do
-  cmd_file="$dir/cmd.txt"
+  cmd_file="$dir/cmd.sh"
 
   if [[ -f "$cmd_file" ]]; then
-    echo "Running command for: $dir"
+    echo "Running script for: $dir"
 
-    # Read the command from cmd.txt
-    cmd=$(<"$cmd_file")
+    # Make sure it's executable
+    chmod +x "$cmd_file"
 
-    echo "-> $cmd"
-
-    # Run the command
-    eval "$cmd"
-
-    echo
+    # Run the script
+    "$cmd_file"
 
   else
-    echo "Skipping $dir — no cmd.txt found."
+    echo "Skipping $dir — no cmd.sh found."
   fi
 done
 

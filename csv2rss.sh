@@ -31,21 +31,18 @@ podcast_description=""
 podcast_image_link=""
 csv_delimiter=","
 
-command_issued="$0"
-
 while [[ $# -gt 0 ]]; do
   case "$1" in
-    --repo-dir) repo_dir="$2"; command_issued="$command_issued $1 \"$2\""; shift 2 ;;
-    --title) podcast_title="$2"; command_issued="$command_issued $1 \"$2\""; shift 2 ;;
-    --description) podcast_description="$2"; command_issued="$command_issued $1 \"$2\""; shift 2 ;;
-    --image-link) podcast_image_link="$2"; command_issued="$command_issued $1 \"$2\""; shift 2 ;;
-    --delimiter) csv_delimiter="$2"; command_issued="$command_issued $1 \"$2\""; shift 2 ;;
-    --) command_issued="$command_issued $1"; shift; break ;;
+    --repo-dir) repo_dir="$2"; shift 2 ;;
+    --title) podcast_title="$2"; shift 2 ;;
+    --description) podcast_description="$2"; shift 2 ;;
+    --image-link) podcast_image_link="$2"; shift 2 ;;
+    --delimiter) csv_delimiter="$2"; shift 2 ;;
+    --) shift; break ;;
     --*) echo "Unknown option: $1" >&2; exit 1 ;;
     *)
       if [[ -z "$input_file" ]]; then
         input_file="$1"
-        command_issued="$command_issued $1"
       else
         echo "Unexpected extra argument: $1" >&2
         exit 1
@@ -81,8 +78,6 @@ self_feed_link="$raw_content/$feed_filename"
 if [[ -z "$podcast_image_link" ]]; then
   podcast_image_link="$raw_content/image.jpg"
 fi
-
-echo "$command_issued" > "./$repo_dir/cmd.txt"
 
 cat > "$output_file" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -132,8 +127,9 @@ while IFS= read -r line; do
   item_link=$(url_encode "$item_link")
 
   response_headers=$(curl --silent --head --fail "$item_link")
-  redirect_location=$(echo "$response_headers" | grep -i "^location:" | cut -d " " -f 2 | tr -d '\r\n[:space:]' || true)
+  redirect_location=$(echo "$response_headers" | grep -i "^Location:" | cut -d " " -f 2 | tr -d '\r\n[:space:]' || true)
 
+  # FIXME I don't think extracting the redirects is necessary (or even desired), and can just use "curl -L" to follow all redirects to validate links and get content length
   # If there's a redirect, fetch the content-length from the redirect target
   if [[ -n "$redirect_location" ]]; then
     content_length=$(curl --silent --head --fail "$redirect_location" | grep -i "Content-Length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
