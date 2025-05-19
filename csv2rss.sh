@@ -61,6 +61,7 @@ fi
 
 csv_filename=$(basename "$input_file")
 csv_file=./"$repo_dir"/"$csv_filename"
+extra_items_xml=./"$repo_dir"/extra-items.xml
 
 # Create repo dir and Copy input file to it
 mkdir -p "$repo_dir"
@@ -92,7 +93,7 @@ cat > "$tmp_file" <<EOF
      xmlns:spotify="http://www.spotify.com/ns/rss"
      xmlns:podcast="https://podcastindex.org/namespace/1.0"
      xmlns:media="http://search.yahoo.com/mrss/">
-<channel>
+  <channel>
     <atom:link href="$self_feed_link" rel="self" type="application/rss+xml"/>
     <title>$podcast_title</title>
     <description>$podcast_description
@@ -112,36 +113,25 @@ EOF
 {
   echo "<lastBuildDate>$(date -R)</lastBuildDate>";
   echo "<pubDate>$(date -R)</pubDate>";
-  echo
 } >> "$tmp_file"
 
 while IFS= read -r line; do
   IFS=$csv_delimiter read -r item_number item_title item_description item_date item_link <<< "$line"
 
+  # validate date
   if [[ $(validate_rfc2822_date "$item_date") == "invalid" ]]; then
     echo "Invalid date $item_date for item $item_title. Dates must be in RFC 2822 format."
     exit 1
   fi
 
+  # fallback to default description if not specified
+  item_desc=${item_description:-"$item_title - Episode $item_number of $podcast_title"}
+
   # encode URL & extract content length
   item_link=$(url_encode "$item_link")
   content_length=$(curl "$item_link" --location --silent --head --fail | grep "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
 
-#  response_headers=$(curl --silent --head --fail "$item_link")
-#  redirect_location=$(echo "$response_headers" | grep -i "^Location:" | cut -d " " -f 2 | tr -d '\r\n[:space:]' || true)
-#
-#  # FIXME I don't think extracting the redirects is necessary (or even desired), and can just use "curl -L" to follow all redirects to validate links and get content length
-#  # If there's a redirect, fetch the content-length from the redirect target
-#  if [[ -n "$redirect_location" ]]; then
-#    content_length=$(curl --silent --head --fail "$redirect_location" | grep -i "Content-Length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
-#  else
-#    content_length=$(echo "$response_headers" | grep -i "Content-Length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
-#  fi
-#
-#  item_link=${redirect_location:-$item_link}
-
-  item_desc=${item_description:-"$item_title - Episode $item_number of $podcast_title"}
-
+  # input item into file
   {
     echo "<item>";
     echo "<link>$item_link</link>";
@@ -151,17 +141,47 @@ while IFS= read -r line; do
     echo "<pubDate>$item_date</pubDate>";
     echo "<enclosure url=\"$item_link\" length=\"$content_length\" type=\"audio/mpeg\"/>";
     echo "</item>";
-    echo
   } >> "$tmp_file"
 
 done < <(tail -n +2 "$input_file")
 
+
+# append any additional items
+if [[ -f "$extra_items_xml" ]]; then
+  {
+   cat "$extra_items_xml";
+  } >> "$tmp_file"
+fi
+
+# add closing tags
 cat >> "$tmp_file" <<EOF
 </channel>
 </rss>
 EOF
 
-cp "$output_file" "$output_file".old
+# reformat xml file
+xmllint --format "$tmp_file" -o "$tmp_file"
+
+# compare with existing file if any
+existing_file_hash=""
+if [[ -f "$output_file" ]]; then
+  existing_file_hash=$(grep -vE "^    <lastBuildDate>|^    <pubDate>" "$output_file" | sha256sum | cut -d " " -f 1)
+fi
+
+temp_file_hash=$(grep -vE "^    <lastBuildDate>|^    <pubDate>" "$tmp_file" | sha256sum | cut -d " " -f 1)
+
+if [[ "$existing_file_hash" == "$temp_file_hash" ]]; then
+  echo "No changes detected. Skipping update."
+  rm "$tmp_file"
+  exit 0
+fi
+
+# backup output file if exists
+if [[ -f "$output_file" ]]; then
+	cp "$output_file" "$output_file".old;
+fi
+
+# replace output file with our new one
 mv "$tmp_file" "$output_file"
 
 echo "Created podcast RSS XML feed: $(realpath "$output_file")"

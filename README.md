@@ -20,9 +20,10 @@ Where "repo-dir" is the directory within the rss repo you would like to store yo
 
 Requirements:
  * Run from the top-level of the `rss` repo.
+ * xmllint (brew install libxml2)
 
 ## TODO
 - [x] Generate for all directories
 - [x] Add script for append arbitrary pre-formatted items 
 - [ ] Add some rudimentary tests
-- [ ] Only bump `pubDate` and `lastBuildDate` if there are changes to the file (if it already exists)
+- [x] Only bump `pubDate` and `lastBuildDate` if there are changes to the file (if it already exists)
