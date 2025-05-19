@@ -97,6 +97,7 @@ echo "Repository: \"$repo\""
 echo "Raw Content URL: \"$raw_content\""
 echo "Repository Link: \"$repo_link\""
 echo "Self Feed Link: \"$self_feed_link\""
+echo
 
 cat > "$tmp_file" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -205,4 +206,4 @@ fi
 mv "$tmp_file" "$output_file"
 
 echo "Created podcast RSS XML feed: $(realpath "$output_file")"
-echo 'Check with: https://validator.livewire.io'
+echo "Once deployed, check feed by entering $self_feed_link into https://validator.livewire.io"
