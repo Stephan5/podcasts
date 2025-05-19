@@ -13,7 +13,6 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/mssp/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Matt and Shane's Secret Podcast</title>
     <description>Grab onto this fast moving train and witness two comedians rise to victory and splendor.
-    <br/><br/>
      Generated using Stephan5/rss</description>
     <language>en-gb</language>
     <copyright>none</copyright>
@@ -25,8 +24,8 @@
     </image>
     <generator>csv2rss.sh v 0.01</generator>
     <ttl>1440</ttl>
-<lastBuildDate>Mon, 19 May 2025 08:16:00 +0100</lastBuildDate>
-<pubDate>Mon, 19 May 2025 08:16:00 +0100</pubDate>
+<lastBuildDate>Mon, 19 May 2025 08:17:35 +0100</lastBuildDate>
+<pubDate>Mon, 19 May 2025 08:17:35 +0100</pubDate>
 
 <item>
 <link>https://msspoldt.b-cdn.net/Matt%20and%20Shane_s%20Secret%20Podcast%20Ep.%201%20-%20Inaugral%20Business.mp3</link>

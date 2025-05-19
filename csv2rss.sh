@@ -96,7 +96,6 @@ cat > "$tmp_file" <<EOF
     <atom:link href="$self_feed_link" rel="self" type="application/rss+xml"/>
     <title>$podcast_title</title>
     <description>$podcast_description
-    <br/><br/>
      Generated using $repo</description>
     <language>en-gb</language>
     <copyright>none</copyright>
