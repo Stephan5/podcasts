@@ -41,7 +41,7 @@ while IFS= read -r line; do
 done < <(tail -n +2 "$input_file")
 
 # backup output file if exists
-cp "$output_file" "$output_file".old;
+mv "$output_file" "$output_file".old;
 
 # replace output file with our new one
 mv "$tmp_file" "$output_file"

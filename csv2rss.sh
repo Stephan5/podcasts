@@ -3,7 +3,20 @@ set -euo pipefail
 trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 
 url_encode() {
-  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()'))" "$1"
+  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()?&='))" "$1"
+}
+
+has_encoding() {
+  case "$1" in
+    (*%[0-9A-Fa-f][0-9A-Fa-f]*)
+      return 0 ;;  # has encoding
+    (*)
+      return 1 ;;
+  esac
+}
+
+html_encode() {
+  python3 -c "import html, sys; print(html.escape(sys.argv[1]))" "$1"
 }
 
 validate_rfc2822_date() {
@@ -133,9 +146,14 @@ EOF
   echo "<pubDate>$(date -R)</pubDate>";
 } >> "$tmp_file"
 
+item_number=1  # initialize before the loop
+
 while IFS= read -r line; do
-	echo "Line: \"$line\""
-  IFS=$csv_delimiter read -r item_number item_title item_description item_date item_link <<< "$line"
+  IFS=$csv_delimiter read -r item_title item_description item_date item_link <<< "$line"
+
+  echo "Title: \"$item_title\""
+  echo "Date: \"$item_date\""
+  echo "Link: \"$item_link\""
 
   # validate date
   if [[ $(validate_rfc2822_date "$item_date") == "invalid" ]]; then
@@ -146,10 +164,19 @@ while IFS= read -r line; do
   # fallback to default description if not specified
   item_desc=${item_description:-"$item_title - Episode $item_number of $podcast_title"}
 
-  # encode URL & extract content length
-  item_link=$(url_encode "$item_link")
-  echo "Encoded Item Link: \"$item_link\""
+  # url encode URL
+  if ! has_encoding "$item_link"; then
+    echo "URL has no encoding, encoding now..."
+    item_link=$(url_encode "$item_link")
+    echo "URL encoded URL: $item_link"
+  fi
+
+  # extract content length
   content_length=$(curl "$item_link" --location --silent --head --fail | grep -i "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
+
+  # html encode URL
+  item_link=$(html_encode "$item_link")
+  echo "HTML encoded URL: $item_link"
 
   # input item into file
   {
@@ -163,7 +190,9 @@ while IFS= read -r line; do
     echo "</item>";
   } >> "$tmp_file"
 
-echo
+  ((item_number++))  # increment item_number
+
+  echo
 done < <(tail -n +2 "$input_file")
 
 
@@ -199,7 +228,7 @@ fi
 
 # backup output file if exists
 if [[ -f "$output_file" ]]; then
-	cp "$output_file" "$output_file".old;
+	mv "$output_file" "$output_file".old;
 fi
 
 # replace output file with our new one

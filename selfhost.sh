@@ -9,6 +9,15 @@ url_encode() {
   python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()'))" "$1"
 }
 
+has_encoding() {
+  case "$1" in
+    (*%[0-9A-Fa-f][0-9A-Fa-f]*)
+      return 0 ;;  # has encoding
+    (*)
+      return 1 ;;
+  esac
+}
+
 input_file=""
 repo_dir=""
 bucket=""
@@ -50,27 +59,38 @@ if [[ "$region" == "None" ]]; then
 fi
 
 echo "Input File: \"$input_file\""
+echo "Temp File: \"$tmp_file\""
+echo "Output File: \"$output_file\""
 echo "Repo Directory: \"$repo_dir\""
 echo "CSV Delimiter: \"$csv_delimiter\""
-echo "Output File: \"$output_file\""
 echo "Bucket: \"$bucket\""
 echo "Region: \"$region\""
 
+item_number=1  # initialize before the loop
+
 # Read the CSV line by line
 while IFS= read -r line; do
-  IFS=$csv_delimiter read -r item_number item_title item_description item_date src_url <<< "$line"
+  IFS=$csv_delimiter read -r item_title item_description item_date src_url <<< "$line"
 
   # Skip the header if present
-  if [[ "$item_number" == "ordinal" ]]; then
-    echo "$item_number$csv_delimiter$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$src_url" >> "$tmp_file"
+  if [[ "$item_title" == "title" ]]; then
+    echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$src_url" >> "$tmp_file"
     continue
   fi
 
   # Extract the file name from the link
-  file_name=$(basename "$src_url")
+  file_name=$(echo "$item_number-$item_title" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9' '-' | sed 's/^-//' | sed 's/-$//')
 
   # Encode URLs
-  src_url_enc=$(url_encode "$src_url")
+  if has_encoding "$src_url"; then
+    echo "URL already contains percent-encoding: $src_url"
+    src_url_enc=$src_url
+  else
+    echo "URL has no encoding, encoding now..."
+    src_url_enc=$(url_encode "$src_url")
+    echo "Encoded URL: $src_url_enc"
+  fi
+
   self_hosted_url=$(url_encode "https://s3.$region.amazonaws.com/$bucket/$repo_dir/$file_name")
 
   echo "Source URL (Encoded): \"$src_url_enc\""
@@ -98,10 +118,10 @@ while IFS= read -r line; do
   elif curl --head --silent --fail --location "$src_url_enc" > /dev/null; then
     # Download the file locally
     temp_download=$(mktemp)
-    echo "Attempting to download file for $item_title from provided link"
+    echo "Attempting to download file for \"$file_name\" from provided link"
     if curl --silent --fail --location "$src_url_enc" --output "$temp_download"; then
       # Transfer the downloaded file to S3
-      echo "Attempting to upload file for $item_title to S3"
+      echo "Attempting to upload file for \"$file_name\" to S3"
       if aws s3 cp "$temp_download" "s3://$bucket/$repo_dir/$file_name"; then
         # Construct the normalized HTTPS link
         new_link=$self_hosted_url
@@ -128,10 +148,12 @@ while IFS= read -r line; do
   echo
   # Write the updated line to the temp file
   echo "$item_number$csv_delimiter$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$new_link" >> "$tmp_file"
+
+  ((item_number++))  # increment item_number
 done < "$input_file"
 
 # backup output file if exists
-cp "$output_file" "$output_file".old;
+mv "$output_file" "$output_file".old;
 
 # replace output file with our new one
 mv "$tmp_file" "$output_file"

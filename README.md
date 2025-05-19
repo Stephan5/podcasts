@@ -2,7 +2,7 @@
 
 ## csv2rss.sh
 This script takes a CSV file of podcast episodes along with other podcast details and outputs an XML feed file
-The CSV must be of the form: ordinal,title,description,date,link
+The CSV must be of the form: title,description,date,link
 Where either ordinal or description are optional.
 
 ```shell
@@ -21,6 +21,7 @@ Where "repo-dir" is the directory within the rss repo you would like to store yo
 Requirements:
  * Run from the top-level of the `rss` repo.
  * xmllint (brew install libxml2)
+ * xmlstarlet (brew install xmlstarlet)
 
 ## TODO
 - [x] Generate for all directories
@@ -29,3 +30,4 @@ Requirements:
 - [x] Only bump `pubDate` and `lastBuildDate` if there are changes to the file (if it already exists)
 - [x] Add script to convert CSV to self-hosted 
 - [x] Support local file URLs in selfhost.sh
+- [ ] Pull out common functions
