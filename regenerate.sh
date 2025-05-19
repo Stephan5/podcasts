@@ -1,5 +1,6 @@
 #!/bin/bash
 set -euo pipefail
+trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 
 dirs=("geoff" "mssp")
 
