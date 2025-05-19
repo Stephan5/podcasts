@@ -3,7 +3,7 @@
   <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/geoff/feed.xml" rel="self" type="application/rss+xml"/>
     <title>The Geoff Show</title>
-    <description>The Geoff Show was a humorous radio program, broadcast on Absolute Radio (formerly Virgin Radio) from 3 January 2006 to 25 September 2008. The show ran for three hours, between 10 pm and 1 am, Monday to Thursday. Presented by Geoff Lloyd, it also featured his 'symposium', comprising himself, Annabel Port and his producer Nelson Kumah. https://en.wikipedia.org/wiki/The_Geoff_Show
+    <description>The Geoff Show was a humorous radio program, broadcast on Absolute Radio (formerly Virgin Radio) from 3 January 2006 to 25 September 2008. The show ran for three hours, between 10 pm and 1 am, Monday to Thursday. Presented by Geoff Lloyd, it also featured his 'symposium', comprising himself, Annabel Port and his producer Nelson Kumah.
      Generated using Stephan5/rss</description>
     <language>en-gb</language>
     <copyright>none</copyright>
@@ -15,8 +15,8 @@
     </image>
     <generator>csv2rss.sh v 0.01</generator>
     <ttl>1440</ttl>
-    <lastBuildDate>Mon, 19 May 2025 12:08:52 +0100</lastBuildDate>
-    <pubDate>Mon, 19 May 2025 12:08:52 +0100</pubDate>
+    <lastBuildDate>Mon, 19 May 2025 15:43:37 +0100</lastBuildDate>
+    <pubDate>Mon, 19 May 2025 15:43:37 +0100</pubDate>
     <item>
       <link>https://archive.org/download/TheGeoffShow20060103Tuesday/The%20Geoff%20Show%20-%202006%2001%2003%20-%20Tuesday.mp3</link>
       <guid>https://archive.org/download/TheGeoffShow20060103Tuesday/The%20Geoff%20Show%20-%202006%2001%2003%20-%20Tuesday.mp3</guid>
