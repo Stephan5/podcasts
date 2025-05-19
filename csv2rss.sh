@@ -147,7 +147,7 @@ while IFS= read -r line; do
     echo "<item>";
     echo "<link>$item_link</link>";
     echo "<guid>$item_link</guid>";
-    echo "<title>$item_number - $item_title</title>";
+    echo "<title>$item_number: $item_title</title>";
     echo "<description>$item_desc</description>";
     echo "<pubDate>$item_date</pubDate>";
     echo "<enclosure url=\"$item_link\" length=\"$content_length\" type=\"audio/mpeg\"/>";

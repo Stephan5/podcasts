@@ -25,3 +25,4 @@ Requirements:
 - [x] Generate for all directories
 - [x] Add script for append arbitrary pre-formatted items 
 - [ ] Add some rudimentary tests
+- [ ] Only bump `pubDate` and `lastBuildDate` if there are changes to the file (if it already exists)
