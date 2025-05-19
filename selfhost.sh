@@ -1,15 +1,22 @@
 #!/bin/bash
 set -euo pipefail
 
+# Example:
+# ./selfhost.sh ./mssp/feed.csv --delimiter ";" --repo-dir "mssp" --bucket "podcast.mysite.co.uk"
+
 url_encode() {
-  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.argv[1], safe=':/()'))" "$1"
+  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()'))" "$1"
 }
 
 input_file=""
+repo_dir=""
+bucket=""
 csv_delimiter=","
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
+    --repo-dir) repo_dir="$2"; shift 2 ;;
+    --bucket) bucket="$2"; shift 2 ;;
     --delimiter) csv_delimiter="$2"; shift 2 ;;
     --) shift; break ;;
     --*) echo "Unknown option: $1" >&2; exit 1 ;;
@@ -25,18 +32,28 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+# Validate required args
+if [[ -z "$input_file" || -z "$repo_dir" || -z "$bucket" ]]; then
+  echo "Usage: $0 input_file --repo-dir DIR --bucket BUCKET" >&2
+  echo "Error: Missing required argument(s)" >&2
+  exit 1
+fi
+
 tmp_file=$(mktemp)
 output_file="${output_file:-${input_file}}"
 
-
-s3_bucket="podcast.blakeslee.uk"
-podcast_ref="mssp"
-
 # Get the S3 bucket region
-region=$(aws s3api get-bucket-location --bucket "$s3_bucket" --query "LocationConstraint" --output text)
+region=$(aws s3api get-bucket-location --bucket "$bucket" --query "LocationConstraint" --output text)
 if [[ "$region" == "None" ]]; then
   exit 1
 fi
+
+echo "Input File: \"$input_file\""
+echo "Repo Directory: \"$repo_dir\""
+echo "CSV Delimiter: \"$csv_delimiter\""
+echo "Output File: \"$output_file\""
+echo "Bucket: \"$bucket\""
+echo "Region: \"$region\""
 
 # Read the CSV line by line
 while IFS= read -r line; do
@@ -53,10 +70,14 @@ while IFS= read -r line; do
 
   # Encode URLs
   src_url_enc=$(url_encode "$src_url")
-  self_hosted_url=$(url_encode "https://s3.$region.amazonaws.com/$s3_bucket/$podcast_ref/$file_name")
+  self_hosted_url=$(url_encode "https://s3.$region.amazonaws.com/$bucket/$repo_dir/$file_name")
+
+  echo "Source URL (Encoded): \"$src_url_enc\""
+  echo "Self-Hosted URL: \"$self_hosted_url\""
+  echo "File Name: \"$file_name\""
 
   # Check if the link is valid and not already self-hosted
-  if [[ "$src_url" == "https://s3.$region.amazonaws.com/$s3_bucket"* ]]; then
+  if [[ "$src_url" == "https://s3.$region.amazonaws.com/$bucket"* ]]; then
     echo "Link already self-hosted: \"$src_url\". Skipping."
     new_link="$src_url"
 
@@ -68,7 +89,7 @@ while IFS= read -r line; do
     if curl --silent --fail --location "$src_url_enc" --output "$temp_download"; then
       # Transfer the downloaded file to S3
       echo "Attempting to upload file for $item_title to S3"
-      if aws s3 cp "$temp_download" "s3://$s3_bucket/$podcast_ref/$file_name"; then
+      if aws s3 cp "$temp_download" "s3://$bucket/$repo_dir/$file_name"; then
         # Construct the normalized HTTPS link
         new_link=$self_hosted_url
 
