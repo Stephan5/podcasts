@@ -76,12 +76,24 @@ while IFS= read -r line; do
   echo "Self-Hosted URL: \"$self_hosted_url\""
   echo "File Name: \"$file_name\""
 
-  # Check if the link is valid and not already self-hosted
+  # Check if the link is a local file
   if [[ "$src_url" == "https://s3.$region.amazonaws.com/$bucket"* ]]; then
-    echo "Link already self-hosted: \"$src_url\". Skipping."
-    new_link="$src_url"
+      echo "Link already self-hosted: \"$src_url\". Skipping."
+      new_link="$src_url"
 
   # Check if the link is valid
+  elif [[ -f "$src_url" ]]; then
+    echo "Local file detected: \"$src_url\". Attempting to upload to S3."
+
+    if aws s3 cp "$src_url" "s3://$bucket/$repo_dir/$file_name"; then
+      new_link=$self_hosted_url
+      echo "Successfully uploaded local file to S3: \"$new_link\""
+    else
+      echo "Failed to upload local file \"$src_url\" to S3. Keeping the original path."
+      new_link="$src_url"
+    fi
+
+  # Check if the link is valid and not already self-hosted
   elif curl --head --silent --fail --location "$src_url_enc" > /dev/null; then
     # Download the file locally
     temp_download=$(mktemp)

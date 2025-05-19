@@ -27,3 +27,5 @@ Requirements:
 - [x] Add script for append arbitrary pre-formatted items 
 - [ ] Add some rudimentary tests
 - [x] Only bump `pubDate` and `lastBuildDate` if there are changes to the file (if it already exists)
+- [x] Add script to convert CSV to self-hosted 
+- [x] Support local file URLs in selfhost.sh
