@@ -1,8 +1,9 @@
 #!/bin/bash
 set -euo pipefail
+trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 
 url_encode() {
-  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.argv[1], safe=':/()'))" "$1"
+  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()'))" "$1"
 }
 
 validate_rfc2822_date() {
@@ -81,6 +82,22 @@ if [[ -z "$podcast_image_link" ]]; then
   podcast_image_link="$raw_content/image.jpg"
 fi
 
+echo "Podcast Title: \"$podcast_title\""
+echo "Podcast Description: \"$podcast_description\""
+echo "Podcast Image Link: \"$podcast_image_link\""
+echo "Input File: \"$input_file\""
+echo "Repo Directory: \"$repo_dir\""
+echo "CSV Delimiter: \"$csv_delimiter\""
+echo "CSV File: \"$csv_file\""
+echo "Extra Items XML: \"$extra_items_xml\""
+echo "Temporary File: \"$tmp_file\""
+echo "Output File: \"$output_file\""
+echo "Feed Filename: \"$feed_filename\""
+echo "Repository: \"$repo\""
+echo "Raw Content URL: \"$raw_content\""
+echo "Repository Link: \"$repo_link\""
+echo "Self Feed Link: \"$self_feed_link\""
+
 cat > "$tmp_file" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
@@ -116,6 +133,7 @@ EOF
 } >> "$tmp_file"
 
 while IFS= read -r line; do
+	echo "Line: \"$line\""
   IFS=$csv_delimiter read -r item_number item_title item_description item_date item_link <<< "$line"
 
   # validate date
@@ -129,7 +147,8 @@ while IFS= read -r line; do
 
   # encode URL & extract content length
   item_link=$(url_encode "$item_link")
-  content_length=$(curl "$item_link" --location --silent --head --fail | grep "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
+  echo "Encoded Item Link: \"$item_link\""
+  content_length=$(curl "$item_link" --location --silent --head --fail | grep -i "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
 
   # input item into file
   {
@@ -143,6 +162,7 @@ while IFS= read -r line; do
     echo "</item>";
   } >> "$tmp_file"
 
+echo
 done < <(tail -n +2 "$input_file")
 
 
