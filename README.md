@@ -4,9 +4,10 @@
 
 A collection of self-hosted podcast feeds for my own use, to ensure all the best 'dudes rock' content can live forever in safety while the rest of the internet decays around it.
 
-It's the most convoluted, ridiculous, RACIST, piece of material ever to be uttered on radio... play it again!
-
-Hell yeah dude
+> [!IMPORTANT]  
+> It's the most convoluted, ridiculous, RACIST, piece of material ever to be uttered on radio!
+>
+> Play it again!
 
 ## Scripts
 A collection of scripts to process podcast metadata and generate RSS feeds.
