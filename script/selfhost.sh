@@ -18,14 +18,24 @@ s3_cp() {
   fi
 }
 
+s3_mv() {
+  local src="$1"
+  local dst="$2"
+  if aws s3 mv "$src" "$dst"; then
+    validate_url "$dst"
+    return 0
+  else
+    echo "Failed to transfer $src to $dst." >&2
+    return 1
+  fi
+}
+
 input_file=""
-repo_dir=""
 bucket=""
 csv_delimiter=","
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
-    --repo-dir) repo_dir="$2"; shift 2 ;;
     --bucket) bucket="$2"; shift 2 ;;
     --delimiter) csv_delimiter="$2"; shift 2 ;;
     --) shift; break ;;
@@ -43,14 +53,24 @@ while [[ $# -gt 0 ]]; do
 done
 
 # Validate required args
-if [[ -z "$input_file" || -z "$repo_dir" || -z "$bucket" ]]; then
-  echo "Usage: $0 input_file --repo-dir DIR --bucket BUCKET" >&2
+if [[ -z "$input_file" || -z "$bucket" ]]; then
+  echo "Usage: $0 input_file --bucket BUCKET" >&2
   echo "Error: Missing required argument(s)" >&2
   exit 1
 fi
 
 tmp_file=$(mktemp)
 output_file="${output_file:-${input_file}}"
+
+# set up base paths
+input_file_abs="$(cd "$(dirname "$input_file")" && pwd)/$(basename "$input_file")"
+if [[ ! -f "$input_file_abs" ]]; then
+    echo "Error: Input file '$input_file_abs' not found" >&2
+    exit 1
+fi
+
+# assuming $input_file is your CSV file path (e.g., ./feed/matt-and-shane/feed.csv)
+repo_dir="$(basename "$(dirname "$input_file_abs")")"
 
 # Get the S3 bucket region
 region=$(aws s3api get-bucket-location --bucket "$bucket" --query "LocationConstraint" --output text)
@@ -113,13 +133,14 @@ while IFS= read -r line; do
   echo "File Name: \"$file_name\""
   echo "Extension: \"$extension\""
 
-  # Check if the link is a local file
+  # Check already exists, if so, skip
   if [[ "$src_url_enc" == "$http_dst_link" ]]; then
         echo "Link already self-hosted: \"$src_url_enc\". Skipping."
         new_link="$src_url_enc"
 
+  # Check if link is already in the bucket, if so move it
   elif [[ "$src_url_enc" == "https://s3.$region.amazonaws.com/$bucket"* ]]; then
-      echo "Link already self-hosted: \"$src_url_enc\". Copying to new location \"$http_dst_link\""
+      echo "Link already self-hosted: \"$src_url_enc\". Moving to new location \"$http_dst_link\""
       new_link="$http_dst_link"
 
       # Check src link is a valid link
@@ -130,13 +151,13 @@ while IFS= read -r line; do
      s3_src_link=$(convert_to_s3 "$decoded_src_link")
      echo "Src S3: \"$s3_src_link\""
 
-     if s3_cp "$s3_src_link" "$s3_dst_link"; then
+     if s3_mv "$s3_src_link" "$s3_dst_link"; then
        new_link="$http_dst_link"
      else
        new_link="$src_url_enc"
      fi
 
-  # Check if the link is valid
+  # Check if the link is a local file
   elif [[ -f "$src_url" ]]; then
     echo "Local file detected: \"$src_url\". Attempting to upload to S3."
 

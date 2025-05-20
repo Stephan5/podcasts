@@ -28,7 +28,7 @@ done
 
 # Validate required args
 if [[ -z "$input_file" || -z "$repo_dir" ]]; then
-  echo "Usage: $0 input_file --repo-dir DIR --title TITLE [--description DESC] [--image-link URL] [--delimiter DELIMITER]" >&2
+  echo "Usage: $0 input_file --repo-dir DIR [--delimiter DELIMITER]" >&2
   echo "Error: Missing required argument(s)" >&2
   exit 1
 fi
@@ -96,7 +96,7 @@ while IFS="$csv_delimiter" read -r title description pubdate link; do
     exit 1
   fi
 
-  sortable_date=$(date -j -f "%a, %d %b %Y %T %Z" "$pubdate" "+%s")
+  sortable_date=$(date -j -f "%d %b %Y %T %Z" "$pubdate" "+%s")
 
   decoded_link=$(html_decode "$link")
 

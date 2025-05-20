@@ -5,7 +5,6 @@ trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 
 # Input Defaults
 input_file=""
-repo_dir=""
 podcast_title=""
 podcast_description=""
 podcast_image_link=""
@@ -13,7 +12,6 @@ csv_delimiter=","
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
-    --repo-dir) repo_dir="$2"; shift 2 ;;
     --title) podcast_title="$2"; shift 2 ;;
     --description) podcast_description="$2"; shift 2 ;;
     --image-link) podcast_image_link="$2"; shift 2 ;;
@@ -33,16 +31,28 @@ while [[ $# -gt 0 ]]; do
 done
 
 # Validate required args
-if [[ -z "$input_file" || -z "$repo_dir" || -z "$podcast_title" ]]; then
+if [[ -z "$input_file" || -z "$podcast_title" ]]; then
   echo "Usage: $0 input_file --repo-dir DIR --title TITLE [--description DESC] [--image-link URL] [--delimiter DELIMITER]" >&2
   echo "Error: Missing required argument(s)" >&2
   exit 1
 fi
 
-# Get the script's directory and set up base paths
-script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-feed_base_dir="$script_dir/../feed"
+# set up base paths
+input_file_abs="$(cd "$(dirname "$input_file")" && pwd)/$(basename "$input_file")"
+if [[ ! -f "$input_file_abs" ]]; then
+    echo "Error: Input file '$input_file_abs' not found" >&2
+    exit 1
+fi
+
+# assuming $input_file is your CSV file path (e.g., ./feed/matt-and-shane/feed.csv)
+repo_dir="$(basename "$(dirname "$input_file_abs")")"
+feed_base_dir="$(cd "$(dirname "$(dirname "$input_file_abs")")" && pwd)"
 feed_repo_path="feed/$repo_dir"
+
+if [[ ! -d "$feed_base_dir" ]]; then
+    echo "Error: Feed base directory '$feed_base_dir' not found" >&2
+    exit 1
+fi
 
 # Ensure feed directory exists
 if [[ ! -d "$feed_base_dir" ]]; then
@@ -50,7 +60,7 @@ if [[ ! -d "$feed_base_dir" ]]; then
     exit 1
 fi
 
-# Ensure repo directory exists and is writable
+# Create repo path
 repo_path="$feed_base_dir/$repo_dir"
 if [[ ! -d "$repo_path" ]]; then
     echo "Creating directory: $repo_path"
@@ -62,7 +72,7 @@ csv_filename=$(basename "$input_file")
 csv_file="$repo_path/$csv_filename"
 extra_items_xml="$repo_path/extra-items.xml"
 
-# Create repo dir and Copy input file to it
+# Create repo dir and copy input file to it
 if [[ "$(realpath "$input_file")" != "$(realpath "$csv_file")" ]]; then
   cp "$input_file" "$csv_file"
 fi

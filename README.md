@@ -13,7 +13,6 @@ Where either ordinal or description are optional.
  
  $ ./script/csv2rss.sh ./feed/mssp/feed.csv \
      --delimiter ";" \
-     --repo-dir "mssp" \
      --title "Matt and Shane's Secret Podcast" \
      --description "Grab onto this fast moving train and witness two comedians rise to victory and splendor." \
      --image-link "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/00/fe/d2/00fed269-058c-1fc9-7c52-061940ee7e93/source/1200x630bb.jpg"
@@ -34,3 +33,4 @@ Requirements:
 - [x] Support local file URLs in selfhost.sh
 - [x] Pull out common functions
 - [ ] Convert to Python scripts (?!)
+- [x] remove need for repo-dir argument in scripts
