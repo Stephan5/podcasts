@@ -3,7 +3,7 @@
   <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/mssp/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Matt and Shane's Secret Podcast</title>
-    <description>&lt;p&gt;Grab onto this fast moving train and witness two comedians rise to victory and splendor.&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/rss&lt;/p&gt;</description>
+    <description>&lt;p&gt;Grab onto this fast moving train and witness two comedians rise to victory and splendor. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/rss.&lt;/p&gt;</description>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/rss/tree/main/mssp</link>
@@ -14,8 +14,8 @@
     </image>
     <generator>csv2rss.sh v 0.01</generator>
     <ttl>1440</ttl>
-    <lastBuildDate>Tue, 20 May 2025 11:47:00 +0100</lastBuildDate>
-    <pubDate>Tue, 20 May 2025 11:47:00 +0100</pubDate>
+    <lastBuildDate>Tue, 20 May 2025 11:59:49 +0100</lastBuildDate>
+    <pubDate>Tue, 20 May 2025 11:59:49 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/mssp/1-inaugral-business.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/mssp/1-inaugral-business.mp3</guid>

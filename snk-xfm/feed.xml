@@ -3,7 +3,7 @@
   <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/snk-xfm/feed.xml" rel="self" type="application/rss+xml"/>
     <title>SNK XFM</title>
-    <description>&lt;p&gt;Simon Pegg, Nick Frost and Karl Pilkington on XFM&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/rss&lt;/p&gt;</description>
+    <description>&lt;p&gt;Simon Pegg, Nick Frost and Karl Pilkington on XFM. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/rss.&lt;/p&gt;</description>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/rss/tree/main/snk-xfm</link>
@@ -14,8 +14,8 @@
     </image>
     <generator>csv2rss.sh v 0.01</generator>
     <ttl>1440</ttl>
-    <lastBuildDate>Tue, 20 May 2025 11:47:20 +0100</lastBuildDate>
-    <pubDate>Tue, 20 May 2025 11:47:20 +0100</pubDate>
+    <lastBuildDate>Tue, 20 May 2025 12:00:10 +0100</lastBuildDate>
+    <pubDate>Tue, 20 May 2025 12:00:10 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/1-2002-06-29.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/1-2002-06-29.mp3</guid>

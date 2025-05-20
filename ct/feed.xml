@@ -3,7 +3,7 @@
   <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/ct/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Cum Town</title>
-    <description>&lt;p&gt;A podcast about having sex with your dad&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/rss&lt;/p&gt;</description>
+    <description>&lt;p&gt;A podcast about having sex with your dad. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/rss.&lt;/p&gt;</description>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/rss/tree/main/ct</link>
@@ -14,8 +14,8 @@
     </image>
     <generator>csv2rss.sh v 0.01</generator>
     <ttl>1440</ttl>
-    <lastBuildDate>Tue, 20 May 2025 11:44:39 +0100</lastBuildDate>
-    <pubDate>Tue, 20 May 2025 11:44:39 +0100</pubDate>
+    <lastBuildDate>Tue, 20 May 2025 11:57:12 +0100</lastBuildDate>
+    <pubDate>Tue, 20 May 2025 11:57:12 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/ct/1-ep-1-the-original-cum-boys.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/ct/1-ep-1-the-original-cum-boys.mp3</guid>
