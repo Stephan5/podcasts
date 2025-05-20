@@ -39,12 +39,30 @@ if [[ -z "$input_file" || -z "$repo_dir" || -z "$podcast_title" ]]; then
   exit 1
 fi
 
+# Get the script's directory and set up base paths
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+feed_base_dir="$script_dir/../feed"
+feed_repo_path="feed/$repo_dir"
+
+# Ensure feed directory exists
+if [[ ! -d "$feed_base_dir" ]]; then
+    echo "Error: feed directory not found at '$feed_base_dir'" >&2
+    exit 1
+fi
+
+# Ensure repo directory exists and is writable
+repo_path="$feed_base_dir/$repo_dir"
+if [[ ! -d "$repo_path" ]]; then
+    echo "Creating directory: $repo_path"
+    mkdir -p "$repo_path"
+fi
+
+# Get paths with proper directory structure
 csv_filename=$(basename "$input_file")
-csv_file=./"$repo_dir"/"$csv_filename"
-extra_items_xml=./"$repo_dir"/extra-items.xml
+csv_file="$repo_path/$csv_filename"
+extra_items_xml="$repo_path/extra-items.xml"
 
 # Create repo dir and Copy input file to it
-mkdir -p "$repo_dir"
 if [[ "$(realpath "$input_file")" != "$(realpath "$csv_file")" ]]; then
   cp "$input_file" "$csv_file"
 fi
@@ -53,8 +71,8 @@ tmp_file=$(mktemp)
 output_file="${output_file:-${csv_file%%.csv}.xml}"
 feed_filename=$(basename "$output_file")
 repo="Stephan5/rss"
-raw_content="https://raw.githubusercontent.com/$repo/refs/heads/main/$repo_dir"
-repo_link="https://github.com/$repo/tree/main/$repo_dir"
+raw_content="https://raw.githubusercontent.com/$repo/refs/heads/main/$feed_repo_path"
+repo_link="https://github.com/$repo/tree/main/$feed_repo_path"
 self_feed_link="$raw_content/$feed_filename"
 
 if [[ -z "$podcast_image_link" ]]; then
