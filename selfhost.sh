@@ -6,6 +6,18 @@ trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 # Example:
 # ./selfhost.sh ./mssp/feed.csv --delimiter ";" --repo-dir "mssp" --bucket "podcast.mysite.co.uk"
 
+s3_cp() {
+  local src="$1"
+  local dst="$2"
+  if aws s3 cp "$src" "$dst"; then
+    validate_url "$dst"
+    return 0
+  else
+    echo "Failed to transfer $src to $dst." >&2
+    return 1
+  fi
+}
+
 input_file=""
 repo_dir=""
 bucket=""
@@ -111,52 +123,40 @@ while IFS= read -r line; do
       new_link="$http_dst_link"
 
       # Check src link is a valid link
-      curl --head --silent --fail --location "$src_url_enc" > /dev/null;
+      validate_url "$src_url_enc"
 
      decoded_src_link=$(url_decode "$src_url")
      echo "Src URL (decoded): \"$decoded_src_link\""
      s3_src_link=$(convert_to_s3 "$decoded_src_link")
      echo "Src S3: \"$s3_src_link\""
 
-      if aws s3 cp "$s3_src_link" "$s3_dst_link"; then
-        # Construct the normalized HTTPS link
-        new_link="$http_dst_link"
-
-        # Check if the link is a valid S3 link
-        curl --head --silent --fail --location "$new_link" > /dev/null;
-      else
-        echo "Failed to transfer $src_url_enc to $new_link. Keeping the original link."
-        new_link="$src_url_enc"
-      fi
+     if s3_cp "$s3_src_link" "$s3_dst_link"; then
+       new_link="$http_dst_link"
+     else
+       new_link="$src_url_enc"
+     fi
 
   # Check if the link is valid
   elif [[ -f "$src_url" ]]; then
     echo "Local file detected: \"$src_url\". Attempting to upload to S3."
 
-    if aws s3 cp "$src_url" "s3://$bucket/$repo_dir/$file_name"; then
-      new_link=$http_dst_link
-      echo "Successfully uploaded local file to S3: \"$new_link\""
+    if s3_cp "$src_url" "$s3_dst_link"; then
+      new_link="$http_dst_link"
     else
-      echo "Failed to upload local file \"$src_url\" to S3. Keeping the original path."
-      new_link="$src_url"
+      new_link="$src_url_enc"
     fi
 
   # Check if the link is valid
-  elif curl --head --silent --fail --location "$src_url_enc" > /dev/null; then
+  elif validate_url "$src_url_enc"; then
     # Download the file locally
     temp_download=$(mktemp)
     echo "Attempting to download file for \"$file_name\" from provided link"
     if curl --silent --fail --location "$src_url_enc" --output "$temp_download"; then
       # Transfer the downloaded file to S3
       echo "Attempting to upload file for \"$file_name\" to S3"
-      if aws s3 cp "$temp_download" "s3://$bucket/$repo_dir/$file_name"; then
-        # Construct the normalized HTTPS link
-        new_link=$http_dst_link
-
-	      # Check if the link is a valid S3 link
-	      curl --head --silent --fail --location "$new_link" > /dev/null;
+      if s3_cp "$temp_download" "$s3_dst_link"; then
+        new_link="$http_dst_link"
       else
-        echo "Failed to upload $src_url_enc to S3. Keeping the original link."
         new_link="$src_url_enc"
       fi
     else

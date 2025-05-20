@@ -1,6 +1,10 @@
 #!/bin/bash
 # Source me!
 
+validate_url() {
+  curl --head --silent --fail --location "$1" > /dev/null
+}
+
 url_encode() {
   python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()'))" "$1"
 }
