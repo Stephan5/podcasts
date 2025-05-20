@@ -35,15 +35,15 @@ IFS= read -r header < "$input_file"
 echo "$header" > "$tmp_file"
 
 while IFS= read -r line; do
-  IFS="$csv_delimiter" read -r item_number item_title item_description item_date item_link <<< "$line"
+  IFS="$csv_delimiter" read -r item_title item_description item_date item_link <<< "$line"
 
   # normalize the date by removing any period after the abbreviated month name
   item_date=${item_date//./}
 
-  # reformat Date
+  # reformat date
   item_date=$(date -jf "$input_format" "$item_date" '+%a, %d %b %Y 03:00:00 GMT')
 
-  echo "$item_number$csv_delimiter$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$item_link" >> "$tmp_file"
+  echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$item_link" >> "$tmp_file"
 
 done < <(tail -n +2 "$input_file")
 
