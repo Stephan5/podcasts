@@ -1,5 +1,5 @@
 # rss
-
+![](https://github.com/Stephan5/rss/actions/workflows/main.yml/badge.svg)
 ## Feeds
 
 A collection of self-hosted podcast feeds for my own use, to ensure all the best 'dudes rock' content can live forever in safety while the rest of the internet decays around it.
