@@ -34,10 +34,10 @@ if [[ -z "$input_file" || -z "$repo_dir" ]]; then
 fi
 
 xml_filename=$(basename "$input_file")
-xml_file=./"$repo_dir"/"$xml_filename"
+xml_file=./feed/"$repo_dir"/"$xml_filename"
 
 # Create repo dir and Copy input file to it
-mkdir -p "$repo_dir"
+mkdir -p "./feed/$repo_dir"
 if [[ "$(realpath "$input_file")" != "$(realpath "$xml_file")" ]]; then
   cp "$input_file" "$xml_file"
 fi
@@ -96,7 +96,7 @@ while IFS="$csv_delimiter" read -r title description pubdate link; do
     exit 1
   fi
 
-  sortable_date=$(date -j -f "%d %b %Y %T %Z" "$pubdate" "+%s")
+  sortable_date=$(parse_rfc2822_date "$pubdate")
 
   decoded_link=$(html_decode "$link")
 

@@ -30,6 +30,32 @@ html_decode() {
   python3 -c "import html, sys; print(html.unescape(sys.argv[1]))" "$1"
 }
 
+parse_rfc2822_date() {
+    local date_str="$1"
+    # First try with timezone name
+    if date -j -f "%a, %d %b %Y %T %Z" "$date_str" "+%s" 2>/dev/null; then
+        return 0
+    fi
+    # If failed, try with timezone offset format
+    # Remove the timezone offset and adjust the date manually
+    local date_no_tz=$(echo "$date_str" | sed 's/[-+][0-9]\{4\}$//')
+    local tz_offset=$(echo "$date_str" | grep -o '[-+][0-9]\{4\}$')
+    if [[ -n "$tz_offset" ]]; then
+        local hours=${tz_offset:1:2}
+        local minutes=${tz_offset:3:2}
+        local seconds=$((hours * 3600 + minutes * 60))
+        local base_timestamp=$(date -j -f "%a, %d %b %Y %T" "$date_no_tz" "+%s" 2>/dev/null)
+        if [[ ${tz_offset:0:1} == "+" ]]; then
+            echo $((base_timestamp - seconds))
+        else
+            echo $((base_timestamp + seconds))
+        fi
+    else
+        return 1
+    fi
+}
+
+
 validate_rfc2822_date() {
   local input="$1"
 
