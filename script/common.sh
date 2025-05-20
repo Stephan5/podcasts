@@ -30,6 +30,26 @@ html_decode() {
   python3 -c "import html, sys; print(html.unescape(sys.argv[1]))" "$1"
 }
 
+format_date() {
+  local date_str="$1"
+  local input_format="$2"
+  local output_format="$3"
+
+  if date --version >/dev/null 2>&1; then
+    # GNU date
+    date -d "$(date -d "$date_str" +"$input_format")" "$output_format" 2>/dev/null || {
+      echo "Failed to format date: $date_str"
+      return 1
+    }
+  else
+    # BSD/macOS date
+    date -j -f "$input_format" "$date_str" "$output_format" 2>/dev/null || {
+      echo "Failed to format date: $date_str"
+      return 1
+    }
+  fi
+}
+
 parse_rfc2822_date() {
   local date_str="$1"
   if date --version >/dev/null 2>&1; then
@@ -43,7 +63,7 @@ parse_rfc2822_date() {
   else
     # BSD/macOS date
     if date -j -f "%a, %d %b %Y %T %Z" "$date_str" "+%s" 2>/dev/null; then
-      date -j -f "%a, %d %b %Y %T %Z" "$date_str" "+%s"
+      return 0
     else
       # Try with numeric offset
       local date_no_tz=$(echo "$date_str" | sed 's/[-+][0-9]\{4\}$//')
