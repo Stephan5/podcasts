@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
   <channel>
-    <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/feed/snk/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/feed/simon-nick-karl-xfm/feed.xml" rel="self" type="application/rss+xml"/>
     <title>SNK XFM</title>
     <description>&lt;p&gt;Simon Pegg, Nick Frost and Karl Pilkington on XFM. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/rss.&lt;/p&gt;</description>
     <language>en-gb</language>
     <copyright>none</copyright>
-    <link>https://github.com/Stephan5/rss/tree/main/feed/snk</link>
+    <link>https://github.com/Stephan5/rss/tree/main/feed/simon-nick-karl-xfm</link>
     <image>
-      <url>https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/feed/snk/image.jpg</url>
+      <url>https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/feed/simon-nick-karl-xfm/image.jpg</url>
       <title>SNK XFM</title>
-      <link>https://github.com/Stephan5/rss/tree/main/feed/snk</link>
+      <link>https://github.com/Stephan5/rss/tree/main/feed/simon-nick-karl-xfm</link>
     </image>
     <generator>csv2rss.sh v 0.01</generator>
     <ttl>1440</ttl>
-    <lastBuildDate>Tue, 20 May 2025 12:54:16 +0100</lastBuildDate>
-    <pubDate>Tue, 20 May 2025 12:54:16 +0100</pubDate>
+    <lastBuildDate>Tue, 20 May 2025 15:45:17 +0100</lastBuildDate>
+    <pubDate>Tue, 20 May 2025 15:45:17 +0100</pubDate>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/1-2002-06-29.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/1-2002-06-29.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/1-2002-06-29.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/1-2002-06-29.mp3</guid>
       <title>1: 2002-06-29</title>
       <description>2002-06-29 - Episode 1 of SNK XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
       <pubDate>Sat, 29 Jun 2002 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/1-2002-06-29.mp3" length="52463051" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/1-2002-06-29.mp3" length="52463051" type="audio/mpeg"/>
     </item>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/2-2002-08-19.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/2-2002-08-19.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/2-2002-08-19.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/2-2002-08-19.mp3</guid>
       <title>2: 2002-08-19</title>
       <description>2002-08-19 - Episode 2 of SNK XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
       <pubDate>Mon, 19 Aug 2002 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/2-2002-08-19.mp3" length="62318551" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/2-2002-08-19.mp3" length="62318551" type="audio/mpeg"/>
     </item>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/3-2002-08-20.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/3-2002-08-20.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/3-2002-08-20.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/3-2002-08-20.mp3</guid>
       <title>3: 2002-08-20</title>
       <description>2002-08-20 - Episode 3 of SNK XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
       <pubDate>Tue, 20 Aug 2002 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/3-2002-08-20.mp3" length="71757271" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/3-2002-08-20.mp3" length="71757271" type="audio/mpeg"/>
     </item>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/4-2002-08-21.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/4-2002-08-21.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/4-2002-08-21.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/4-2002-08-21.mp3</guid>
       <title>4: 2002-08-21</title>
       <description>2002-08-21 - Episode 4 of SNK XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
       <pubDate>Wed, 21 Aug 2002 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/4-2002-08-21.mp3" length="67187671" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/4-2002-08-21.mp3" length="67187671" type="audio/mpeg"/>
     </item>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/5-2002-08-23.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/5-2002-08-23.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/5-2002-08-23.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/5-2002-08-23.mp3</guid>
       <title>5: 2002-08-23</title>
       <description>2002-08-23 - Episode 5 of SNK XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
       <pubDate>Fri, 23 Aug 2002 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/5-2002-08-23.mp3" length="52583841" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/5-2002-08-23.mp3" length="52583841" type="audio/mpeg"/>
     </item>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/6-2004-03-05.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/6-2004-03-05.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/6-2004-03-05.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/6-2004-03-05.mp3</guid>
       <title>6: 2004-03-05</title>
       <description>2004-03-05 - Episode 6 of SNK XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
       <pubDate>Fri, 05 Mar 2004 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk/6-2004-03-05.mp3" length="43975554" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/6-2004-03-05.mp3" length="43975554" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>

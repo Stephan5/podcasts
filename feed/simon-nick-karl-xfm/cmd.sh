@@ -6,7 +6,6 @@ script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 base_dir="$(cd "$script_dir/../.." && pwd)"
 
 "$base_dir"/script/csv2rss.sh "$script_dir"/feed.csv \
-  --repo-dir "ct" \
-  --title "Cum Town" \
-  --description "A podcast about having sex with your dad." \
-  --delimiter $'\x1F'
+  --title "SNK XFM" \
+  --description "Simon Pegg, Nick Frost and Karl Pilkington on XFM." \
+  --delimiter ";"
