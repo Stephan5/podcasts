@@ -6,7 +6,7 @@ validate_url() {
 }
 
 url_encode() {
-  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()'))" "$1"
+  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()?&='))" "$1"
 }
 
 url_decode() {

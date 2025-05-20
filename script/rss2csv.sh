@@ -33,11 +33,25 @@ if [[ -z "$input_file" || -z "$repo_dir" ]]; then
   exit 1
 fi
 
+# set up base paths
+input_file_abs="$(cd "$(dirname "$input_file")" && pwd)/$(basename "$input_file")"
+if [[ ! -f "$input_file_abs" ]]; then
+    echo "Error: Input file '$input_file_abs' not found" >&2
+    exit 1
+fi
+
+# assuming $input_file is your CSV file path (e.g., ./feed/matt-and-shane/feed.csv)
+feed_base_dir="$(cd "$(dirname "$(dirname "$input_file_abs")")" && pwd)"
+feed_repo_path="$feed_base_dir"/"$repo_dir"
+
+echo "Feed Base Directory: \"$feed_base_dir\""
+echo "Feed Repo Path: \"$feed_repo_path\""
+
 xml_filename=$(basename "$input_file")
-xml_file=./feed/"$repo_dir"/"$xml_filename"
+xml_file="$feed_repo_path"/"$xml_filename"
 
 # Create repo dir and Copy input file to it
-mkdir -p "./feed/$repo_dir"
+mkdir -p "$feed_repo_path"
 if [[ "$(realpath "$input_file")" != "$(realpath "$xml_file")" ]]; then
   cp "$input_file" "$xml_file"
 fi
