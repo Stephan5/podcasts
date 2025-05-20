@@ -1,8 +1,23 @@
 # rss
 
+## Feeds
 
+A collection of self-hosted podcast feeds for my own use, to ensure all the best 'dudes rock' content can live forever in safety while the rest of the internet decays around it.
 
-## csv2rss.sh
+It's the most convoluted, ridiculous, RACIST, piece of material ever to be uttered on radio... play it again!
+
+Hell yeah dude
+
+## Scripts
+A collection of scripts to process podcast metadata and generate RSS feeds.
+
+For example, you can onboard a new podcast by either:
+* building your own CSV and running the `csv2rss.sh` script
+* taking an existing feed and generating a CSV using `rss2csv.sh` and then running the `csv2rss.sh` script
+
+You can feed the CSV into `selfhost.sh` to upload the files to your own S3 bucket. 
+
+### csv2rss.sh
 This script takes a CSV file of podcast episodes along with other podcast details and outputs an XML feed file
 The CSV must be of the form: title,description,date,link
 Where either ordinal or description are optional.
@@ -34,3 +49,4 @@ Requirements:
 - [x] Pull out common functions
 - [ ] Convert to Python scripts (?!)
 - [x] remove need for repo-dir argument in scripts
+- [ ] Onboard RSK XFM, Athletico Mince, and TFTM
