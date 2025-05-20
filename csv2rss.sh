@@ -127,8 +127,7 @@ cat > "$tmp_file" <<EOF
   <channel>
     <atom:link href="$self_feed_link" rel="self" type="application/rss+xml"/>
     <title>$podcast_title</title>
-    <description>$podcast_description
-     Generated using $repo</description>
+    <description>&lt;p&gt;$podcast_description &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using $repo.&lt;/p&gt;</description>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>$repo_link</link>
@@ -163,6 +162,7 @@ while IFS= read -r line; do
 
   # fallback to default description if not specified
   item_desc=${item_description:-"$item_title - Episode $item_number of $podcast_title"}
+  item_desc=$(echo "$item_desc&lt;br/&gt;&lt;br/&gt;&lt;a href=\"https://github.com/Stephan5/rss\" rel=\"nofollow noopener\" target=\"_blank\"&gt;Generated using $repo&lt;/a&gt;")
 
   # url encode URL
   if ! has_encoding "$item_link"; then
