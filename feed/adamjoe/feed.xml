@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <atom:link href="https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/feed/adamjoe/feed.xml" rel="self" type="application/rss+xml"/>
+    <title>Adam and Joe XFM</title>
+    <description>&lt;p&gt;Adam Buxton and Joe Cornish first appeared on the London-only radio station XFM in 2003, leading to a series of popular podcasts. They remained at the station for three years, with their final show broadcast on Christmas Eve 2006. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/rss.&lt;/p&gt;</description>
+    <language>en-gb</language>
+    <copyright>none</copyright>
+    <link>https://github.com/Stephan5/rss/tree/main/feed/adamjoe</link>
+    <image>
+      <url>https://raw.githubusercontent.com/Stephan5/rss/refs/heads/main/feed/adamjoe/image.jpg</url>
+      <title>Adam and Joe XFM</title>
+      <link>https://github.com/Stephan5/rss/tree/main/feed/adamjoe</link>
+    </image>
+    <generator>csv2rss.sh v 0.01</generator>
+    <ttl>1440</ttl>
+    <lastBuildDate>Tue, 20 May 2025 13:51:31 +0100</lastBuildDate>
+    <pubDate>Tue, 20 May 2025 13:51:31 +0100</pubDate>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/1-2003-08-30.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/1-2003-08-30.mp3</guid>
+      <title>1: 2003-08-30</title>
+      <description>2003-08-30 - Episode 1 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 30 Aug 2003 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/1-2003-08-30.mp3" length="66173515" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/2-2003-09-20.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/2-2003-09-20.mp3</guid>
+      <title>2: 2003-09-20</title>
+      <description>2003-09-20 - Episode 2 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 20 Sep 2003 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/2-2003-09-20.mp3" length="66348013" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/3-2003-10-04.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/3-2003-10-04.mp3</guid>
+      <title>3: 2003-10-04</title>
+      <description>2003-10-04 - Episode 3 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 04 Oct 2003 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/3-2003-10-04.mp3" length="62444797" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/4-2004-03-27.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/4-2004-03-27.mp3</guid>
+      <title>4: 2004-03-27</title>
+      <description>2004-03-27 - Episode 4 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 27 Mar 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/4-2004-03-27.mp3" length="36616992" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/5-2004-04-17.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/5-2004-04-17.mp3</guid>
+      <title>5: 2004-04-17</title>
+      <description>2004-04-17 - Episode 5 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 17 Apr 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/5-2004-04-17.mp3" length="39500596" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/6-2004-05-01.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/6-2004-05-01.mp3</guid>
+      <title>6: 2004-05-01</title>
+      <description>2004-05-01 - Episode 6 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 01 May 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/6-2004-05-01.mp3" length="39012800" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/7-2004-05-08.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/7-2004-05-08.mp3</guid>
+      <title>7: 2004-05-08</title>
+      <description>2004-05-08 - Episode 7 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 08 May 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/7-2004-05-08.mp3" length="41017788" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/8-2004-05-15.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/8-2004-05-15.mp3</guid>
+      <title>8: 2004-05-15</title>
+      <description>2004-05-15 - Episode 8 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 15 May 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/8-2004-05-15.mp3" length="40270164" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/9-2004-06-12.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/9-2004-06-12.mp3</guid>
+      <title>9: 2004-06-12</title>
+      <description>2004-06-12 - Episode 9 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 12 Jun 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/9-2004-06-12.mp3" length="21751659" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/10-2004-10-23.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/10-2004-10-23.mp3</guid>
+      <title>10: 2004-10-23</title>
+      <description>2004-10-23 - Episode 10 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 23 Oct 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/10-2004-10-23.mp3" length="62243156" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/11-2004-10-30.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/11-2004-10-30.mp3</guid>
+      <title>11: 2004-10-30</title>
+      <description>2004-10-30 - Episode 11 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 30 Oct 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/11-2004-10-30.mp3" length="46019819" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/12-2004-11-06.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/12-2004-11-06.mp3</guid>
+      <title>12: 2004-11-06</title>
+      <description>2004-11-06 - Episode 12 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 06 Nov 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/12-2004-11-06.mp3" length="41327184" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/13-2004-11-13.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/13-2004-11-13.mp3</guid>
+      <title>13: 2004-11-13</title>
+      <description>2004-11-13 - Episode 13 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 13 Nov 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/13-2004-11-13.mp3" length="40285212" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/14-2004-11-20.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/14-2004-11-20.mp3</guid>
+      <title>14: 2004-11-20</title>
+      <description>2004-11-20 - Episode 14 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 20 Nov 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/14-2004-11-20.mp3" length="17263091" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/15-2004-12-11.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/15-2004-12-11.mp3</guid>
+      <title>15: 2004-12-11</title>
+      <description>2004-12-11 - Episode 15 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 11 Dec 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/15-2004-12-11.mp3" length="30897116" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/16-2004-12-18.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/16-2004-12-18.mp3</guid>
+      <title>16: 2004-12-18</title>
+      <description>2004-12-18 - Episode 16 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 18 Dec 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/16-2004-12-18.mp3" length="31234722" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/17-2005-01-08.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/17-2005-01-08.mp3</guid>
+      <title>17: 2005-01-08</title>
+      <description>2005-01-08 - Episode 17 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 08 Jan 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/17-2005-01-08.mp3" length="39179917" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/18-2005-01-22.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/18-2005-01-22.mp3</guid>
+      <title>18: 2005-01-22</title>
+      <description>2005-01-22 - Episode 18 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 22 Jan 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/18-2005-01-22.mp3" length="36322957" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/19-2005-01-29.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/19-2005-01-29.mp3</guid>
+      <title>19: 2005-01-29</title>
+      <description>2005-01-29 - Episode 19 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 29 Jan 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/19-2005-01-29.mp3" length="51912704" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/20-2005-02-05.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/20-2005-02-05.mp3</guid>
+      <title>20: 2005-02-05</title>
+      <description>2005-02-05 - Episode 20 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 05 Feb 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/20-2005-02-05.mp3" length="44912640" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/21-2005-02-19.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/21-2005-02-19.mp3</guid>
+      <title>21: 2005-02-19</title>
+      <description>2005-02-19 - Episode 21 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 19 Feb 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/21-2005-02-19.mp3" length="44542693" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/22-2005-02-26.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/22-2005-02-26.mp3</guid>
+      <title>22: 2005-02-26</title>
+      <description>2005-02-26 - Episode 22 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 26 Feb 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/22-2005-02-26.mp3" length="40307110" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/23-2005-03-05.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/23-2005-03-05.mp3</guid>
+      <title>23: 2005-03-05</title>
+      <description>2005-03-05 - Episode 23 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 05 Mar 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/23-2005-03-05.mp3" length="49116470" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/24-2005-03-12.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/24-2005-03-12.mp3</guid>
+      <title>24: 2005-03-12</title>
+      <description>2005-03-12 - Episode 24 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 12 Mar 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/24-2005-03-12.mp3" length="51174885" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/25-2005-03-19.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/25-2005-03-19.mp3</guid>
+      <title>25: 2005-03-19</title>
+      <description>2005-03-19 - Episode 25 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 19 Mar 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/25-2005-03-19.mp3" length="48956358" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/26-2005-04-02.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/26-2005-04-02.mp3</guid>
+      <title>26: 2005-04-02</title>
+      <description>2005-04-02 - Episode 26 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 02 Apr 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/26-2005-04-02.mp3" length="48430122" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/27-2005-04-16.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/27-2005-04-16.mp3</guid>
+      <title>27: 2005-04-16</title>
+      <description>2005-04-16 - Episode 27 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 16 Apr 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/27-2005-04-16.mp3" length="46300620" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/28-2005-04-23.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/28-2005-04-23.mp3</guid>
+      <title>28: 2005-04-23</title>
+      <description>2005-04-23 - Episode 28 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 23 Apr 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/28-2005-04-23.mp3" length="45315908" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/29-2005-04-30.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/29-2005-04-30.mp3</guid>
+      <title>29: 2005-04-30</title>
+      <description>2005-04-30 - Episode 29 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 30 Apr 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/29-2005-04-30.mp3" length="52519435" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/30-2005-05-07.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/30-2005-05-07.mp3</guid>
+      <title>30: 2005-05-07</title>
+      <description>2005-05-07 - Episode 30 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 07 May 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/30-2005-05-07.mp3" length="47236849" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/31-2005-05-14.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/31-2005-05-14.mp3</guid>
+      <title>31: 2005-05-14</title>
+      <description>2005-05-14 - Episode 31 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 14 May 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/31-2005-05-14.mp3" length="53010119" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/32-2005-05-21.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/32-2005-05-21.mp3</guid>
+      <title>32: 2005-05-21</title>
+      <description>2005-05-21 - Episode 32 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 21 May 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/32-2005-05-21.mp3" length="53252096" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/33-2005-09-17.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/33-2005-09-17.mp3</guid>
+      <title>33: 2005-09-17</title>
+      <description>2005-09-17 - Episode 33 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 17 Sep 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/33-2005-09-17.mp3" length="50909890" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/34-2005-09-24.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/34-2005-09-24.mp3</guid>
+      <title>34: 2005-09-24</title>
+      <description>2005-09-24 - Episode 34 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 24 Sep 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/34-2005-09-24.mp3" length="51259722" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/35-2005-10-01.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/35-2005-10-01.mp3</guid>
+      <title>35: 2005-10-01</title>
+      <description>2005-10-01 - Episode 35 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 01 Oct 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/35-2005-10-01.mp3" length="53985514" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/36-2005-10-08.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/36-2005-10-08.mp3</guid>
+      <title>36: 2005-10-08</title>
+      <description>2005-10-08 - Episode 36 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 08 Oct 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/36-2005-10-08.mp3" length="49550131" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/37-2005-10-15.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/37-2005-10-15.mp3</guid>
+      <title>37: 2005-10-15</title>
+      <description>2005-10-15 - Episode 37 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 15 Oct 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/37-2005-10-15.mp3" length="56741119" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/38-2005-10-22.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/38-2005-10-22.mp3</guid>
+      <title>38: 2005-10-22</title>
+      <description>2005-10-22 - Episode 38 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 22 Oct 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/38-2005-10-22.mp3" length="57037652" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/39-2005-10-29.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/39-2005-10-29.mp3</guid>
+      <title>39: 2005-10-29</title>
+      <description>2005-10-29 - Episode 39 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 29 Oct 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/39-2005-10-29.mp3" length="54210794" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/40-2005-11-05.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/40-2005-11-05.mp3</guid>
+      <title>40: 2005-11-05</title>
+      <description>2005-11-05 - Episode 40 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 05 Nov 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/40-2005-11-05.mp3" length="53000192" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/41-2005-11-12.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/41-2005-11-12.mp3</guid>
+      <title>41: 2005-11-12</title>
+      <description>2005-11-12 - Episode 41 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 12 Nov 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/41-2005-11-12.mp3" length="53519490" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/42-2005-11-19.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/42-2005-11-19.mp3</guid>
+      <title>42: 2005-11-19</title>
+      <description>2005-11-19 - Episode 42 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 19 Nov 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/42-2005-11-19.mp3" length="56822622" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/43-2005-11-26.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/43-2005-11-26.mp3</guid>
+      <title>43: 2005-11-26</title>
+      <description>2005-11-26 - Episode 43 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 26 Nov 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/43-2005-11-26.mp3" length="56159739" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/44-2005-12-03.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/44-2005-12-03.mp3</guid>
+      <title>44: 2005-12-03</title>
+      <description>2005-12-03 - Episode 44 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 03 Dec 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/44-2005-12-03.mp3" length="52158741" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/45-2005-12-10.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/45-2005-12-10.mp3</guid>
+      <title>45: 2005-12-10</title>
+      <description>2005-12-10 - Episode 45 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 10 Dec 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/45-2005-12-10.mp3" length="50693013" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/46-2005-12-17.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/46-2005-12-17.mp3</guid>
+      <title>46: 2005-12-17</title>
+      <description>2005-12-17 - Episode 46 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 17 Dec 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/46-2005-12-17.mp3" length="56792853" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/47-2005-12-24.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/47-2005-12-24.mp3</guid>
+      <title>47: 2005-12-24</title>
+      <description>2005-12-24 - Episode 47 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 24 Dec 2005 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/47-2005-12-24.mp3" length="57193365" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/48-2006-01-07.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/48-2006-01-07.mp3</guid>
+      <title>48: 2006-01-07</title>
+      <description>2006-01-07 - Episode 48 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 07 Jan 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/48-2006-01-07.mp3" length="61040661" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/49-2006-01-14.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/49-2006-01-14.mp3</guid>
+      <title>49: 2006-01-14</title>
+      <description>2006-01-14 - Episode 49 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 14 Jan 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/49-2006-01-14.mp3" length="55455744" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/50-2006-01-21.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/50-2006-01-21.mp3</guid>
+      <title>50: 2006-01-21</title>
+      <description>2006-01-21 - Episode 50 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Jan 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/50-2006-01-21.mp3" length="54444309" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/51-2006-01-28.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/51-2006-01-28.mp3</guid>
+      <title>51: 2006-01-28</title>
+      <description>2006-01-28 - Episode 51 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 28 Jan 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/51-2006-01-28.mp3" length="59493141" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/52-2006-02-04.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/52-2006-02-04.mp3</guid>
+      <title>52: 2006-02-04</title>
+      <description>2006-02-04 - Episode 52 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 04 Feb 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/52-2006-02-04.mp3" length="57903765" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/53-2006-02-11.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/53-2006-02-11.mp3</guid>
+      <title>53: 2006-02-11</title>
+      <description>2006-02-11 - Episode 53 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 11 Feb 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/53-2006-02-11.mp3" length="58132480" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/54-2006-02-18.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/54-2006-02-18.mp3</guid>
+      <title>54: 2006-02-18</title>
+      <description>2006-02-18 - Episode 54 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 18 Feb 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/54-2006-02-18.mp3" length="49612800" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/55-2006-02-25.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/55-2006-02-25.mp3</guid>
+      <title>55: 2006-02-25</title>
+      <description>2006-02-25 - Episode 55 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 25 Feb 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/55-2006-02-25.mp3" length="43859968" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/56-2006-03-04.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/56-2006-03-04.mp3</guid>
+      <title>56: 2006-03-04</title>
+      <description>2006-03-04 - Episode 56 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 04 Mar 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/56-2006-03-04.mp3" length="55020693" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/57-2006-03-11.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/57-2006-03-11.mp3</guid>
+      <title>57: 2006-03-11</title>
+      <description>2006-03-11 - Episode 57 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 11 Mar 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/57-2006-03-11.mp3" length="56016405" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/58-2006-03-18.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/58-2006-03-18.mp3</guid>
+      <title>58: 2006-03-18</title>
+      <description>2006-03-18 - Episode 58 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 18 Mar 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/58-2006-03-18.mp3" length="58083093" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/59-2006-03-25.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/59-2006-03-25.mp3</guid>
+      <title>59: 2006-03-25</title>
+      <description>2006-03-25 - Episode 59 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 25 Mar 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/59-2006-03-25.mp3" length="57503253" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/60-2006-04-01.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/60-2006-04-01.mp3</guid>
+      <title>60: 2006-04-01</title>
+      <description>2006-04-01 - Episode 60 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 01 Apr 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/60-2006-04-01.mp3" length="63569685" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/61-2006-04-08.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/61-2006-04-08.mp3</guid>
+      <title>61: 2006-04-08</title>
+      <description>2006-04-08 - Episode 61 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 08 Apr 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/61-2006-04-08.mp3" length="61416981" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/62-2006-07-08.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/62-2006-07-08.mp3</guid>
+      <title>62: 2006-07-08</title>
+      <description>2006-07-08 - Episode 62 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 08 Jul 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/62-2006-07-08.mp3" length="69302272" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/63-2006-07-15.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/63-2006-07-15.mp3</guid>
+      <title>63: 2006-07-15</title>
+      <description>2006-07-15 - Episode 63 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 15 Jul 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/63-2006-07-15.mp3" length="68476928" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/64-2006-07-22.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/64-2006-07-22.mp3</guid>
+      <title>64: 2006-07-22</title>
+      <description>2006-07-22 - Episode 64 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 22 Jul 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/64-2006-07-22.mp3" length="53614592" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/65-2006-07-29.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/65-2006-07-29.mp3</guid>
+      <title>65: 2006-07-29</title>
+      <description>2006-07-29 - Episode 65 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 29 Jul 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/65-2006-07-29.mp3" length="47360000" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/66-2006-08-05.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/66-2006-08-05.mp3</guid>
+      <title>66: 2006-08-05</title>
+      <description>2006-08-05 - Episode 66 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 05 Aug 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/66-2006-08-05.mp3" length="66500608" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/67-2006-08-12.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/67-2006-08-12.mp3</guid>
+      <title>67: 2006-08-12</title>
+      <description>2006-08-12 - Episode 67 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 12 Aug 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/67-2006-08-12.mp3" length="75712512" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/68-2006-08-19.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/68-2006-08-19.mp3</guid>
+      <title>68: 2006-08-19</title>
+      <description>2006-08-19 - Episode 68 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 19 Aug 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/68-2006-08-19.mp3" length="59674624" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/69-2006-08-26.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/69-2006-08-26.mp3</guid>
+      <title>69: 2006-08-26</title>
+      <description>2006-08-26 - Episode 69 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 26 Aug 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/69-2006-08-26.mp3" length="74342400" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/70-2006-09-02.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/70-2006-09-02.mp3</guid>
+      <title>70: 2006-09-02</title>
+      <description>2006-09-02 - Episode 70 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 02 Sep 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/70-2006-09-02.mp3" length="60694528" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/71-2006-09-09.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/71-2006-09-09.mp3</guid>
+      <title>71: 2006-09-09</title>
+      <description>2006-09-09 - Episode 71 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 09 Sep 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/71-2006-09-09.mp3" length="69406720" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/72-2006-09-16.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/72-2006-09-16.mp3</guid>
+      <title>72: 2006-09-16</title>
+      <description>2006-09-16 - Episode 72 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 16 Sep 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/72-2006-09-16.mp3" length="43962368" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/73-2006-09-23.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/73-2006-09-23.mp3</guid>
+      <title>73: 2006-09-23</title>
+      <description>2006-09-23 - Episode 73 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 23 Sep 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/73-2006-09-23.mp3" length="43655168" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/74-2006-09-30.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/74-2006-09-30.mp3</guid>
+      <title>74: 2006-09-30</title>
+      <description>2006-09-30 - Episode 74 of Adam and Joe XFM&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/rss" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/rss&lt;/a&gt;</description>
+      <pubDate>Sat, 30 Sep 2006 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adamjoe/74-2006-09-30.mp3" length="62627840" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
