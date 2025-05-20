@@ -8,7 +8,7 @@ EXPECTED_OUTPUT="$(dirname "$0")/expected-rss2csv.csv"
 ACTUAL_OUTPUT="$(dirname "$0")/../feed/test/rss2csv.csv"
 
 # Clean up output on exit
-#trap 'rm -f "$ACTUAL_OUTPUT"' EXIT
+trap 'rm -f "$ACTUAL_OUTPUT"' EXIT
 
 # Clean up any existing output
 rm -f "$ACTUAL_OUTPUT"

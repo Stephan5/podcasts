@@ -1,4 +1,5 @@
 #!/bin/bash
+source "$(dirname "$0")/common.sh"
 set -euo pipefail
 trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 
@@ -41,7 +42,7 @@ while IFS= read -r line; do
   item_date=${item_date//./}
 
   # reformat date
-  item_date=$(date -jf "$input_format" "$item_date" '+%a, %d %b %Y 03:00:00 GMT')
+  item_date=$(format_date "$item_date" "$input_format" '+%a, %d %b %Y 03:00:00 GMT')
 
   echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$item_link" >> "$tmp_file"
 
