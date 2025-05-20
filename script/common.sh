@@ -43,7 +43,7 @@ parse_rfc2822_date() {
   else
     # BSD/macOS date
     if date -j -f "%a, %d %b %Y %T %Z" "$date_str" "+%s" 2>/dev/null; then
-      date -j -f "%a, %d %b %Y %T %Z" "$date_str" "+%s"
+      return 0
     else
       # Try with numeric offset
       local date_no_tz=$(echo "$date_str" | sed 's/[-+][0-9]\{4\}$//')
