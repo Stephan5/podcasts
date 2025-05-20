@@ -31,28 +31,39 @@ html_decode() {
 }
 
 parse_rfc2822_date() {
-    local date_str="$1"
-    # First try with timezone name
+  local date_str="$1"
+  if date --version >/dev/null 2>&1; then
+    # GNU date
+    # Normalize GMT to +0000
+    date_str="${date_str/GMT/+0000}"
+    date -d "$date_str" "+%s" 2>/dev/null || {
+      echo "Failed to parse date: $date_str"
+      return 1
+    }
+  else
+    # BSD/macOS date
     if date -j -f "%a, %d %b %Y %T %Z" "$date_str" "+%s" 2>/dev/null; then
-        return 0
-    fi
-    # If failed, try with timezone offset format
-    # Remove the timezone offset and adjust the date manually
-    local date_no_tz=$(echo "$date_str" | sed 's/[-+][0-9]\{4\}$//')
-    local tz_offset=$(echo "$date_str" | grep -o '[-+][0-9]\{4\}$')
-    if [[ -n "$tz_offset" ]]; then
+      date -j -f "%a, %d %b %Y %T %Z" "$date_str" "+%s"
+    else
+      # Try with numeric offset
+      local date_no_tz=$(echo "$date_str" | sed 's/[-+][0-9]\{4\}$//')
+      local tz_offset=$(echo "$date_str" | grep -o '[-+][0-9]\{4\}$')
+      if [[ -n "$tz_offset" ]]; then
         local hours=${tz_offset:1:2}
         local minutes=${tz_offset:3:2}
         local seconds=$((hours * 3600 + minutes * 60))
         local base_timestamp=$(date -j -f "%a, %d %b %Y %T" "$date_no_tz" "+%s" 2>/dev/null)
         if [[ ${tz_offset:0:1} == "+" ]]; then
-            echo $((base_timestamp - seconds))
+          echo $((base_timestamp - seconds))
         else
-            echo $((base_timestamp + seconds))
+          echo $((base_timestamp + seconds))
         fi
-    else
+      else
+        echo "Failed to parse date: $date_str"
         return 1
+      fi
     fi
+  fi
 }
 
 
