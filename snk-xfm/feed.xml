@@ -15,55 +15,55 @@
     </image>
     <generator>csv2rss.sh v 0.01</generator>
     <ttl>1440</ttl>
-    <lastBuildDate>Mon, 19 May 2025 16:38:49 +0100</lastBuildDate>
-    <pubDate>Mon, 19 May 2025 16:38:49 +0100</pubDate>
+    <lastBuildDate>Tue, 20 May 2025 11:12:50 +0100</lastBuildDate>
+    <pubDate>Tue, 20 May 2025 11:12:50 +0100</pubDate>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-06-29_xfm_simon-pegg_nick-frost.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-06-29_xfm_simon-pegg_nick-frost.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/1-2002-06-29.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/1-2002-06-29.mp3</guid>
       <title>1: 2002-06-29</title>
       <description>2002-06-29 - Episode 1 of SNK XFM</description>
       <pubDate>Sat, 29 Jun 2002 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-06-29_xfm_simon-pegg_nick-frost.mp3" length="52463051" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/1-2002-06-29.mp3" length="52463051" type="audio/mpeg"/>
     </item>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-19_xfm_simon-pegg_nick-frost.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-19_xfm_simon-pegg_nick-frost.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2-2002-08-19.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2-2002-08-19.mp3</guid>
       <title>2: 2002-08-19</title>
       <description>2002-08-19 - Episode 2 of SNK XFM</description>
       <pubDate>Mon, 19 Aug 2002 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-19_xfm_simon-pegg_nick-frost.mp3" length="62318551" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2-2002-08-19.mp3" length="62318551" type="audio/mpeg"/>
     </item>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-20_xfm_simon-pegg_nick-frost.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-20_xfm_simon-pegg_nick-frost.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/3-2002-08-20.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/3-2002-08-20.mp3</guid>
       <title>3: 2002-08-20</title>
       <description>2002-08-20 - Episode 3 of SNK XFM</description>
       <pubDate>Tue, 20 Aug 2002 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-20_xfm_simon-pegg_nick-frost.mp3" length="71757271" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/3-2002-08-20.mp3" length="71757271" type="audio/mpeg"/>
     </item>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-21_xfm_simon-pegg_nick-frost.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-21_xfm_simon-pegg_nick-frost.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/4-2002-08-21.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/4-2002-08-21.mp3</guid>
       <title>4: 2002-08-21</title>
       <description>2002-08-21 - Episode 4 of SNK XFM</description>
       <pubDate>Wed, 21 Aug 2002 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-21_xfm_simon-pegg_nick-frost.mp3" length="67187671" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/4-2002-08-21.mp3" length="67187671" type="audio/mpeg"/>
     </item>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-23_xfm_simon-pegg_nick-frost.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-23_xfm_simon-pegg_nick-frost.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/5-2002-08-23.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/5-2002-08-23.mp3</guid>
       <title>5: 2002-08-23</title>
       <description>2002-08-23 - Episode 5 of SNK XFM</description>
       <pubDate>Fri, 23 Aug 2002 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2002-08-23_xfm_simon-pegg_nick-frost.mp3" length="52583841" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/5-2002-08-23.mp3" length="52583841" type="audio/mpeg"/>
     </item>
     <item>
-      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2004-03-05_xfm_simon-pegg_nick-frost.mp3</link>
-      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2004-03-05_xfm_simon-pegg_nick-frost.mp3</guid>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/6-2004-03-05.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/6-2004-03-05.mp3</guid>
       <title>6: 2004-03-05</title>
       <description>2004-03-05 - Episode 6 of SNK XFM</description>
       <pubDate>Fri, 05 Mar 2004 03:00:00 GMT</pubDate>
-      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/2004-03-05_xfm_simon-pegg_nick-frost.mp3" length="43975554" type="audio/mpeg"/>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/snk-xfm/6-2004-03-05.mp3" length="43975554" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>
