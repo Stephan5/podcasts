@@ -9,6 +9,10 @@ url_encode() {
   python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()'))" "$1"
 }
 
+url_decode() {
+  python3 -c "import urllib.parse, sys; print(urllib.parse.unquote(sys.argv[1]))" "$1"
+}
+
 has_encoding() {
   case "$1" in
     (*%[0-9A-Fa-f][0-9A-Fa-f]*)
@@ -16,6 +20,18 @@ has_encoding() {
     (*)
       return 1 ;;
   esac
+}
+
+convert_to_s3() {
+  local url;
+  local clean_url;
+  local s3_url;
+
+  url="$1"
+  clean_url="${url%%\?*}"
+  s3_url=$(echo "$clean_url" | sed -E 's~https://s3[^/]+.amazonaws.com/~s3://~')
+
+  echo "$s3_url"
 }
 
 input_file=""
@@ -78,8 +94,23 @@ while IFS= read -r line; do
     continue
   fi
 
-  # Extract the file name from the link
+  # Remove query parameters
+  clean_url="${src_url%%\?*}"
+
+  # Extract the filename
+  url_filename="${clean_url##*/}"
+
+  # Extract extension
+  if [[ "$url_filename" == *.* ]]; then
+    extension="${url_filename##*.}"
+  else
+    echo "No extension found in filename from URL \"$url_filename\", defaulting to mp3"
+    extension="mp3"
+  fi
+
+  # Build filename
   file_name=$(echo "$item_number-$item_title" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9' '-' | sed 's/^-//' | sed 's/-$//')
+  file_name="${file_name}.${extension}"
 
   # Encode URLs
   if has_encoding "$src_url"; then
@@ -89,30 +120,56 @@ while IFS= read -r line; do
     echo "Encoded URL: $src_url_enc"
   fi
 
-  self_hosted_url=$(url_encode "https://s3.$region.amazonaws.com/$bucket/$repo_dir/$file_name")
+  http_dst_link=$(url_encode "https://s3.$region.amazonaws.com/$bucket/$repo_dir/$file_name")
+  s3_dst_link=$(convert_to_s3 "$http_dst_link")
 
-  echo "Source URL (Encoded): \"$src_url_enc\""
-  echo "Self-Hosted URL: \"$self_hosted_url\""
+  echo "Src URL (Encoded): \"$src_url_enc\""
+  echo "Dst URL: \"$http_dst_link\""
+  echo "Dst S3: \"$http_dst_link\""
   echo "File Name: \"$file_name\""
+  echo "Extension: \"$extension\""
 
   # Check if the link is a local file
-  if [[ "$src_url" == "https://s3.$region.amazonaws.com/$bucket"* ]]; then
-      echo "Link already self-hosted: \"$src_url\". Skipping."
-      new_link="$src_url"
+  if [[ "$src_url_enc" == "$http_dst_link" ]]; then
+        echo "Link already self-hosted: \"$src_url_enc\". Skipping."
+        new_link="$src_url_enc"
+
+  elif [[ "$src_url_enc" == "https://s3.$region.amazonaws.com/$bucket"* ]]; then
+      echo "Link already self-hosted: \"$src_url_enc\". Copying to new location \"$http_dst_link\""
+      new_link="$http_dst_link"
+
+      # Check src link is a valid link
+      curl --head --silent --fail --location "$src_url_enc" > /dev/null;
+
+     decoded_src_link=$(url_decode "$src_url")
+     echo "Src URL (decoded): \"$decoded_src_link\""
+     s3_src_link=$(convert_to_s3 "$decoded_src_link")
+     echo "Src S3: \"$s3_src_link\""
+
+      if aws s3 cp "$s3_src_link" "$s3_dst_link"; then
+        # Construct the normalized HTTPS link
+        new_link="$http_dst_link"
+
+        # Check if the link is a valid S3 link
+        curl --head --silent --fail --location "$new_link" > /dev/null;
+      else
+        echo "Failed to transfer $src_url_enc to $new_link. Keeping the original link."
+        new_link="$src_url_enc"
+      fi
 
   # Check if the link is valid
   elif [[ -f "$src_url" ]]; then
     echo "Local file detected: \"$src_url\". Attempting to upload to S3."
 
     if aws s3 cp "$src_url" "s3://$bucket/$repo_dir/$file_name"; then
-      new_link=$self_hosted_url
+      new_link=$http_dst_link
       echo "Successfully uploaded local file to S3: \"$new_link\""
     else
       echo "Failed to upload local file \"$src_url\" to S3. Keeping the original path."
       new_link="$src_url"
     fi
 
-  # Check if the link is valid and not already self-hosted
+  # Check if the link is valid
   elif curl --head --silent --fail --location "$src_url_enc" > /dev/null; then
     # Download the file locally
     temp_download=$(mktemp)
@@ -122,7 +179,7 @@ while IFS= read -r line; do
       echo "Attempting to upload file for \"$file_name\" to S3"
       if aws s3 cp "$temp_download" "s3://$bucket/$repo_dir/$file_name"; then
         # Construct the normalized HTTPS link
-        new_link=$self_hosted_url
+        new_link=$http_dst_link
 
 	      # Check if the link is a valid S3 link
 	      curl --head --silent --fail --location "$new_link" > /dev/null;
