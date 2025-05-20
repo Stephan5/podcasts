@@ -1,38 +1,10 @@
 #!/bin/bash
+source "$(dirname "$0")/common.sh"
 set -euo pipefail
 trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 
 # Example:
 # ./selfhost.sh ./mssp/feed.csv --delimiter ";" --repo-dir "mssp" --bucket "podcast.mysite.co.uk"
-
-url_encode() {
-  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()'))" "$1"
-}
-
-url_decode() {
-  python3 -c "import urllib.parse, sys; print(urllib.parse.unquote(sys.argv[1]))" "$1"
-}
-
-has_encoding() {
-  case "$1" in
-    (*%[0-9A-Fa-f][0-9A-Fa-f]*)
-      return 0 ;;  # has encoding
-    (*)
-      return 1 ;;
-  esac
-}
-
-convert_to_s3() {
-  local url;
-  local clean_url;
-  local s3_url;
-
-  url="$1"
-  clean_url="${url%%\?*}"
-  s3_url=$(echo "$clean_url" | sed -E 's~https://s3[^/]+.amazonaws.com/~s3://~')
-
-  echo "$s3_url"
-}
 
 input_file=""
 repo_dir=""

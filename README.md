@@ -30,4 +30,4 @@ Requirements:
 - [x] Only bump `pubDate` and `lastBuildDate` if there are changes to the file (if it already exists)
 - [x] Add script to convert CSV to self-hosted 
 - [x] Support local file URLs in selfhost.sh
-- [ ] Pull out common functions
+- [x] Pull out common functions

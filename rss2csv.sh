@@ -1,32 +1,7 @@
 #!/bin/bash
+source "$(dirname "$0")/common.sh"
 set -euo pipefail
 trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
-
-url_encode() {
-  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()'))" "$1"
-}
-
-html_decode() {
-  python3 -c "import html, sys; print(html.unescape(sys.argv[1]))" "$1"
-}
-
-validate_rfc2822_date() {
-  local input="$1"
-
-  # Normalize GMT → +0000 for stricter parsing
-  input="${input/GMT/+0000}"
-
-  python3 -c '
-import sys
-from email.utils import parsedate_to_datetime
-
-try:
-    parsedate_to_datetime(sys.argv[1])
-    sys.exit(0)  # valid
-except Exception:
-    sys.exit(1)  # invalid
-' "$input"
-}
 
 # Input Defaults
 input_file=""

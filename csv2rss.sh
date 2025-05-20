@@ -1,41 +1,7 @@
 #!/bin/bash
+source "$(dirname "$0")/common.sh"
 set -euo pipefail
 trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
-
-url_encode() {
-  python3 -c "import urllib.parse, sys; print(urllib.parse.quote(urllib.parse.unquote(sys.argv[1]), safe=':/()?&='))" "$1"
-}
-
-has_encoding() {
-  case "$1" in
-    (*%[0-9A-Fa-f][0-9A-Fa-f]*)
-      return 0 ;;  # has encoding
-    (*)
-      return 1 ;;
-  esac
-}
-
-html_encode() {
-  python3 -c "import html, sys; print(html.escape(sys.argv[1]))" "$1"
-}
-
-validate_rfc2822_date() {
-  local input="$1"
-
-  # Normalize GMT → +0000 for stricter parsing
-  input="${input/GMT/+0000}"
-
-  python3 -c '
-import sys
-from email.utils import parsedate_to_datetime
-
-try:
-    parsedate_to_datetime(sys.argv[1])
-    print("valid")
-except Exception:
-    print("invalid")
-' "$input"
-}
 
 # Input Defaults
 input_file=""
@@ -155,7 +121,7 @@ while IFS= read -r line; do
   echo "Link: \"$item_link\""
 
   # validate date
-  if [[ $(validate_rfc2822_date "$item_date") == "invalid" ]]; then
+  if ! validate_rfc2822_date "$item_date"; then
     echo "Invalid date $item_date for item $item_title. Dates must be in RFC 2822 format."
     exit 1
   fi
