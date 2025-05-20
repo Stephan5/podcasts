@@ -33,3 +33,4 @@ Requirements:
 - [x] Add script to convert CSV to self-hosted 
 - [x] Support local file URLs in selfhost.sh
 - [x] Pull out common functions
+- [ ] Convert to Python scripts (?!)
