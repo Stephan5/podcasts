@@ -83,10 +83,8 @@ while IFS= read -r line; do
 
   # Encode URLs
   if has_encoding "$src_url"; then
-    echo "URL already contains percent-encoding: $src_url"
     src_url_enc=$src_url
   else
-    echo "URL has no encoding, encoding now..."
     src_url_enc=$(url_encode "$src_url")
     echo "Encoded URL: $src_url_enc"
   fi
@@ -147,7 +145,7 @@ while IFS= read -r line; do
 
   echo
   # Write the updated line to the temp file
-  echo "$item_number$csv_delimiter$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$new_link" >> "$tmp_file"
+  echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$new_link" >> "$tmp_file"
 
   ((item_number++))  # increment item_number
 done < "$input_file"

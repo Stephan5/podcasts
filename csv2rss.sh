@@ -166,7 +166,6 @@ while IFS= read -r line; do
 
   # url encode URL
   if ! has_encoding "$item_link"; then
-    echo "URL has no encoding, encoding now..."
     item_link=$(url_encode "$item_link")
     echo "URL encoded URL: $item_link"
   fi
