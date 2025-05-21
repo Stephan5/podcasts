@@ -33,12 +33,14 @@ s3_mv() {
 input_file=""
 bucket=""
 prefix=""
+region="eu-west-2"
 csv_delimiter=","
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --bucket) bucket="$2"; shift 2 ;;
     --prefix) prefix="$2"; shift 2 ;;
+    --region) region="$2"; shift 2 ;;
     --delimiter) csv_delimiter="$2"; shift 2 ;;
     --) shift; break ;;
     --*) echo "Unknown option: $1" >&2; exit 1 ;;
@@ -74,11 +76,8 @@ fi
 # assuming $input_file is your CSV file path (e.g., ./feed/matt-and-shane/feed.csv)
 repo_dir="$(basename "$(dirname "$input_file_abs")")"
 
-# Get the S3 bucket region
-region=$(aws s3api get-bucket-location --bucket "$bucket" --query "LocationConstraint" --output text)
-if [[ "$region" == "None" ]]; then
-  exit 1
-fi
+
+echo "About to check region for bucket \"$bucket\""
 
 echo "Input File: \"$input_file\""
 echo "Temp File: \"$tmp_file\""
