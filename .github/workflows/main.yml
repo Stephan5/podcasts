@@ -21,5 +21,18 @@ jobs:
       - name: Make test scripts executable
         run: chmod +x test/*.sh script/*.sh
 
+      - name: Create test S3 bucket
+        env:
+          AWS_ACCESS_KEY_ID: minioadmin
+          AWS_SECRET_ACCESS_KEY: minioadmin
+          AWS_DEFAULT_REGION: us-east-1
+        run: |
+          aws --endpoint-url http://localhost:9000 s3 mb s3://test-bucket
+
       - name: Run tests
+        env:
+          AWS_ACCESS_KEY_ID: minioadmin
+          AWS_SECRET_ACCESS_KEY: minioadmin
+          AWS_DEFAULT_REGION: us-east-1
+          AWS_ENDPOINT_URL: http://localhost:9000
         run: ./test/test.sh

@@ -32,11 +32,13 @@ s3_mv() {
 
 input_file=""
 bucket=""
+prefix=""
 csv_delimiter=","
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --bucket) bucket="$2"; shift 2 ;;
+    --prefix) prefix="$2"; shift 2 ;;
     --delimiter) csv_delimiter="$2"; shift 2 ;;
     --) shift; break ;;
     --*) echo "Unknown option: $1" >&2; exit 1 ;;
@@ -84,6 +86,7 @@ echo "Output File: \"$output_file\""
 echo "Repo Directory: \"$repo_dir\""
 echo "CSV Delimiter: \"$csv_delimiter\""
 echo "Bucket: \"$bucket\""
+echo "Prefix: \"$prefix\""
 echo "Region: \"$region\""
 
 item_number=1  # initialize before the loop
@@ -124,7 +127,7 @@ while IFS= read -r line; do
     echo "Encoded URL: $src_url_enc"
   fi
 
-  http_dst_link=$(url_encode "https://s3.$region.amazonaws.com/$bucket/$repo_dir/$file_name")
+  http_dst_link=$(url_encode "https://s3.$region.amazonaws.com/$bucket$prefix/$repo_dir/$file_name")
   s3_dst_link=$(convert_to_s3 "$http_dst_link")
 
   echo "Src URL (Encoded): \"$src_url_enc\""

@@ -9,7 +9,7 @@ SCRIPT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../script" && pwd)/pubdate.sh"
 INPUT="$TEST_DIR/test.csv"
 
 # Clean up output on exit
-trap 'rm -f "$INPUT"' EXIT
+trap 'rm -rf "$TEST_DIR"' EXIT
 
 # Create a sample CSV input
 cat > "$INPUT" <<EOF
