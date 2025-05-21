@@ -16,8 +16,6 @@ while IFS= read -r dir_path; do
     dir=$(basename "$dir_path")
     cmd_file="$dir_path/cmd.sh"
 
-
-
     if [[ -f "$cmd_file" ]]; then
         echo "Running script for: $dir"
 

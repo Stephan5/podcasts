@@ -33,6 +33,9 @@ if [[ -z "$input_file" || -z "$repo_dir" ]]; then
   exit 1
 fi
 
+# Define base directory
+base_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/../feed" && pwd)"
+
 # set up base paths
 input_file_abs="$(cd "$(dirname "$input_file")" && pwd)/$(basename "$input_file")"
 if [[ ! -f "$input_file_abs" ]]; then
@@ -40,11 +43,9 @@ if [[ ! -f "$input_file_abs" ]]; then
     exit 1
 fi
 
-# assuming $input_file is your CSV file path (e.g., ./feed/matt-and-shane/feed.csv)
-feed_base_dir="$(cd "$(dirname "$(dirname "$input_file_abs")")" && pwd)"
-feed_repo_path="$feed_base_dir"/"$repo_dir"
+feed_repo_path="$base_dir"/"$repo_dir"
 
-echo "Feed Base Directory: \"$feed_base_dir\""
+echo "Base Directory: \"$base_dir\""
 echo "Feed Repo Path: \"$feed_repo_path\""
 
 xml_filename=$(basename "$input_file")
