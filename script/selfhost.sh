@@ -77,8 +77,6 @@ fi
 repo_dir="$(basename "$(dirname "$input_file_abs")")"
 
 
-echo "About to check region for bucket \"$bucket\""
-
 echo "Input File: \"$input_file\""
 echo "Temp File: \"$tmp_file\""
 echo "Output File: \"$output_file\""
