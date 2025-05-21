@@ -70,7 +70,6 @@ fi
 # Get paths with proper directory structure
 csv_filename=$(basename "$input_file")
 csv_file="$repo_path/$csv_filename"
-extra_items_xml="$repo_path/extra-items.xml"
 
 # Create repo dir and copy input file to it
 if [[ "$(realpath "$input_file")" != "$(realpath "$csv_file")" ]]; then
@@ -96,7 +95,6 @@ echo "Input File: \"$input_file\""
 echo "Repo Directory: \"$repo_dir\""
 echo "CSV Delimiter: \"$csv_delimiter\""
 echo "CSV File: \"$csv_file\""
-echo "Extra Items XML: \"$extra_items_xml\""
 echo "Temporary File: \"$tmp_file\""
 echo "Output File: \"$output_file\""
 echo "Feed Filename: \"$feed_filename\""
@@ -187,14 +185,6 @@ while IFS= read -r line; do
 
   echo
 done < <(tail -n +2 "$input_file")
-
-
-# append any additional items
-if [[ -f "$extra_items_xml" ]]; then
-  {
-   cat "$extra_items_xml";
-  } >> "$tmp_file"
-fi
 
 # add closing tags
 cat >> "$tmp_file" <<EOF
