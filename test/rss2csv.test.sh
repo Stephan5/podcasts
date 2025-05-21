@@ -4,7 +4,7 @@ set -euo pipefail
 # Paths
 SCRIPT="$(dirname "$0")/../script/rss2csv.sh"
 INPUT="$(dirname "$0")/../feed/test/rss2csv.xml"
-EXPECTED_OUTPUT="$(dirname "$0")/expected-rss2csv.csv"
+EXPECTED_OUTPUT="$(dirname "$0")/expected/rss2csv.csv"
 ACTUAL_OUTPUT="$(dirname "$0")/../feed/test/rss2csv.csv"
 
 # Clean up output on exit
