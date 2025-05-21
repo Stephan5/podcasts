@@ -32,11 +32,15 @@ s3_mv() {
 
 input_file=""
 bucket=""
+prefix=""
+region="eu-west-2"
 csv_delimiter=","
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --bucket) bucket="$2"; shift 2 ;;
+    --prefix) prefix="$2"; shift 2 ;;
+    --region) region="$2"; shift 2 ;;
     --delimiter) csv_delimiter="$2"; shift 2 ;;
     --) shift; break ;;
     --*) echo "Unknown option: $1" >&2; exit 1 ;;
@@ -72,11 +76,6 @@ fi
 # assuming $input_file is your CSV file path (e.g., ./feed/matt-and-shane/feed.csv)
 repo_dir="$(basename "$(dirname "$input_file_abs")")"
 
-# Get the S3 bucket region
-region=$(aws s3api get-bucket-location --bucket "$bucket" --query "LocationConstraint" --output text)
-if [[ "$region" == "None" ]]; then
-  exit 1
-fi
 
 echo "Input File: \"$input_file\""
 echo "Temp File: \"$tmp_file\""
@@ -84,6 +83,7 @@ echo "Output File: \"$output_file\""
 echo "Repo Directory: \"$repo_dir\""
 echo "CSV Delimiter: \"$csv_delimiter\""
 echo "Bucket: \"$bucket\""
+echo "Prefix: \"$prefix\""
 echo "Region: \"$region\""
 
 item_number=1  # initialize before the loop
@@ -124,7 +124,7 @@ while IFS= read -r line; do
     echo "Encoded URL: $src_url_enc"
   fi
 
-  http_dst_link=$(url_encode "https://s3.$region.amazonaws.com/$bucket/$repo_dir/$file_name")
+  http_dst_link=$(url_encode "https://s3.$region.amazonaws.com/$bucket$prefix/$repo_dir/$file_name")
   s3_dst_link=$(convert_to_s3 "$http_dst_link")
 
   echo "Src URL (Encoded): \"$src_url_enc\""
