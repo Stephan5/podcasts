@@ -50,3 +50,5 @@ Requirements:
 - [x] remove need for repo-dir argument in scripts
 - [x] Onboard RSK XFM, Athletico Mince, and TFTM
 - [ ] Onboard The Basement Yard
+- [ ] Allow output directory / file to be passed in as an argument
+- [ ] Support updating existing feeds with new episodes from external feed
