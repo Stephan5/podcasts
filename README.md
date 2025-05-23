@@ -2,12 +2,13 @@
 ![](https://github.com/Stephan5/rss/actions/workflows/main.yml/badge.svg)
 ## Feeds
 
-A collection of self-hosted podcast feeds for my own use, to ensure all the best 'dudes rock' content can live forever in safety while the rest of the internet decays around it.
+A collection of self-hosted podcast feeds for my own use, to ensure all the best 'dudes rock' content is preserved.
 
-> [!IMPORTANT]  
 > "It's the most convoluted, ridiculous, RACIST, piece of material ever to be uttered on radio!"
 >
 > "Play it again!"
+>
+> – RSK XFM
 
 ## Scripts
 A collection of scripts to process podcast metadata and generate RSS feeds.
