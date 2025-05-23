@@ -4,11 +4,25 @@
 
 A collection of self-hosted podcast feeds for my own use, to ensure all the best 'dudes rock' content is preserved.
 
-> "It's the most convoluted, ridiculous, RACIST, piece of material ever to be uttered on radio!"
+You'll remember such classics as:
+
+> Ricky: "It's the most convoluted, ridiculous, RACIST, piece of material ever to be uttered on radio!"
 >
-> "Play it again!"
+> Steve: "Play it again!"
 >
 > – RSK XFM
+
+> "I'm gay actor Michael Douglas."
+> 
+> – Cum Town
+
+> "Dog dirt"
+>
+> – Athletico Mince
+
+> "Ah, my family always get so gay when I talk about my family on here, but my grandma is a dickhead."
+> 
+> – Matt and Shane's Secret Podcast
 
 ## Scripts
 A collection of scripts to process podcast metadata and generate RSS feeds.
