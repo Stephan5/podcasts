@@ -81,7 +81,7 @@ output_file="${output_file:-${csv_file%%.csv}.xml}"
 feed_filename=$(basename "$output_file")
 repo="Stephan5/podcasts"
 raw_content="https://raw.githubusercontent.com/$repo/refs/heads/main/$feed_repo_path"
-repo_link="https://github.com/$repo/tree/main/$feed_repo_path"
+repo_link="https://github.com/$repo"
 repo_feed_link="$repo_link/tree/main/$feed_repo_path"
 self_feed_link="$raw_content/$feed_filename"
 

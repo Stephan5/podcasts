@@ -62,6 +62,6 @@ while IFS= read -r dir_path; do
     else
         echo "Skipping $dir — no cmd.sh found."
     fi
-done < <(find "$BASE_DIR" -mindepth 1 -maxdepth 1 -type d)
+done < <(find "$BASE_DIR" -mindepth 1 -maxdepth 1 -type d | sort)
 
 echo "Regeneration complete!"
