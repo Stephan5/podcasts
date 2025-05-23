@@ -79,9 +79,10 @@ fi
 tmp_file=$(mktemp)
 output_file="${output_file:-${csv_file%%.csv}.xml}"
 feed_filename=$(basename "$output_file")
-repo="Stephan5/rss"
+repo="Stephan5/podcasts"
 raw_content="https://raw.githubusercontent.com/$repo/refs/heads/main/$feed_repo_path"
 repo_link="https://github.com/$repo/tree/main/$feed_repo_path"
+repo_feed_link="$repo_link/tree/main/$feed_repo_path"
 self_feed_link="$raw_content/$feed_filename"
 
 if [[ -z "$podcast_image_link" ]]; then
@@ -101,6 +102,7 @@ echo "Feed Filename: \"$feed_filename\""
 echo "Repository: \"$repo\""
 echo "Raw Content URL: \"$raw_content\""
 echo "Repository Link: \"$repo_link\""
+echo "Repository Feed Link: \"$repo_feed_link\""
 echo "Self Feed Link: \"$self_feed_link\""
 echo
 
@@ -122,11 +124,11 @@ cat > "$tmp_file" <<EOF
     <description>&lt;p&gt;$podcast_description &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using $repo.&lt;/p&gt;</description>
     <language>en-gb</language>
     <copyright>none</copyright>
-    <link>$repo_link</link>
+    <link>$repo_feed_link</link>
     <image>
        <url>$podcast_image_link</url>
        <title>$podcast_title</title>
-       <link>$repo_link</link>
+       <link>$repo_feed_link</link>
     </image>
     <generator>csv2rss.sh v 0.01</generator>
     <ttl>1440</ttl>
@@ -154,7 +156,7 @@ while IFS= read -r line; do
 
   # fallback to default description if not specified
   item_desc=${item_description:-"$item_title - Episode $item_number of $podcast_title"}
-  item_desc=$(echo "$item_desc&lt;br/&gt;&lt;br/&gt;&lt;a href=\"https://github.com/Stephan5/rss\" rel=\"nofollow noopener\" target=\"_blank\"&gt;Generated using $repo&lt;/a&gt;")
+  item_desc=$(echo "$item_desc&lt;br/&gt;&lt;br/&gt;&lt;a href=\"$repo_link\" rel=\"nofollow noopener\" target=\"_blank\"&gt;Generated using $repo&lt;/a&gt;")
 
   # url encode URL
   if ! has_encoding "$item_link"; then
@@ -164,6 +166,8 @@ while IFS= read -r line; do
 
   # extract content length
   content_length=$(curl "$item_link" --location --silent --head --fail | grep -i "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
+
+  echo "Content Length: \"$content_length\""
 
   # html encode URL
   item_link=$(html_encode "$item_link")
