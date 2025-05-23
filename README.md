@@ -1,28 +1,7 @@
 # Podcasts
 ![](https://github.com/Stephan5/podcasts/actions/workflows/main.yml/badge.svg)
 ## Feeds
-
-A collection of self-hosted podcast feeds for my own use, to ensure all the best 'dudes rock' content is preserved.
-
-You'll remember such classics as:
-
-> Ricky: "It's the most convoluted, ridiculous, RACIST, piece of material ever to be uttered on radio!"
->
-> Steve: "Play it again!"
->
-> – RSK XFM
-
-> "I'm gay actor Michael Douglas."
-> 
-> – Cum Town
-
-> "Dog dirt"
->
-> – Athletico Mince
-
-> "Ah, my family always get so gay when I talk about my family on here, but my grandma is a dickhead."
-> 
-> – Matt and Shane's Secret Podcast
+A collection of self-hosted podcast feeds for my own use, to ensure all the hottest 'casts are preserved.
 
 ## Scripts
 A collection of scripts to process podcast metadata and generate RSS feeds.
@@ -31,23 +10,24 @@ For example, you can onboard a new podcast by either:
 * building your own CSV and running the `csv2rss.sh` script
 * taking an existing feed and generating a CSV using `rss2csv.sh` and then running the `csv2rss.sh` script
 
-You can feed the CSV into `selfhost.sh` to upload the files to your own S3 bucket. 
+You also can feed your CSV into `selfhost.sh` to upload the files to your own S3 bucket. 
+
+CSVs detailing each episode must be of the form "title,description,date,url" using the delimiter of your choice. 
 
 ### csv2rss.sh
 This script takes a CSV file of podcast episodes along with other podcast details and outputs an XML feed file
-The CSV must be of the form: title,description,date,link
-Where either ordinal or description are optional.
+The CSV must be of the form: title,description,date,url
+The description is optional and can be left blank. 
+You then pass in details like the podcast title and description to the script as named args
 
 ```shell
  $ pwd 
- /Users/REDACTED/REDACTED/rss
+ /Users/REDACTED/REDACTED/podcasts
  
- $ ./script/csv2rss.sh ./feed/mssp/feed.csv \
+ $ ./script/csv2rss.sh ./feed/shower-cast/feed.csv \
      --delimiter ";" \
-     --title "Matt and Shane's Secret Podcast" \
-     --description "Grab onto this fast moving train and witness two comedians rise to victory and splendor." \
-     --image-link "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/00/fe/d2/00fed269-058c-1fc9-7c52-061940ee7e93/source/1200x630bb.jpg"
-```
+     --title "Shower Cast" \
+     --description "The hottest takes in the coldest showers"
 
 Requirements:
  * Run from the top-level of the `rss` repo.
