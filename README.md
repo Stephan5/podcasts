@@ -1,4 +1,4 @@
-# rss
+# Podcasts
 ![](https://github.com/Stephan5/podcasts/actions/workflows/main.yml/badge.svg)
 ## Feeds
 
