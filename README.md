@@ -23,11 +23,19 @@ You then pass in details like the podcast title and description to the script as
 ```shell
  $ pwd 
  /Users/REDACTED/REDACTED/podcasts
+
+ $ cat ./feed/shower-cast/feed.csv
+  title;description;date;url
+  Welcome to the cast;Our very first epsiode!;Sat, 24 May 2025 03:21:23 GMT;https://example.com/ep1.mp3
+  Hot and cold;The second one;Sat, 31 May 2025 05:21:23 GMT;https://example.com/ep2.mp3
  
  $ ./script/csv2rss.sh ./feed/shower-cast/feed.csv \
      --delimiter ";" \
      --title "Shower Cast" \
      --description "The hottest takes in the coldest showers"
+```
+
+This should generate a valid XML file in the shower-cast directory.
 
 Requirements:
  * Run from the top-level of the `rss` repo.
