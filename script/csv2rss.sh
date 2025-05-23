@@ -130,7 +130,7 @@ cat > "$tmp_file" <<EOF
        <title>$podcast_title</title>
        <link>$repo_feed_link</link>
     </image>
-    <generator>csv2rss.sh v 0.01</generator>
+    <generator>Stephan5/podcasts</generator>
     <ttl>1440</ttl>
 EOF
 

@@ -12,7 +12,7 @@
       <title>Dudes Rock</title>
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/test</link>
     </image>
-    <generator>csv2rss.sh v 0.01</generator>
+    <generator>Stephan5/podcasts</generator>
     <ttl>1440</ttl>
     <lastBuildDate>Tue, 20 May 2025 22:05:59 +0100</lastBuildDate>
     <pubDate>Tue, 20 May 2025 22:05:59 +0100</pubDate>
