@@ -38,7 +38,6 @@ You then pass in details like the podcast title and description to the script as
 This should generate a valid XML file in the shower-cast directory.
 
 Requirements:
- * Run from the top-level of the `rss` repo.
  * xmllint (brew install libxml2)
  * xmlstarlet (brew install xmlstarlet)
 
