@@ -1,5 +1,5 @@
-# Ignore top-level feed.csv
-/feed.csv
+# Ignore external feeds file
+/external-feeds.txt
 
 # Ignore IDEA
 .idea
