@@ -7,14 +7,18 @@ trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 input_file=""
 podcast_title=""
 podcast_description=""
-podcast_image_link=""
+podcast_website_url=""
+podcast_image_url=""
+podcast_feed_url=""
 csv_delimiter=","
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --title) podcast_title="$2"; shift 2 ;;
     --description) podcast_description="$2"; shift 2 ;;
-    --image-link) podcast_image_link="$2"; shift 2 ;;
+    --website) podcast_website_url="$2"; shift 2 ;;
+    --image-url) podcast_image_url="$2"; shift 2 ;;
+    --feed-url) podcast_feed_url="$2"; shift 2 ;;
     --delimiter) csv_delimiter="$2"; shift 2 ;;
     --) shift; break ;;
     --*) echo "Unknown option: $1" >&2; exit 1 ;;
@@ -32,7 +36,7 @@ done
 
 # Validate required args
 if [[ -z "$input_file" || -z "$podcast_title" ]]; then
-  echo "Usage: $0 input_file --repo-dir DIR --title TITLE [--description DESC] [--image-link URL] [--delimiter DELIMITER]" >&2
+  echo "Usage: $0 input_file --repo-dir DIR --title TITLE [--description DESC] [--image-url URL] [--delimiter DELIMITER]" >&2
   echo "Error: Missing required argument(s)" >&2
   exit 1
 fi
@@ -82,28 +86,34 @@ feed_filename=$(basename "$output_file")
 repo="Stephan5/podcasts"
 raw_content="https://raw.githubusercontent.com/$repo/refs/heads/main/$feed_repo_path"
 repo_link="https://github.com/$repo"
-repo_feed_link="$repo_link/tree/main/$feed_repo_path"
-self_feed_link="$raw_content/$feed_filename"
 
-if [[ -z "$podcast_image_link" ]]; then
-  podcast_image_link="$raw_content/image.jpg"
+
+# Default podcast hosting URLs
+if [[ -z "$podcast_website_url" ]]; then
+  podcast_website_url="$repo_link/tree/main/$feed_repo_path"
 fi
+
+if [[ -z "$podcast_feed_url" ]]; then
+  podcast_feed_url="$raw_content/$feed_filename"
+fi
+
+if [[ -z "$podcast_image_url" ]]; then
+  podcast_image_url="$raw_content/image.jpg"
+fi
+
 
 echo "Podcast Title: \"$podcast_title\""
 echo "Podcast Description: \"$podcast_description\""
-echo "Podcast Image Link: \"$podcast_image_link\""
+echo "Podcast Website: \"$podcast_website_url\""
+echo "Podcast Image URL: \"$podcast_image_url\""
+echo "Podcast Feed URL: \"$podcast_feed_url\""
+echo
 echo "Input File: \"$input_file\""
 echo "Repo Directory: \"$repo_dir\""
 echo "CSV Delimiter: \"$csv_delimiter\""
 echo "CSV File: \"$csv_file\""
 echo "Temporary File: \"$tmp_file\""
 echo "Output File: \"$output_file\""
-echo "Feed Filename: \"$feed_filename\""
-echo "Repository: \"$repo\""
-echo "Raw Content URL: \"$raw_content\""
-echo "Repository Link: \"$repo_link\""
-echo "Repository Feed Link: \"$repo_feed_link\""
-echo "Self Feed Link: \"$self_feed_link\""
 echo
 
 cat > "$tmp_file" <<EOF
@@ -119,16 +129,16 @@ cat > "$tmp_file" <<EOF
      xmlns:podcast="https://podcastindex.org/namespace/1.0"
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <atom:link href="$self_feed_link" rel="self" type="application/rss+xml"/>
+    <atom:link href="$podcast_feed_url" rel="self" type="application/rss+xml"/>
     <title>$podcast_title</title>
     <description>&lt;p&gt;$podcast_description &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using $repo.&lt;/p&gt;</description>
     <language>en-gb</language>
     <copyright>none</copyright>
-    <link>$repo_feed_link</link>
+    <link>$podcast_website_url</link>
     <image>
-       <url>$podcast_image_link</url>
+       <url>$podcast_image_url</url>
        <title>$podcast_title</title>
-       <link>$repo_feed_link</link>
+       <link>$podcast_website_url</link>
     </image>
     <generator>Stephan5/podcasts</generator>
     <ttl>1440</ttl>
@@ -222,4 +232,4 @@ fi
 mv "$tmp_file" "$output_file"
 
 echo "Created podcast RSS XML feed: $(realpath "$output_file")"
-echo "Once deployed, check feed by entering $self_feed_link into https://validator.livewire.io"
+echo "Once deployed, check feed by entering $podcast_feed_url into https://validator.livewire.io"
