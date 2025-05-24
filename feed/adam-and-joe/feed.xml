@@ -12,10 +12,10 @@
       <title>Adam and Joe</title>
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/adam-and-joe</link>
     </image>
-    <generator>csv2rss.sh v 0.01</generator>
+    <generator>Stephan5/podcasts</generator>
     <ttl>1440</ttl>
-    <lastBuildDate>Fri, 23 May 2025 20:45:34 +0100</lastBuildDate>
-    <pubDate>Fri, 23 May 2025 20:45:34 +0100</pubDate>
+    <lastBuildDate>Sat, 24 May 2025 11:23:46 +0100</lastBuildDate>
+    <pubDate>Sat, 24 May 2025 11:23:46 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adam-and-joe/1-adam-and-joe-on-xfm-30-aug-2003.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adam-and-joe/1-adam-and-joe-on-xfm-30-aug-2003.mp3</guid>

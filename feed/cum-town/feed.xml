@@ -12,10 +12,10 @@
       <title>Cum Town</title>
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/cum-town</link>
     </image>
-    <generator>csv2rss.sh v 0.01</generator>
+    <generator>Stephan5/podcasts</generator>
     <ttl>1440</ttl>
-    <lastBuildDate>Fri, 23 May 2025 20:52:42 +0100</lastBuildDate>
-    <pubDate>Fri, 23 May 2025 20:52:42 +0100</pubDate>
+    <lastBuildDate>Sat, 24 May 2025 11:24:50 +0100</lastBuildDate>
+    <pubDate>Sat, 24 May 2025 11:24:50 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/cum-town/1-ep-1-the-original-cum-boys.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/cum-town/1-ep-1-the-original-cum-boys.mp3</guid>

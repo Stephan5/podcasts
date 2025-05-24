@@ -12,7 +12,7 @@
       <title>Top Flight Time Machine</title>
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/top-flight-time-machine</link>
     </image>
-    <generator>csv2rss.sh v 0.01</generator>
+    <generator>Stephan5/podcasts</generator>
     <ttl>1440</ttl>
     <lastBuildDate>Fri, 23 May 2025 20:46:06 +0100</lastBuildDate>
     <pubDate>Fri, 23 May 2025 20:46:06 +0100</pubDate>
