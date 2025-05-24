@@ -12,11 +12,11 @@ For example, you can onboard a new podcast by either:
 
 You also can feed your CSV into `selfhost.sh` to upload the files to your own S3 bucket. 
 
-CSVs detailing each episode must be of the form "title,description,date,url" using the delimiter of your choice. 
+CSVs detailing each episode must be of the form `title,description,date,url,length` using the delimiter of your choice. 
 
 ### csv2rss.sh
 This script takes a CSV file of podcast episodes along with other podcast details and outputs an XML feed file.
-The CSV must be of the form: title,description,date,url. The description is optional and can be left blank.
+The CSV must be of the form: `title,description,date,url,length`. The description and length (content length of audio file) is optional and can be left blank.
 You then pass in details like the podcast title and description to the script as named args
 
 ```shell

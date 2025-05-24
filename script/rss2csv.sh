@@ -86,7 +86,7 @@ image_url=$(xmlstarlet sel -t -v "normalize-space(//channel/image/url)" "$tmp_xm
 self_feed_url=$(xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -v "//atom:link[@rel='self']/@href" "$tmp_xml_file")
 
 # write CSV headers
-echo "title${csv_delimiter}description${csv_delimiter}date${csv_delimiter}link" > "$tmp_output_file"
+echo "title${csv_delimiter}description${csv_delimiter}date${csv_delimiter}url${csv_delimiter}length" > "$tmp_output_file"
 
 # temp file for unsorted items
 tmp_raw_items=$(mktemp)
@@ -97,14 +97,16 @@ xmlstarlet sel -t -m "//item" \
   -v "normalize-space(title)" -o "$csv_delimiter" \
   -v "normalize-space(description)" -o "$csv_delimiter" \
   -v "pubDate" -o "$csv_delimiter" \
-  -v "enclosure/@url" -n \
+  -v "enclosure/@url" -o "$csv_delimiter" \
+  -v "enclosure/@length" -n \
   "$tmp_xml_file" >> "$tmp_raw_items"
 
 # process and validate each line
-while IFS="$csv_delimiter" read -r title description pubdate link; do
+while IFS="$csv_delimiter" read -r title description pubdate url length; do
   echo "Title: \"$title\""
   echo "PubDate: \"$pubdate\""
-  echo "Link: \"$link\""
+  echo "URL: \"$url\""
+  echo "Content Length: \"$length\""
 
   if ! validate_rfc2822_date "$pubdate"; then
     echo "Item failed date validation $title $pubdate"
@@ -113,23 +115,18 @@ while IFS="$csv_delimiter" read -r title description pubdate link; do
 
   sortable_date=$(parse_rfc2822_date "$pubdate")
 
-  decoded_link=$(html_decode "$link")
+  decoded_url=$(html_decode "$url")
 
-  echo "Decoded Link: \"$decoded_link\""
+  echo "Decoded Link: \"$decoded_url\""
   echo
 
-  echo "$title$csv_delimiter$description$csv_delimiter$pubdate$csv_delimiter$decoded_link$csv_delimiter$sortable_date" >> "$tmp_items"
+  echo "$title$csv_delimiter$description$csv_delimiter$pubdate$csv_delimiter$decoded_url$csv_delimiter$length$csv_delimiter$sortable_date" >> "$tmp_items"
 done < "$tmp_raw_items"
 
-# sort by date (5th field = sortable_date)
+# sort by date (6th field = sortable_date)
 LC_ALL=C sort -t "$csv_delimiter" -k5 "$tmp_items" | \
-# remove the sortable_date (5th field), keep 1st,2nd,3rd,4th fields
-awk -F"$csv_delimiter" -v OFS="$csv_delimiter" '{ print $1, $2, $3, $4 }' >> "$tmp_output_file"
-
-# backup output file if exists
-if [[ -f "$output_file" ]]; then
-	mv "$output_file" "$output_file".old;
-fi
+# remove the sortable_date (6th field), keep 1st,2nd,3rd,4th and 5th fields
+awk -F"$csv_delimiter" -v OFS="$csv_delimiter" '{ print $1, $2, $3, $4, $5 }' >> "$tmp_output_file"
 
 # replace output file with our new one
 mv "$tmp_output_file" "$output_file"

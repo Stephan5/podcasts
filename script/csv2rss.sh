@@ -80,7 +80,8 @@ if [[ "$(realpath "$input_file")" != "$(realpath "$csv_file")" ]]; then
   cp "$input_file" "$csv_file"
 fi
 
-tmp_file=$(mktemp)
+tmp_xml=$(mktemp)
+tmp_csv=$(mktemp)
 output_file="${output_file:-${csv_file%%.csv}.xml}"
 feed_filename=$(basename "$output_file")
 repo="Stephan5/podcasts"
@@ -101,7 +102,6 @@ if [[ -z "$podcast_image_url" ]]; then
   podcast_image_url="$raw_content/image.jpg"
 fi
 
-
 echo "Podcast Title: \"$podcast_title\""
 echo "Podcast Description: \"$podcast_description\""
 echo "Podcast Website: \"$podcast_website_url\""
@@ -112,11 +112,11 @@ echo "Input File: \"$input_file\""
 echo "Repo Directory: \"$repo_dir\""
 echo "CSV Delimiter: \"$csv_delimiter\""
 echo "CSV File: \"$csv_file\""
-echo "Temporary File: \"$tmp_file\""
+echo "Temporary File: \"$tmp_xml\""
 echo "Output File: \"$output_file\""
 echo
 
-cat > "$tmp_file" <<EOF
+cat > "$tmp_xml" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:atom="http://www.w3.org/2005/Atom"
@@ -147,12 +147,15 @@ EOF
 {
   echo "<lastBuildDate>$(date -R)</lastBuildDate>";
   echo "<pubDate>$(date -R)</pubDate>";
-} >> "$tmp_file"
+} >> "$tmp_xml"
+
+# Extract header from CSV file
+echo "title${csv_delimiter}description${csv_delimiter}date${csv_delimiter}url${csv_delimiter}length" > "$tmp_csv"
 
 item_number=1  # initialize before the loop
 
 while IFS= read -r line; do
-  IFS=$csv_delimiter read -r item_title item_description item_date item_link <<< "$line"
+  IFS=$csv_delimiter read -r item_title item_description item_date item_link item_length <<< "$line"
 
   echo "Title: \"$item_title\""
   echo "Date: \"$item_date\""
@@ -175,9 +178,12 @@ while IFS= read -r line; do
   fi
 
   # extract content length
-  content_length=$(curl "$item_link" --location --silent --head --fail | grep -i "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
-
-  echo "Content Length: \"$content_length\""
+  if [[ -z "$item_length" ]]; then
+    item_length=$(curl "$item_link" --location --silent --head --fail | grep -i "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
+    echo "Content-Length fetched: \"$item_length\""
+  else
+    echo "Content-Length provided: \"$item_length\""
+  fi
 
   # html encode URL
   item_link=$(html_encode "$item_link")
@@ -191,9 +197,11 @@ while IFS= read -r line; do
     echo "<title>$item_number: $item_title</title>";
     echo "<description>$item_desc</description>";
     echo "<pubDate>$item_date</pubDate>";
-    echo "<enclosure url=\"$item_link\" length=\"$content_length\" type=\"audio/mpeg\"/>";
+    echo "<enclosure url=\"$item_link\" length=\"$item_length\" type=\"audio/mpeg\"/>";
     echo "</item>";
-  } >> "$tmp_file"
+  } >> "$tmp_xml"
+
+  echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$item_link$csv_delimiter$item_length" >> "$tmp_csv"
 
   ((item_number++))  # increment item_number
 
@@ -201,13 +209,13 @@ while IFS= read -r line; do
 done < <(tail -n +2 "$input_file")
 
 # add closing tags
-cat >> "$tmp_file" <<EOF
+cat >> "$tmp_xml" <<EOF
 </channel>
 </rss>
 EOF
 
 # reformat xml file
-xmllint --format "$tmp_file" -o "$tmp_file"
+xmllint --format "$tmp_xml" -o "$tmp_xml"
 
 # compare with existing file if any
 existing_file_hash=""
@@ -215,21 +223,17 @@ if [[ -f "$output_file" ]]; then
   existing_file_hash=$(grep -vE "^    <lastBuildDate>|^    <pubDate>" "$output_file" | sha256sum | cut -d " " -f 1)
 fi
 
-temp_file_hash=$(grep -vE "^    <lastBuildDate>|^    <pubDate>" "$tmp_file" | sha256sum | cut -d " " -f 1)
+temp_file_hash=$(grep -vE "^    <lastBuildDate>|^    <pubDate>" "$tmp_xml" | sha256sum | cut -d " " -f 1)
 
 if [[ "$existing_file_hash" == "$temp_file_hash" ]]; then
   echo "No changes detected. Skipping update."
-  rm "$tmp_file"
+  rm "$tmp_xml"
   exit 0
 fi
 
-# backup output file if exists
-if [[ -f "$output_file" ]]; then
-	mv "$output_file" "$output_file".old;
-fi
-
 # replace output file with our new one
-mv "$tmp_file" "$output_file"
+mv "$tmp_csv" "$input_file"
+mv "$tmp_xml" "$output_file"
 
 echo "Created podcast RSS XML feed: $(realpath "$output_file")"
 echo "Once deployed, check feed by entering $podcast_feed_url into https://validator.livewire.io"
