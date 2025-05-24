@@ -13,7 +13,7 @@ trap 'rm -rf "$TEST_DIR"' EXIT
 
 # Create a sample CSV input
 cat > "$INPUT" <<EOF
-title;description;date;link
+title;description;date;url
 Episode 1;Desc 1;Jun 1, 2023;http://example.com/1
 Episode 2;Desc 2;Jul 2, 2023;http://example.com/2
 Episode 3;Desc 3;Jul. 3, 2023;http://example.com/3
