@@ -149,7 +149,7 @@ EOF
   echo "<pubDate>$(date -R)</pubDate>";
 } >> "$tmp_xml"
 
-# Extract header from CSV file
+# Insert header into temp CSV file
 echo "title${csv_delimiter}description${csv_delimiter}date${csv_delimiter}url${csv_delimiter}length" > "$tmp_csv"
 
 item_number=1  # initialize before the loop
@@ -201,6 +201,7 @@ while IFS= read -r line; do
     echo "</item>";
   } >> "$tmp_xml"
 
+  # append item to temp CSV
   echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$item_link$csv_delimiter$item_length" >> "$tmp_csv"
 
   ((item_number++))  # increment item_number
@@ -225,15 +226,18 @@ fi
 
 temp_file_hash=$(grep -vE "^    <lastBuildDate>|^    <pubDate>" "$tmp_xml" | sha256sum | cut -d " " -f 1)
 
+if [[ $(sha256sum "$input_file" | cut -d " " -f 1) == $(sha256sum "$tmp_csv" | cut -d " " -f 1) ]]; then
+  rm "$tmp_csv"
+else
+  mv "$tmp_csv" "$input_file"
+fi
+
 if [[ "$existing_file_hash" == "$temp_file_hash" ]]; then
   echo "No changes detected. Skipping update."
   rm "$tmp_xml"
-  exit 0
+else
+  mv "$tmp_xml" "$output_file"
+
+  echo "Created podcast RSS XML feed: $(realpath "$output_file")"
+  echo "Once deployed, check feed by entering $podcast_feed_url into https://validator.livewire.io"
 fi
-
-# replace output file with our new one
-mv "$tmp_csv" "$input_file"
-mv "$tmp_xml" "$output_file"
-
-echo "Created podcast RSS XML feed: $(realpath "$output_file")"
-echo "Once deployed, check feed by entering $podcast_feed_url into https://validator.livewire.io"
