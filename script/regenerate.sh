@@ -43,7 +43,11 @@ while IFS= read -r dir_path; do
     cmd_file="$dir_path/cmd.sh"
 
     if [[ -f "$cmd_file" ]]; then
-        echo "Running script for: $dir"
+        echo "---------------------------------------------------"
+        echo "---------------------------------------------------"
+        echo "--- Starting regeneration for: $dir ---"
+        echo "---------------------------------------------------"
+        echo "---------------------------------------------------"
 
         # Verify file ownership and permissions
         if [[ ! -O "$cmd_file" ]]; then
@@ -59,6 +63,14 @@ while IFS= read -r dir_path; do
             echo "Error: Script '$cmd_file' failed!" >&2
             exit 1
         fi
+
+        echo "---------------------------------------------------"
+        echo "---------------------------------------------------"
+        echo "--- Regeneration complete for: $dir ---"
+        echo "---------------------------------------------------"
+        echo "---------------------------------------------------"
+        echo
+        echo
     else
         echo "Skipping $dir — no cmd.sh found."
     fi

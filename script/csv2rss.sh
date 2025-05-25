@@ -36,7 +36,7 @@ done
 
 # Validate required args
 if [[ -z "$input_file" || -z "$podcast_title" ]]; then
-  echo "Usage: $0 input_file --repo-dir DIR --title TITLE [--description DESC] [--image-url URL] [--delimiter DELIMITER]" >&2
+  echo "Usage: $0 input_file --title TITLE [--description DESC] [--image-url URL] [--delimiter DELIMITER]" >&2
   echo "Error: Missing required argument(s)" >&2
   exit 1
 fi
@@ -52,11 +52,6 @@ fi
 repo_dir="$(basename "$(dirname "$input_file_abs")")"
 feed_base_dir="$(cd "$(dirname "$(dirname "$input_file_abs")")" && pwd)"
 feed_repo_path="feed/$repo_dir"
-
-if [[ ! -d "$feed_base_dir" ]]; then
-    echo "Error: Feed base directory '$feed_base_dir' not found" >&2
-    exit 1
-fi
 
 # Ensure feed directory exists
 if [[ ! -d "$feed_base_dir" ]]; then
@@ -87,7 +82,6 @@ feed_filename=$(basename "$output_file")
 repo="Stephan5/podcasts"
 raw_content="https://raw.githubusercontent.com/$repo/refs/heads/main/$feed_repo_path"
 repo_link="https://github.com/$repo"
-
 
 # Default podcast hosting URLs
 if [[ -z "$podcast_website_url" ]]; then

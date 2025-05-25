@@ -76,7 +76,7 @@ fi
 # assuming $input_file is your CSV file path (e.g., ./feed/matt-and-shane/feed.csv)
 repo_dir="$(basename "$(dirname "$input_file_abs")")"
 
-base_http_dst_url = "https://s3.$region.amazonaws.com/$bucket$prefix/$repo_dir"
+base_http_dst_url="https://s3.$region.amazonaws.com/$bucket$prefix/$repo_dir"
 
 echo "Input File: \"$input_file\""
 echo "Temp File: \"$tmp_file\""

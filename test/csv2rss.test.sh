@@ -17,7 +17,7 @@ rm -f "$ACTUAL_OUTPUT"
 "$SCRIPT" "$INPUT" --delimiter $'\x1F' \
                    --title "Dudes Rock" \
                    --description "Hell yeah dude!" \
-                   --image-link "https://link.com/image.jpg"
+                   --image-url "https://link.com/image.jpg"
 
 echo
 echo
