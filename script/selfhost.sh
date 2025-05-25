@@ -76,6 +76,7 @@ fi
 # assuming $input_file is your CSV file path (e.g., ./feed/matt-and-shane/feed.csv)
 repo_dir="$(basename "$(dirname "$input_file_abs")")"
 
+base_http_dst_url = "https://s3.$region.amazonaws.com/$bucket$prefix/$repo_dir"
 
 echo "Input File: \"$input_file\""
 echo "Temp File: \"$tmp_file\""
@@ -90,11 +91,11 @@ item_number=1  # initialize before the loop
 
 # Read the CSV line by line
 while IFS= read -r line; do
-  IFS=$csv_delimiter read -r item_title item_description item_date src_url <<< "$line"
+  IFS=$csv_delimiter read -r item_title item_description item_date src_url content_length <<< "$line"
 
   # Skip the header if present
   if [[ "$item_title" == "title" ]]; then
-    echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$src_url" >> "$tmp_file"
+    echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$src_url$csv_delimiter$content_length" >> "$tmp_file"
     continue
   fi
 
@@ -124,24 +125,24 @@ while IFS= read -r line; do
     echo "Encoded URL: $src_url_enc"
   fi
 
-  http_dst_link=$(url_encode "https://s3.$region.amazonaws.com/$bucket$prefix/$repo_dir/$file_name")
-  s3_dst_link=$(convert_to_s3 "$http_dst_link")
+  http_dst_url=$(url_encode "$base_http_dst_url/$file_name")
+  s3_dst_url=$(convert_to_s3 "$http_dst_url")
 
   echo "Src URL (Encoded): \"$src_url_enc\""
-  echo "Dst URL: \"$http_dst_link\""
-  echo "Dst S3: \"$http_dst_link\""
+  echo "Dst URL: \"$http_dst_url\""
+  echo "Dst S3: \"$http_dst_url\""
   echo "File Name: \"$file_name\""
   echo "Extension: \"$extension\""
 
   # Check already exists, if so, skip
-  if [[ "$src_url_enc" == "$http_dst_link" ]]; then
+  if [[ "$src_url_enc" == "$http_dst_url" ]]; then
         echo "Link already self-hosted: \"$src_url_enc\". Skipping."
         new_link="$src_url_enc"
 
   # Check if link is already in the bucket, if so move it
   elif [[ "$src_url_enc" == "https://s3.$region.amazonaws.com/$bucket"* ]]; then
-      echo "Link already self-hosted: \"$src_url_enc\". Moving to new location \"$http_dst_link\""
-      new_link="$http_dst_link"
+      echo "Link already self-hosted: \"$src_url_enc\". Moving to new location \"$http_dst_url\""
+      new_link="$http_dst_url"
 
       # Check src link is a valid link
       validate_url "$src_url_enc"
@@ -151,8 +152,8 @@ while IFS= read -r line; do
      s3_src_link=$(convert_to_s3 "$decoded_src_link")
      echo "Src S3: \"$s3_src_link\""
 
-     if s3_mv "$s3_src_link" "$s3_dst_link"; then
-       new_link="$http_dst_link"
+     if s3_mv "$s3_src_link" "$s3_dst_url"; then
+       new_link="$http_dst_url"
      else
        new_link="$src_url_enc"
      fi
@@ -161,8 +162,8 @@ while IFS= read -r line; do
   elif [[ -f "$src_url" ]]; then
     echo "Local file detected: \"$src_url\". Attempting to upload to S3."
 
-    if s3_cp "$src_url" "$s3_dst_link"; then
-      new_link="$http_dst_link"
+    if s3_cp "$src_url" "$s3_dst_url"; then
+      new_link="$http_dst_url"
     else
       new_link="$src_url_enc"
     fi
@@ -175,8 +176,8 @@ while IFS= read -r line; do
     if curl --silent --fail --location "$src_url_enc" --output "$temp_download"; then
       # Transfer the downloaded file to S3
       echo "Attempting to upload file for \"$file_name\" to S3"
-      if s3_cp "$temp_download" "$s3_dst_link"; then
-        new_link="$http_dst_link"
+      if s3_cp "$temp_download" "$s3_dst_url"; then
+        new_link="$http_dst_url"
       else
         new_link="$src_url_enc"
       fi
@@ -195,13 +196,17 @@ while IFS= read -r line; do
 
   echo
   # Write the updated line to the temp file
-  echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$new_link" >> "$tmp_file"
+  echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$new_link$csv_delimiter$content_length" >> "$tmp_file"
 
   ((item_number++))  # increment item_number
 done < "$input_file"
 
-# backup output file if exists
-mv "$output_file" "$output_file".old;
-
 # replace output file with our new one
 mv "$tmp_file" "$output_file"
+
+# Log any things we couldn't self-host
+matches=$(grep -E "^_http.*($|^_)" "$output_file" | grep -v "$base_http_dst_url" || true)
+if [[ -n "$matches" ]]; then
+  echo "Found the following lines that failed to be self-hosted and need review:"
+  echo "$matches"
+fi
