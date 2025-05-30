@@ -32,9 +32,9 @@ TEST_MP3_URL="https://freetestdata.com/wp-content/uploads/2021/09/Free_Test_Data
 
 # Create a sample CSV input
 cat > "$INPUT" <<EOF
-title;description;date;url;length
-Episode 1;Desc 1;Jun 1, 2023;$TEST_MP3_URL?id=1;
-Episode 2;Desc 2;Jul 2, 2023;$TEST_MP3_URL?id=2;
+title;description;date;url
+Episode 1;Desc 1;Jun 1, 2023;$TEST_MP3_URL
+Episode 2;Desc 2;Jul 2, 2023;$TEST_MP3_URL
 EOF
 
 BUCKET_PREFIX="/rss"
@@ -42,9 +42,9 @@ S3_URL_1="https://s3.eu-west-2.amazonaws.com/$BUCKET$BUCKET_PREFIX/$(basename "$
 S3_URL_2="https://s3.eu-west-2.amazonaws.com/$BUCKET$BUCKET_PREFIX/$(basename "$TEST_DIR")/2-episode-2.mp3"
 
 cat > "$EXPECTED" <<EOF
-title;description;date;url;length
-Episode 1;Desc 1;Jun 1, 2023;$S3_URL_1;
-Episode 2;Desc 2;Jul 2, 2023;$S3_URL_2;
+title;description;date;url
+Episode 1;Desc 1;Jun 1, 2023;$S3_URL_1
+Episode 2;Desc 2;Jul 2, 2023;$S3_URL_2
 EOF
 
 # When
