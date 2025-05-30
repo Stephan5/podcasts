@@ -13,9 +13,9 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/matt-and-shane</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <ttl>1440</ttl>
-    <lastBuildDate>Sat, 24 May 2025 19:06:59 +0100</lastBuildDate>
-    <pubDate>Sat, 24 May 2025 19:06:59 +0100</pubDate>
+    <itunes:author>Matt McCusker &amp; Shane Gillis</itunes:author>
+    <lastBuildDate>Sat, 31 May 2025 00:42:13 +0100</lastBuildDate>
+    <pubDate>Sat, 31 May 2025 00:42:13 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/matt-and-shane/1-inaugral-business.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/matt-and-shane/1-inaugral-business.mp3</guid>

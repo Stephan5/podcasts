@@ -13,9 +13,9 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/adam-and-joe</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <ttl>1440</ttl>
-    <lastBuildDate>Fri, 30 May 2025 14:23:24 +0100</lastBuildDate>
-    <pubDate>Fri, 30 May 2025 14:23:24 +0100</pubDate>
+    <itunes:author>XFM &amp; 6Music</itunes:author>
+    <lastBuildDate>Sat, 31 May 2025 00:39:13 +0100</lastBuildDate>
+    <pubDate>Sat, 31 May 2025 00:39:13 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adam-and-joe/1-adam-and-joe-on-xfm-30-aug-2003.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adam-and-joe/1-adam-and-joe-on-xfm-30-aug-2003.mp3</guid>

@@ -13,9 +13,9 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/simon-nick-karl-xfm</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <ttl>1440</ttl>
-    <lastBuildDate>Fri, 23 May 2025 20:58:25 +0100</lastBuildDate>
-    <pubDate>Fri, 23 May 2025 20:58:25 +0100</pubDate>
+    <itunes:author>XFM</itunes:author>
+    <lastBuildDate>Sat, 31 May 2025 00:44:53 +0100</lastBuildDate>
+    <pubDate>Sat, 31 May 2025 00:44:53 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/1-2002-06-29.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/simon-nick-karl-xfm/1-2002-06-29.mp3</guid>

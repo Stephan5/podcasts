@@ -13,9 +13,9 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/top-flight-time-machine</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <ttl>1440</ttl>
-    <lastBuildDate>Sat, 24 May 2025 20:11:43 +0100</lastBuildDate>
-    <pubDate>Sat, 24 May 2025 20:11:43 +0100</pubDate>
+    <itunes:author>Andy Dawson &amp; Sam Delaney</itunes:author>
+    <lastBuildDate>Sat, 31 May 2025 00:48:25 +0100</lastBuildDate>
+    <pubDate>Sat, 31 May 2025 00:48:25 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/top-flight-time-machine/1-1992-1993.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/top-flight-time-machine/1-1992-1993.mp3</guid>
