@@ -2,25 +2,25 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
   <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/russell-and-karl/feed.xml" rel="self" type="application/rss+xml"/>
-    <title>The Russell Brand Show with Karl Pilkington</title>
-    <description>&lt;p&gt;A few one-off shows of the Russell Brand Show with Karl Pilkington joining as co-host. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <title>Russell Brand and Karl Pilkington</title>
+    <description>&lt;p&gt;A few one-off shows of the Russell Brand Show where Karl Pilkington joins as co-host. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/russell-and-karl</link>
     <image>
       <url>https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/russell-and-karl/image.jpg</url>
-      <title>The Russell Brand Show with Karl Pilkington</title>
+      <title>Russell Brand and Karl Pilkington</title>
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/russell-and-karl</link>
     </image>
     <generator>Stephan5/podcasts</generator>
     <ttl>1440</ttl>
-    <lastBuildDate>Sat, 31 May 2025 00:21:08 +0100</lastBuildDate>
-    <pubDate>Sat, 31 May 2025 00:21:08 +0100</pubDate>
+    <lastBuildDate>Sat, 31 May 2025 00:23:21 +0100</lastBuildDate>
+    <pubDate>Sat, 31 May 2025 00:23:21 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/1-2005-12-27.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/1-2005-12-27.mp3</guid>
       <title>1: 2005-12-27</title>
-      <description>2005-12-27 - Episode 1 of The Russell Brand Show with Karl Pilkington&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>2005-12-27 - Episode 1 of Russell Brand and Karl Pilkington&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Tue, 27 Dec 2005 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/1-2005-12-27.mp3" length="103894528" type="audio/mpeg"/>
     </item>
@@ -28,7 +28,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/2-2005-12-28.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/2-2005-12-28.mp3</guid>
       <title>2: 2005-12-28</title>
-      <description>2005-12-28 - Episode 2 of The Russell Brand Show with Karl Pilkington&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>2005-12-28 - Episode 2 of Russell Brand and Karl Pilkington&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Wed, 28 Dec 2005 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/2-2005-12-28.mp3" length="104890880" type="audio/mpeg"/>
     </item>
@@ -36,7 +36,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/3-2005-12-29.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/3-2005-12-29.mp3</guid>
       <title>3: 2005-12-29</title>
-      <description>2005-12-29 - Episode 3 of The Russell Brand Show with Karl Pilkington&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>2005-12-29 - Episode 3 of Russell Brand and Karl Pilkington&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Thu, 29 Dec 2005 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/3-2005-12-29.mp3" length="110799360" type="audio/mpeg"/>
     </item>
@@ -44,7 +44,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/4-2005-04-09.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/4-2005-04-09.mp3</guid>
       <title>4: 2006-04-09</title>
-      <description>2006-04-09 - Episode 4 of The Russell Brand Show with Karl Pilkington&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>2006-04-09 - Episode 4 of Russell Brand and Karl Pilkington&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sat, 09 Apr 2005 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/4-2005-04-09.mp3" length="39127040" type="audio/mpeg"/>
     </item>
