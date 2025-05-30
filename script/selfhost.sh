@@ -91,11 +91,11 @@ item_number=1  # initialize before the loop
 
 # Read the CSV line by line
 while IFS= read -r line; do
-  IFS=$csv_delimiter read -r item_title item_description item_date src_url content_length <<< "$line"
+  IFS=$csv_delimiter read -r item_title item_description item_date src_url <<< "$line"
 
   # Skip the header if present
   if [[ "$item_title" == "title" ]]; then
-    echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$src_url$csv_delimiter$content_length" >> "$tmp_file"
+    echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$src_url" >> "$tmp_file"
     continue
   fi
 
@@ -118,17 +118,17 @@ while IFS= read -r line; do
   file_name="${file_name}.${extension}"
 
   # Encode URLs
+  echo "Src URL: \"$src_url\""
   if has_encoding "$src_url"; then
     src_url_enc=$src_url
   else
     src_url_enc=$(url_encode "$src_url")
-    echo "Encoded URL: $src_url_enc"
+    echo "Encoded Src URL: \"$src_url\""
   fi
 
   http_dst_url=$(url_encode "$base_http_dst_url/$file_name")
   s3_dst_url=$(convert_to_s3 "$http_dst_url")
 
-  echo "Src URL (Encoded): \"$src_url_enc\""
   echo "Dst URL: \"$http_dst_url\""
   echo "Dst S3: \"$http_dst_url\""
   echo "File Name: \"$file_name\""
@@ -165,7 +165,8 @@ while IFS= read -r line; do
     if s3_cp "$src_url" "$s3_dst_url"; then
       new_link="$http_dst_url"
     else
-      new_link="$src_url_enc"
+      echo "Failed to upload local file \"$src_url\" to S3."
+      new_link="$src_url"
     fi
 
   # Check if the link is valid
@@ -196,7 +197,7 @@ while IFS= read -r line; do
 
   echo
   # Write the updated line to the temp file
-  echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$new_link$csv_delimiter$content_length" >> "$tmp_file"
+  echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$new_link" >> "$tmp_file"
 
   ((item_number++))  # increment item_number
 done < "$input_file"

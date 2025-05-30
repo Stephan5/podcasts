@@ -76,7 +76,6 @@ if [[ "$(realpath "$input_file")" != "$(realpath "$csv_file")" ]]; then
 fi
 
 tmp_xml=$(mktemp)
-tmp_csv=$(mktemp)
 output_file="${output_file:-${csv_file%%.csv}.xml}"
 feed_filename=$(basename "$output_file")
 repo="Stephan5/podcasts"
@@ -143,13 +142,10 @@ EOF
   echo "<pubDate>$(date -R)</pubDate>";
 } >> "$tmp_xml"
 
-# Insert header into temp CSV file
-echo "title${csv_delimiter}description${csv_delimiter}date${csv_delimiter}url${csv_delimiter}length" > "$tmp_csv"
-
 item_number=1  # initialize before the loop
 
 while IFS= read -r line; do
-  IFS=$csv_delimiter read -r item_title item_description item_date item_link item_length <<< "$line"
+  IFS=$csv_delimiter read -r item_title item_description item_date item_link <<< "$line"
 
   echo "Title: \"$item_title\""
   echo "Date: \"$item_date\""
@@ -172,12 +168,8 @@ while IFS= read -r line; do
   fi
 
   # extract content length
-  if [[ -z "$item_length" ]]; then
-    item_length=$(curl "$item_link" --location --silent --head --fail | grep -i "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
-    echo "Content-Length fetched: \"$item_length\""
-  else
-    echo "Content-Length provided: \"$item_length\""
-  fi
+  item_length=$(curl "$item_link" --location --silent --head --fail | grep -i "content-length:" | cut -d " " -f 2 | tr -d '\r\n[:space:]')
+  echo "Content-Length fetched: \"$item_length\""
 
   # html encode URL
   item_link=$(html_encode "$item_link")
@@ -194,9 +186,6 @@ while IFS= read -r line; do
     echo "<enclosure url=\"$item_link\" length=\"$item_length\" type=\"audio/mpeg\"/>";
     echo "</item>";
   } >> "$tmp_xml"
-
-  # append item to temp CSV
-  echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$item_link$csv_delimiter$item_length" >> "$tmp_csv"
 
   ((item_number++))  # increment item_number
 
@@ -219,12 +208,6 @@ if [[ -f "$output_file" ]]; then
 fi
 
 temp_file_hash=$(grep -vE "^    <lastBuildDate>|^    <pubDate>" "$tmp_xml" | sha256sum | cut -d " " -f 1)
-
-if [[ $(sha256sum "$input_file" | cut -d " " -f 1) == $(sha256sum "$tmp_csv" | cut -d " " -f 1) ]]; then
-  rm "$tmp_csv"
-else
-  mv "$tmp_csv" "$input_file"
-fi
 
 if [[ "$existing_file_hash" == "$temp_file_hash" ]]; then
   echo "No changes detected. Skipping update."
