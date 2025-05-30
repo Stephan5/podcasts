@@ -2,25 +2,25 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
   <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/the-steve-show/feed.xml" rel="self" type="application/rss+xml"/>
-    <title>The Steve Show - BBC 6Music</title>
-    <description>&lt;p&gt;Stephen Merchant's Sunday afternoon show on BBC 6Music that ran from 2007 to 2009 &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <title>The Steve Show</title>
+    <description>&lt;p&gt;Stephen Merchant's Sunday afternoon show on BBC 6Music. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/the-steve-show</link>
     <image>
       <url>https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/the-steve-show/image.jpg</url>
-      <title>The Steve Show - BBC 6Music</title>
+      <title>The Steve Show</title>
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/the-steve-show</link>
     </image>
     <generator>Stephan5/podcasts</generator>
     <ttl>1440</ttl>
-    <lastBuildDate>Fri, 30 May 2025 01:41:09 +0100</lastBuildDate>
-    <pubDate>Fri, 30 May 2025 01:41:09 +0100</pubDate>
+    <lastBuildDate>Fri, 30 May 2025 14:31:42 +0100</lastBuildDate>
+    <pubDate>Fri, 30 May 2025 14:31:42 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/1-s01e01-14-january-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/1-s01e01-14-january-2007.mp3</guid>
       <title>1: S01E01 - 14 January 2007</title>
-      <description>S01E01 - 14 January 2007 - Episode 1 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E01 - 14 January 2007 - Episode 1 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 14 Jan 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/1-s01e01-14-january-2007.mp3" length="48276674" type="audio/mpeg"/>
     </item>
@@ -28,7 +28,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/2-s01e02-21-january-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/2-s01e02-21-january-2007.mp3</guid>
       <title>2: S01E02 - 21 January 2007</title>
-      <description>S01E02 - 21 January 2007 - Episode 2 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E02 - 21 January 2007 - Episode 2 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 21 Jan 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/2-s01e02-21-january-2007.mp3" length="49154048" type="audio/mpeg"/>
     </item>
@@ -36,7 +36,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/3-s01e03-28-january-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/3-s01e03-28-january-2007.mp3</guid>
       <title>3: S01E03 - 28 January 2007</title>
-      <description>S01E03 - 28 January 2007 - Episode 3 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E03 - 28 January 2007 - Episode 3 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 28 Jan 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/3-s01e03-28-january-2007.mp3" length="47500511" type="audio/mpeg"/>
     </item>
@@ -44,7 +44,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/4-s01e04-04-february-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/4-s01e04-04-february-2007.mp3</guid>
       <title>4: S01E04 - 04 February 2007</title>
-      <description>S01E04 - 04 February 2007 - Episode 4 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E04 - 04 February 2007 - Episode 4 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 04 Feb 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/4-s01e04-04-february-2007.mp3" length="52782199" type="audio/mpeg"/>
     </item>
@@ -52,7 +52,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/5-s01e05-11-february-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/5-s01e05-11-february-2007.mp3</guid>
       <title>5: S01E05 - 11 February 2007</title>
-      <description>S01E05 - 11 February 2007 - Episode 5 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E05 - 11 February 2007 - Episode 5 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 11 Feb 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/5-s01e05-11-february-2007.mp3" length="59247855" type="audio/mpeg"/>
     </item>
@@ -60,7 +60,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/6-s01e06-18-february-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/6-s01e06-18-february-2007.mp3</guid>
       <title>6: S01E06 - 18 February 2007</title>
-      <description>S01E06 - 18 February 2007 - Episode 6 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E06 - 18 February 2007 - Episode 6 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 18 Feb 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/6-s01e06-18-february-2007.mp3" length="49539082" type="audio/mpeg"/>
     </item>
@@ -68,7 +68,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/7-s01e07-25-february-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/7-s01e07-25-february-2007.mp3</guid>
       <title>7: S01E07 - 25 February 2007</title>
-      <description>S01E07 - 25 February 2007 - Episode 7 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E07 - 25 February 2007 - Episode 7 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 25 Feb 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/7-s01e07-25-february-2007.mp3" length="48869206" type="audio/mpeg"/>
     </item>
@@ -76,7 +76,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/8-s01e08-04-march-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/8-s01e08-04-march-2007.mp3</guid>
       <title>8: S01E08 - 04 March 2007</title>
-      <description>S01E08 - 04 March 2007 - Episode 8 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E08 - 04 March 2007 - Episode 8 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 04 Mar 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/8-s01e08-04-march-2007.mp3" length="48283218" type="audio/mpeg"/>
     </item>
@@ -84,7 +84,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/9-s01e09-11-march-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/9-s01e09-11-march-2007.mp3</guid>
       <title>9: S01E09 - 11 March 2007</title>
-      <description>S01E09 - 11 March 2007 - Episode 9 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E09 - 11 March 2007 - Episode 9 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 11 Mar 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/9-s01e09-11-march-2007.mp3" length="46769875" type="audio/mpeg"/>
     </item>
@@ -92,7 +92,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/10-s01e10-18-march-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/10-s01e10-18-march-2007.mp3</guid>
       <title>10: S01E10 - 18 March 2007</title>
-      <description>S01E10 - 18 March 2007 - Episode 10 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E10 - 18 March 2007 - Episode 10 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 18 Mar 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/10-s01e10-18-march-2007.mp3" length="52930473" type="audio/mpeg"/>
     </item>
@@ -100,7 +100,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/11-s01e11-25-march-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/11-s01e11-25-march-2007.mp3</guid>
       <title>11: S01E11 - 25 March 2007</title>
-      <description>S01E11 - 25 March 2007 - Episode 11 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E11 - 25 March 2007 - Episode 11 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 25 Mar 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/11-s01e11-25-march-2007.mp3" length="55536211" type="audio/mpeg"/>
     </item>
@@ -108,7 +108,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/12-s01e12-01-april-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/12-s01e12-01-april-2007.mp3</guid>
       <title>12: S01E12 - 01 April 2007</title>
-      <description>S01E12 - 01 April 2007 - Episode 12 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E12 - 01 April 2007 - Episode 12 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 01 Apr 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/12-s01e12-01-april-2007.mp3" length="48009391" type="audio/mpeg"/>
     </item>
@@ -116,7 +116,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/13-s01e13-08-april-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/13-s01e13-08-april-2007.mp3</guid>
       <title>13: S01E13 - 08 April 2007</title>
-      <description>S01E13 - 08 April 2007 - Episode 13 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E13 - 08 April 2007 - Episode 13 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 08 Apr 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/13-s01e13-08-april-2007.mp3" length="48012882" type="audio/mpeg"/>
     </item>
@@ -124,7 +124,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/14-s01e14-15-april-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/14-s01e14-15-april-2007.mp3</guid>
       <title>14: S01E14 - 15 April 2007</title>
-      <description>S01E14 - 15 April 2007 - Episode 14 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E14 - 15 April 2007 - Episode 14 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 15 Apr 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/14-s01e14-15-april-2007.mp3" length="52714176" type="audio/mpeg"/>
     </item>
@@ -132,7 +132,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/15-s01e15-22-april-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/15-s01e15-22-april-2007.mp3</guid>
       <title>15: S01E15 - 22 April 2007</title>
-      <description>S01E15 - 22 April 2007 - Episode 15 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E15 - 22 April 2007 - Episode 15 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 22 Apr 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/15-s01e15-22-april-2007.mp3" length="53260992" type="audio/mpeg"/>
     </item>
@@ -140,7 +140,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/16-s01e16-29-april-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/16-s01e16-29-april-2007.mp3</guid>
       <title>16: S01E16 - 29 April 2007</title>
-      <description>S01E16 - 29 April 2007 - Episode 16 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E16 - 29 April 2007 - Episode 16 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 29 Apr 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/16-s01e16-29-april-2007.mp3" length="27866097" type="audio/mpeg"/>
     </item>
@@ -148,7 +148,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/17-s01e17-06-may-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/17-s01e17-06-may-2007.mp3</guid>
       <title>17: S01E17 - 06 May 2007</title>
-      <description>S01E17 - 06 May 2007 - Episode 17 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E17 - 06 May 2007 - Episode 17 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 06 May 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/17-s01e17-06-may-2007.mp3" length="51218877" type="audio/mpeg"/>
     </item>
@@ -156,7 +156,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/18-s01e18-13-may-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/18-s01e18-13-may-2007.mp3</guid>
       <title>18: S01E18 - 13 May 2007</title>
-      <description>S01E18 - 13 May 2007 - Episode 18 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E18 - 13 May 2007 - Episode 18 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 13 May 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/18-s01e18-13-may-2007.mp3" length="52469566" type="audio/mpeg"/>
     </item>
@@ -164,7 +164,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/19-s01e19-20-may-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/19-s01e19-20-may-2007.mp3</guid>
       <title>19: S01E19 - 20 May 2007</title>
-      <description>S01E19 - 20 May 2007 - Episode 19 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E19 - 20 May 2007 - Episode 19 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 20 May 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/19-s01e19-20-may-2007.mp3" length="54288958" type="audio/mpeg"/>
     </item>
@@ -172,7 +172,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/20-s01e20-27-may-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/20-s01e20-27-may-2007.mp3</guid>
       <title>20: S01E20 - 27 May 2007</title>
-      <description>S01E20 - 27 May 2007 - Episode 20 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E20 - 27 May 2007 - Episode 20 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 27 May 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/20-s01e20-27-may-2007.mp3" length="40916156" type="audio/mpeg"/>
     </item>
@@ -180,7 +180,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/21-s01e21-03-june-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/21-s01e21-03-june-2007.mp3</guid>
       <title>21: S01E21 - 03 June 2007</title>
-      <description>S01E21 - 03 June 2007 - Episode 21 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E21 - 03 June 2007 - Episode 21 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 03 Jun 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/21-s01e21-03-june-2007.mp3" length="50264638" type="audio/mpeg"/>
     </item>
@@ -188,7 +188,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/22-s01e22-10-june-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/22-s01e22-10-june-2007.mp3</guid>
       <title>22: S01E22 - 10 June 2007</title>
-      <description>S01E22 - 10 June 2007 - Episode 22 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E22 - 10 June 2007 - Episode 22 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 10 Jun 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/22-s01e22-10-june-2007.mp3" length="46411583" type="audio/mpeg"/>
     </item>
@@ -196,7 +196,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/23-s01e23-17-june-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/23-s01e23-17-june-2007.mp3</guid>
       <title>23: S01E23 - 17 June 2007</title>
-      <description>S01E23 - 17 June 2007 - Episode 23 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E23 - 17 June 2007 - Episode 23 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 17 Jun 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/23-s01e23-17-june-2007.mp3" length="47310527" type="audio/mpeg"/>
     </item>
@@ -204,7 +204,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/24-s01e24-24-june-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/24-s01e24-24-june-2007.mp3</guid>
       <title>24: S01E24 - 24 June 2007</title>
-      <description>S01E24 - 24 June 2007 - Episode 24 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E24 - 24 June 2007 - Episode 24 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 24 Jun 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/24-s01e24-24-june-2007.mp3" length="50253119" type="audio/mpeg"/>
     </item>
@@ -212,7 +212,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/25-s01e25-01-july-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/25-s01e25-01-july-2007.mp3</guid>
       <title>25: S01E25 - 01 July 2007</title>
-      <description>S01E25 - 01 July 2007 - Episode 25 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E25 - 01 July 2007 - Episode 25 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 01 Jul 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/25-s01e25-01-july-2007.mp3" length="32438287" type="audio/mpeg"/>
     </item>
@@ -220,7 +220,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/26-s01e26-08-july-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/26-s01e26-08-july-2007.mp3</guid>
       <title>26: S01E26 - 08 July 2007</title>
-      <description>S01E26 - 08 July 2007 - Episode 26 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E26 - 08 July 2007 - Episode 26 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 08 Jul 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/26-s01e26-08-july-2007.mp3" length="47632318" type="audio/mpeg"/>
     </item>
@@ -228,7 +228,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/27-s01e27-15-july-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/27-s01e27-15-july-2007.mp3</guid>
       <title>27: S01E27 - 15 July 2007</title>
-      <description>S01E27 - 15 July 2007 - Episode 27 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E27 - 15 July 2007 - Episode 27 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 15 Jul 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/27-s01e27-15-july-2007.mp3" length="31345904" type="audio/mpeg"/>
     </item>
@@ -236,7 +236,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/28-s01e28-22-july-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/28-s01e28-22-july-2007.mp3</guid>
       <title>28: S01E28 - 22 July 2007</title>
-      <description>S01E28 - 22 July 2007 - Episode 28 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E28 - 22 July 2007 - Episode 28 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 22 Jul 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/28-s01e28-22-july-2007.mp3" length="52873919" type="audio/mpeg"/>
     </item>
@@ -244,7 +244,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/29-s01e29-29-july-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/29-s01e29-29-july-2007.mp3</guid>
       <title>29: S01E29 - 29 July 2007</title>
-      <description>S01E29 - 29 July 2007 - Episode 29 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S01E29 - 29 July 2007 - Episode 29 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 29 Jul 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/29-s01e29-29-july-2007.mp3" length="52041023" type="audio/mpeg"/>
     </item>
@@ -252,7 +252,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/30-s02e01-02-september-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/30-s02e01-02-september-2007.mp3</guid>
       <title>30: S02E01 - 02 September 2007</title>
-      <description>S02E01 - 02 September 2007 - Episode 30 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E01 - 02 September 2007 - Episode 30 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 02 Sep 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/30-s02e01-02-september-2007.mp3" length="35833856" type="audio/mpeg"/>
     </item>
@@ -260,7 +260,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/31-s02e02-09-september-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/31-s02e02-09-september-2007.mp3</guid>
       <title>31: S02E02 - 09 September 2007</title>
-      <description>S02E02 - 09 September 2007 - Episode 31 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E02 - 09 September 2007 - Episode 31 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 09 Sep 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/31-s02e02-09-september-2007.mp3" length="47962112" type="audio/mpeg"/>
     </item>
@@ -268,7 +268,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/32-s02e03-16-september-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/32-s02e03-16-september-2007.mp3</guid>
       <title>32: S02E03 - 16 September 2007</title>
-      <description>S02E03 - 16 September 2007 - Episode 32 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E03 - 16 September 2007 - Episode 32 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 16 Sep 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/32-s02e03-16-september-2007.mp3" length="47431680" type="audio/mpeg"/>
     </item>
@@ -276,7 +276,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/33-s02e04-23-september-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/33-s02e04-23-september-2007.mp3</guid>
       <title>33: S02E04 - 23 September 2007</title>
-      <description>S02E04 - 23 September 2007 - Episode 33 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E04 - 23 September 2007 - Episode 33 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 23 Sep 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/33-s02e04-23-september-2007.mp3" length="44832896" type="audio/mpeg"/>
     </item>
@@ -284,7 +284,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/34-s02e05-30-september-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/34-s02e05-30-september-2007.mp3</guid>
       <title>34: S02E05 - 30 September 2007</title>
-      <description>S02E05 - 30 September 2007 - Episode 34 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E05 - 30 September 2007 - Episode 34 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 30 Sep 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/34-s02e05-30-september-2007.mp3" length="36018176" type="audio/mpeg"/>
     </item>
@@ -292,7 +292,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/35-s02e06-07-october-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/35-s02e06-07-october-2007.mp3</guid>
       <title>35: S02E06 - 07 October 2007</title>
-      <description>S02E06 - 07 October 2007 - Episode 35 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E06 - 07 October 2007 - Episode 35 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 07 Oct 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/35-s02e06-07-october-2007.mp3" length="47024128" type="audio/mpeg"/>
     </item>
@@ -300,7 +300,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/36-s02e07-14-october-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/36-s02e07-14-october-2007.mp3</guid>
       <title>36: S02E07 - 14 October 2007</title>
-      <description>S02E07 - 14 October 2007 - Episode 36 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E07 - 14 October 2007 - Episode 36 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 14 Oct 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/36-s02e07-14-october-2007.mp3" length="48740352" type="audio/mpeg"/>
     </item>
@@ -308,7 +308,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/37-s02e08-21-october-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/37-s02e08-21-october-2007.mp3</guid>
       <title>37: S02E08 - 21 October 2007</title>
-      <description>S02E08 - 21 October 2007 - Episode 37 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E08 - 21 October 2007 - Episode 37 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 21 Oct 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/37-s02e08-21-october-2007.mp3" length="48545792" type="audio/mpeg"/>
     </item>
@@ -316,7 +316,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/38-s02e09-28-october-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/38-s02e09-28-october-2007.mp3</guid>
       <title>38: S02E09 - 28 October 2007</title>
-      <description>S02E09 - 28 October 2007 - Episode 38 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E09 - 28 October 2007 - Episode 38 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 28 Oct 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/38-s02e09-28-october-2007.mp3" length="77088768" type="audio/mpeg"/>
     </item>
@@ -324,7 +324,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/39-s02e10-04-november-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/39-s02e10-04-november-2007.mp3</guid>
       <title>39: S02E10 - 04 November 2007</title>
-      <description>S02E10 - 04 November 2007 - Episode 39 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E10 - 04 November 2007 - Episode 39 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 04 Nov 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/39-s02e10-04-november-2007.mp3" length="38092800" type="audio/mpeg"/>
     </item>
@@ -332,7 +332,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/40-s02e11-11-november-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/40-s02e11-11-november-2007.mp3</guid>
       <title>40: S02E11 - 11 November 2007</title>
-      <description>S02E11 - 11 November 2007 - Episode 40 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E11 - 11 November 2007 - Episode 40 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 11 Nov 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/40-s02e11-11-november-2007.mp3" length="38615040" type="audio/mpeg"/>
     </item>
@@ -340,7 +340,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/41-s02e12-18-november-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/41-s02e12-18-november-2007.mp3</guid>
       <title>41: S02E12 - 18 November 2007</title>
-      <description>S02E12 - 18 November 2007 - Episode 41 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E12 - 18 November 2007 - Episode 41 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 18 Nov 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/41-s02e12-18-november-2007.mp3" length="48175104" type="audio/mpeg"/>
     </item>
@@ -348,7 +348,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/42-s02e13-25-november-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/42-s02e13-25-november-2007.mp3</guid>
       <title>42: S02E13 - 25 November 2007</title>
-      <description>S02E13 - 25 November 2007 - Episode 42 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E13 - 25 November 2007 - Episode 42 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 25 Nov 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/42-s02e13-25-november-2007.mp3" length="50866176" type="audio/mpeg"/>
     </item>
@@ -356,7 +356,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/43-s02e14-02-december-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/43-s02e14-02-december-2007.mp3</guid>
       <title>43: S02E14 - 02 December 2007</title>
-      <description>S02E14 - 02 December 2007 - Episode 43 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E14 - 02 December 2007 - Episode 43 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 02 Dec 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/43-s02e14-02-december-2007.mp3" length="51943816" type="audio/mpeg"/>
     </item>
@@ -364,7 +364,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/44-s02e15-09-december-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/44-s02e15-09-december-2007.mp3</guid>
       <title>44: S02E15 - 09 December 2007</title>
-      <description>S02E15 - 09 December 2007 - Episode 44 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E15 - 09 December 2007 - Episode 44 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 09 Dec 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/44-s02e15-09-december-2007.mp3" length="35444928" type="audio/mpeg"/>
     </item>
@@ -372,7 +372,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/45-s02e16-16-december-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/45-s02e16-16-december-2007.mp3</guid>
       <title>45: S02E16 - 16 December 2007</title>
-      <description>S02E16 - 16 December 2007 - Episode 45 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E16 - 16 December 2007 - Episode 45 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 16 Dec 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/45-s02e16-16-december-2007.mp3" length="54425600" type="audio/mpeg"/>
     </item>
@@ -380,7 +380,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/46-s02e17-23-december-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/46-s02e17-23-december-2007.mp3</guid>
       <title>46: S02E17 - 23 December 2007</title>
-      <description>S02E17 - 23 December 2007 - Episode 46 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E17 - 23 December 2007 - Episode 46 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 23 Dec 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/46-s02e17-23-december-2007.mp3" length="53313536" type="audio/mpeg"/>
     </item>
@@ -388,7 +388,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/47-s02e18-30-december-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/47-s02e18-30-december-2007.mp3</guid>
       <title>47: S02E18 - 30 December 2007</title>
-      <description>S02E18 - 30 December 2007 - Episode 47 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S02E18 - 30 December 2007 - Episode 47 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 30 Dec 2007 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/47-s02e18-30-december-2007.mp3" length="60577229" type="audio/mpeg"/>
     </item>
@@ -396,7 +396,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/48-s03e01-03-february-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/48-s03e01-03-february-2008.mp3</guid>
       <title>48: S03E01 - 03 February 2008</title>
-      <description>S03E01 - 03 February 2008 - Episode 48 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E01 - 03 February 2008 - Episode 48 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 03 Feb 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/48-s03e01-03-february-2008.mp3" length="62288534" type="audio/mpeg"/>
     </item>
@@ -404,7 +404,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/49-s03e02-10-february-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/49-s03e02-10-february-2008.mp3</guid>
       <title>49: S03E02 - 10 February 2008</title>
-      <description>S03E02 - 10 February 2008 - Episode 49 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E02 - 10 February 2008 - Episode 49 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 10 Feb 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/49-s03e02-10-february-2008.mp3" length="57137183" type="audio/mpeg"/>
     </item>
@@ -412,7 +412,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/50-s03e03-17-february-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/50-s03e03-17-february-2008.mp3</guid>
       <title>50: S03E03 - 17 February 2008</title>
-      <description>S03E03 - 17 February 2008 - Episode 50 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E03 - 17 February 2008 - Episode 50 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 17 Feb 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/50-s03e03-17-february-2008.mp3" length="45694365" type="audio/mpeg"/>
     </item>
@@ -420,7 +420,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/51-s03e04-24-february-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/51-s03e04-24-february-2008.mp3</guid>
       <title>51: S03E04 - 24 February 2008</title>
-      <description>S03E04 - 24 February 2008 - Episode 51 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E04 - 24 February 2008 - Episode 51 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 24 Feb 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/51-s03e04-24-february-2008.mp3" length="55357711" type="audio/mpeg"/>
     </item>
@@ -428,7 +428,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/52-s03e05-02-march-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/52-s03e05-02-march-2008.mp3</guid>
       <title>52: S03E05 - 02 March 2008</title>
-      <description>S03E05 - 02 March 2008 - Episode 52 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E05 - 02 March 2008 - Episode 52 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 02 Mar 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/52-s03e05-02-march-2008.mp3" length="49822369" type="audio/mpeg"/>
     </item>
@@ -436,7 +436,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/53-s03e06-09-march-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/53-s03e06-09-march-2008.mp3</guid>
       <title>53: S03E06 - 09 March 2008</title>
-      <description>S03E06 - 09 March 2008 - Episode 53 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E06 - 09 March 2008 - Episode 53 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 09 Mar 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/53-s03e06-09-march-2008.mp3" length="57292705" type="audio/mpeg"/>
     </item>
@@ -444,7 +444,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/54-s03e07-16-march-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/54-s03e07-16-march-2008.mp3</guid>
       <title>54: S03E07 - 16 March 2008</title>
-      <description>S03E07 - 16 March 2008 - Episode 54 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E07 - 16 March 2008 - Episode 54 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 16 Mar 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/54-s03e07-16-march-2008.mp3" length="46170897" type="audio/mpeg"/>
     </item>
@@ -452,7 +452,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/55-s03e08-23-march-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/55-s03e08-23-march-2008.mp3</guid>
       <title>55: S03E08 - 23 March 2008</title>
-      <description>S03E08 - 23 March 2008 - Episode 55 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E08 - 23 March 2008 - Episode 55 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 23 Mar 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/55-s03e08-23-march-2008.mp3" length="55309588" type="audio/mpeg"/>
     </item>
@@ -460,7 +460,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/56-s03e09-30-march-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/56-s03e09-30-march-2008.mp3</guid>
       <title>56: S03E09 - 30 March 2008</title>
-      <description>S03E09 - 30 March 2008 - Episode 56 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E09 - 30 March 2008 - Episode 56 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 30 Mar 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/56-s03e09-30-march-2008.mp3" length="42954752" type="audio/mpeg"/>
     </item>
@@ -468,7 +468,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/57-s03e10-06-april-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/57-s03e10-06-april-2008.mp3</guid>
       <title>57: S03E10 - 06 April 2008</title>
-      <description>S03E10 - 06 April 2008 - Episode 57 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E10 - 06 April 2008 - Episode 57 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 06 Apr 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/57-s03e10-06-april-2008.mp3" length="43283954" type="audio/mpeg"/>
     </item>
@@ -476,7 +476,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/58-s03e11-13-april-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/58-s03e11-13-april-2008.mp3</guid>
       <title>58: S03E11 - 13 April 2008</title>
-      <description>S03E11 - 13 April 2008 - Episode 58 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E11 - 13 April 2008 - Episode 58 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 13 Apr 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/58-s03e11-13-april-2008.mp3" length="43283954" type="audio/mpeg"/>
     </item>
@@ -484,7 +484,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/59-s03e13-27-april-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/59-s03e13-27-april-2008.mp3</guid>
       <title>59: S03E13 - 27 April 2008</title>
-      <description>S03E13 - 27 April 2008 - Episode 59 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E13 - 27 April 2008 - Episode 59 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 27 Apr 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/59-s03e13-27-april-2008.mp3" length="52652928" type="audio/mpeg"/>
     </item>
@@ -492,7 +492,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/60-s03e14-18-may-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/60-s03e14-18-may-2008.mp3</guid>
       <title>60: S03E14 - 18 May 2008</title>
-      <description>S03E14 - 18 May 2008 - Episode 60 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E14 - 18 May 2008 - Episode 60 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 18 May 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/60-s03e14-18-may-2008.mp3" length="54623187" type="audio/mpeg"/>
     </item>
@@ -500,7 +500,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/61-s03e15-25-may-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/61-s03e15-25-may-2008.mp3</guid>
       <title>61: S03E15 - 25 May 2008</title>
-      <description>S03E15 - 25 May 2008 - Episode 61 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E15 - 25 May 2008 - Episode 61 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 25 May 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/61-s03e15-25-may-2008.mp3" length="47274629" type="audio/mpeg"/>
     </item>
@@ -508,7 +508,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/62-s03e16-01-june-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/62-s03e16-01-june-2008.mp3</guid>
       <title>62: S03E16 - 01 June 2008</title>
-      <description>S03E16 - 01 June 2008 - Episode 62 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E16 - 01 June 2008 - Episode 62 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 01 Jun 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/62-s03e16-01-june-2008.mp3" length="49898994" type="audio/mpeg"/>
     </item>
@@ -516,7 +516,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/63-s03e17-08-june-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/63-s03e17-08-june-2008.mp3</guid>
       <title>63: S03E17 - 08 June 2008</title>
-      <description>S03E17 - 08 June 2008 - Episode 63 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E17 - 08 June 2008 - Episode 63 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 08 Jun 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/63-s03e17-08-june-2008.mp3" length="48767936" type="audio/mpeg"/>
     </item>
@@ -524,7 +524,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/64-s03e18-15-june-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/64-s03e18-15-june-2008.mp3</guid>
       <title>64: S03E18 - 15 June 2008</title>
-      <description>S03E18 - 15 June 2008 - Episode 64 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E18 - 15 June 2008 - Episode 64 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 15 Jun 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/64-s03e18-15-june-2008.mp3" length="44990421" type="audio/mpeg"/>
     </item>
@@ -532,7 +532,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/65-s03e19-22-june-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/65-s03e19-22-june-2008.mp3</guid>
       <title>65: S03E19 - 22 June 2008</title>
-      <description>S03E19 - 22 June 2008 - Episode 65 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E19 - 22 June 2008 - Episode 65 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 22 Jun 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/65-s03e19-22-june-2008.mp3" length="55765409" type="audio/mpeg"/>
     </item>
@@ -540,7 +540,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/66-s03e20-29-june-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/66-s03e20-29-june-2008.mp3</guid>
       <title>66: S03E20 - 29 June 2008</title>
-      <description>S03E20 - 29 June 2008 - Episode 66 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E20 - 29 June 2008 - Episode 66 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 29 Jun 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/66-s03e20-29-june-2008.mp3" length="52442694" type="audio/mpeg"/>
     </item>
@@ -548,7 +548,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/67-s03e21-06-july-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/67-s03e21-06-july-2008.mp3</guid>
       <title>67: S03E21 - 06 July 2008</title>
-      <description>S03E21 - 06 July 2008 - Episode 67 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E21 - 06 July 2008 - Episode 67 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 06 Jul 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/67-s03e21-06-july-2008.mp3" length="54967168" type="audio/mpeg"/>
     </item>
@@ -556,7 +556,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/68-s03e22-13-july-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/68-s03e22-13-july-2008.mp3</guid>
       <title>68: S03E22 - 13 July 2008</title>
-      <description>S03E22 - 13 July 2008 - Episode 68 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E22 - 13 July 2008 - Episode 68 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 13 Jul 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/68-s03e22-13-july-2008.mp3" length="28336895" type="audio/mpeg"/>
     </item>
@@ -564,7 +564,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/69-s03e23-20-july-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/69-s03e23-20-july-2008.mp3</guid>
       <title>69: S03E23 - 20 July 2008</title>
-      <description>S03E23 - 20 July 2008 - Episode 69 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E23 - 20 July 2008 - Episode 69 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 20 Jul 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/69-s03e23-20-july-2008.mp3" length="47659149" type="audio/mpeg"/>
     </item>
@@ -572,7 +572,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/70-s03e24-27-july-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/70-s03e24-27-july-2008.mp3</guid>
       <title>70: S03E24 - 27 July 2008</title>
-      <description>S03E24 - 27 July 2008 - Episode 70 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E24 - 27 July 2008 - Episode 70 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 27 Jul 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/70-s03e24-27-july-2008.mp3" length="61225340" type="audio/mpeg"/>
     </item>
@@ -580,7 +580,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/71-s03e25-03-august-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/71-s03e25-03-august-2008.mp3</guid>
       <title>71: S03E25 - 03 August 2008</title>
-      <description>S03E25 - 03 August 2008 - Episode 71 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E25 - 03 August 2008 - Episode 71 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 03 Aug 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/71-s03e25-03-august-2008.mp3" length="54698002" type="audio/mpeg"/>
     </item>
@@ -588,7 +588,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/72-s03e26-10-august-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/72-s03e26-10-august-2008.mp3</guid>
       <title>72: S03E26 - 10 August 2008</title>
-      <description>S03E26 - 10 August 2008 - Episode 72 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E26 - 10 August 2008 - Episode 72 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 10 Aug 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/72-s03e26-10-august-2008.mp3" length="40887376" type="audio/mpeg"/>
     </item>
@@ -596,7 +596,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/73-s03e27-17-august-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/73-s03e27-17-august-2008.mp3</guid>
       <title>73: S03E27 - 17 August 2008</title>
-      <description>S03E27 - 17 August 2008 - Episode 73 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E27 - 17 August 2008 - Episode 73 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 17 Aug 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/73-s03e27-17-august-2008.mp3" length="56326472" type="audio/mpeg"/>
     </item>
@@ -604,7 +604,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/74-s03e28-31-august-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/74-s03e28-31-august-2008.mp3</guid>
       <title>74: S03E28 - 31 August 2008</title>
-      <description>S03E28 - 31 August 2008 - Episode 74 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E28 - 31 August 2008 - Episode 74 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 31 Aug 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/74-s03e28-31-august-2008.mp3" length="57676429" type="audio/mpeg"/>
     </item>
@@ -612,7 +612,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/75-s03e29-05-october-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/75-s03e29-05-october-2008.mp3</guid>
       <title>75: S03E29 - 05 October 2008</title>
-      <description>S03E29 - 05 October 2008 - Episode 75 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S03E29 - 05 October 2008 - Episode 75 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 05 Oct 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/75-s03e29-05-october-2008.mp3" length="54688745" type="audio/mpeg"/>
     </item>
@@ -620,7 +620,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/76-s04e01-30-november-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/76-s04e01-30-november-2008.mp3</guid>
       <title>76: S04E01 - 30 November 2008</title>
-      <description>S04E01 - 30 November 2008 - Episode 76 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E01 - 30 November 2008 - Episode 76 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 30 Nov 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/76-s04e01-30-november-2008.mp3" length="58196306" type="audio/mpeg"/>
     </item>
@@ -628,7 +628,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/77-s04e02-07-december-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/77-s04e02-07-december-2008.mp3</guid>
       <title>77: S04E02 - 07 December 2008</title>
-      <description>S04E02 - 07 December 2008 - Episode 77 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E02 - 07 December 2008 - Episode 77 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 07 Dec 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/77-s04e02-07-december-2008.mp3" length="56096910" type="audio/mpeg"/>
     </item>
@@ -636,7 +636,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/78-s04e03-14-december-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/78-s04e03-14-december-2008.mp3</guid>
       <title>78: S04E03 - 14 December 2008</title>
-      <description>S04E03 - 14 December 2008 - Episode 78 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E03 - 14 December 2008 - Episode 78 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 14 Dec 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/78-s04e03-14-december-2008.mp3" length="52310200" type="audio/mpeg"/>
     </item>
@@ -644,7 +644,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/79-s04e04-21-december-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/79-s04e04-21-december-2008.mp3</guid>
       <title>79: S04E04 - 21 December 2008</title>
-      <description>S04E04 - 21 December 2008 - Episode 79 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E04 - 21 December 2008 - Episode 79 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 21 Dec 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/79-s04e04-21-december-2008.mp3" length="56241106" type="audio/mpeg"/>
     </item>
@@ -652,7 +652,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/80-s04e05-28-december-2008.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/80-s04e05-28-december-2008.mp3</guid>
       <title>80: S04E05 - 28 December 2008</title>
-      <description>S04E05 - 28 December 2008 - Episode 80 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E05 - 28 December 2008 - Episode 80 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 28 Dec 2008 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/80-s04e05-28-december-2008.mp3" length="60772352" type="audio/mpeg"/>
     </item>
@@ -660,7 +660,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/81-s04e06-04-january-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/81-s04e06-04-january-2009.mp3</guid>
       <title>81: S04E06 - 04 January 2009</title>
-      <description>S04E06 - 04 January 2009 - Episode 81 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E06 - 04 January 2009 - Episode 81 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 04 Jan 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/81-s04e06-04-january-2009.mp3" length="57659660" type="audio/mpeg"/>
     </item>
@@ -668,7 +668,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/82-s04e07-11-january-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/82-s04e07-11-january-2009.mp3</guid>
       <title>82: S04E07 - 11 January 2009</title>
-      <description>S04E07 - 11 January 2009 - Episode 82 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E07 - 11 January 2009 - Episode 82 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 11 Jan 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/82-s04e07-11-january-2009.mp3" length="61587222" type="audio/mpeg"/>
     </item>
@@ -676,7 +676,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/83-s04e08-25-january-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/83-s04e08-25-january-2009.mp3</guid>
       <title>83: S04E08 - 25 January 2009</title>
-      <description>S04E08 - 25 January 2009 - Episode 83 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E08 - 25 January 2009 - Episode 83 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 25 Jan 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/83-s04e08-25-january-2009.mp3" length="60602023" type="audio/mpeg"/>
     </item>
@@ -684,7 +684,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/84-s04e09-01-february-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/84-s04e09-01-february-2009.mp3</guid>
       <title>84: S04E09 - 01 February 2009</title>
-      <description>S04E09 - 01 February 2009 - Episode 84 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E09 - 01 February 2009 - Episode 84 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 01 Feb 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/84-s04e09-01-february-2009.mp3" length="61820816" type="audio/mpeg"/>
     </item>
@@ -692,7 +692,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/85-s04e10-08-february-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/85-s04e10-08-february-2009.mp3</guid>
       <title>85: S04E10 - 08 February 2009</title>
-      <description>S04E10 - 08 February 2009 - Episode 85 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E10 - 08 February 2009 - Episode 85 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 08 Feb 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/85-s04e10-08-february-2009.mp3" length="60345838" type="audio/mpeg"/>
     </item>
@@ -700,7 +700,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/86-s04e11-15-february-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/86-s04e11-15-february-2009.mp3</guid>
       <title>86: S04E11 - 15 February 2009</title>
-      <description>S04E11 - 15 February 2009 - Episode 86 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E11 - 15 February 2009 - Episode 86 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 15 Feb 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/86-s04e11-15-february-2009.mp3" length="49530671" type="audio/mpeg"/>
     </item>
@@ -708,7 +708,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/87-s04e13-15-february-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/87-s04e13-15-february-2009.mp3</guid>
       <title>87: S04E13 - 15 February 2009</title>
-      <description>S04E13 - 15 February 2009 - Episode 87 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E13 - 15 February 2009 - Episode 87 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 15 Feb 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/87-s04e13-15-february-2009.mp3" length="115202088" type="audio/mpeg"/>
     </item>
@@ -716,7 +716,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/88-s04e14-01-march-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/88-s04e14-01-march-2009.mp3</guid>
       <title>88: S04E14 - 01 March 2009</title>
-      <description>S04E14 - 01 March 2009 - Episode 88 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E14 - 01 March 2009 - Episode 88 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 01 Mar 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/88-s04e14-01-march-2009.mp3" length="45549296" type="audio/mpeg"/>
     </item>
@@ -724,7 +724,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/89-s04e15-08-march-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/89-s04e15-08-march-2009.mp3</guid>
       <title>89: S04E15 - 08 March 2009</title>
-      <description>S04E15 - 08 March 2009 - Episode 89 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E15 - 08 March 2009 - Episode 89 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 08 Mar 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/89-s04e15-08-march-2009.mp3" length="115202088" type="audio/mpeg"/>
     </item>
@@ -732,7 +732,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/90-s04e16-15-march-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/90-s04e16-15-march-2009.mp3</guid>
       <title>90: S04E16 - 15 March 2009</title>
-      <description>S04E16 - 15 March 2009 - Episode 90 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E16 - 15 March 2009 - Episode 90 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 15 Mar 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/90-s04e16-15-march-2009.mp3" length="41228434" type="audio/mpeg"/>
     </item>
@@ -740,7 +740,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/91-s04e17-22-march-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/91-s04e17-22-march-2009.mp3</guid>
       <title>91: S04E17 - 22 March 2009</title>
-      <description>S04E17 - 22 March 2009 - Episode 91 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E17 - 22 March 2009 - Episode 91 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 22 Mar 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/91-s04e17-22-march-2009.mp3" length="115202088" type="audio/mpeg"/>
     </item>
@@ -748,7 +748,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/92-s04e18-29-march-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/92-s04e18-29-march-2009.mp3</guid>
       <title>92: S04E18 - 29 March 2009</title>
-      <description>S04E18 - 29 March 2009 - Episode 92 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E18 - 29 March 2009 - Episode 92 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 29 Mar 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/92-s04e18-29-march-2009.mp3" length="115202088" type="audio/mpeg"/>
     </item>
@@ -756,7 +756,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/93-s04e19-05-april-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/93-s04e19-05-april-2009.mp3</guid>
       <title>93: S04E19 - 05 April 2009</title>
-      <description>S04E19 - 05 April 2009 - Episode 93 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E19 - 05 April 2009 - Episode 93 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 05 Apr 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/93-s04e19-05-april-2009.mp3" length="39916251" type="audio/mpeg"/>
     </item>
@@ -764,7 +764,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/94-s04e20-12-april-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/94-s04e20-12-april-2009.mp3</guid>
       <title>94: S04E20 - 12 April 2009</title>
-      <description>S04E20 - 12 April 2009 - Episode 94 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E20 - 12 April 2009 - Episode 94 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 12 Apr 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/94-s04e20-12-april-2009.mp3" length="115202088" type="audio/mpeg"/>
     </item>
@@ -772,7 +772,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/95-s04e21-26-april-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/95-s04e21-26-april-2009.mp3</guid>
       <title>95: S04E21 - 26 April 2009</title>
-      <description>S04E21 - 26 April 2009 - Episode 95 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E21 - 26 April 2009 - Episode 95 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 26 Apr 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/95-s04e21-26-april-2009.mp3" length="53679015" type="audio/mpeg"/>
     </item>
@@ -780,7 +780,7 @@
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/96-s04e22-03-may-2009.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/96-s04e22-03-may-2009.mp3</guid>
       <title>96: S04E22 - 03 May 2009</title>
-      <description>S04E22 - 03 May 2009 - Episode 96 of The Steve Show - BBC 6Music&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <description>S04E22 - 03 May 2009 - Episode 96 of The Steve Show&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
       <pubDate>Sun, 03 May 2009 03:00:00 GMT</pubDate>
       <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/96-s04e22-03-may-2009.mp3" length="56149561" type="audio/mpeg"/>
     </item>
