@@ -7,6 +7,7 @@ trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 input_file=""
 podcast_title=""
 podcast_description=""
+podcast_author=""
 podcast_website_url=""
 podcast_image_url=""
 podcast_feed_url=""
@@ -16,6 +17,7 @@ while [[ $# -gt 0 ]]; do
   case "$1" in
     --title) podcast_title="$2"; shift 2 ;;
     --description) podcast_description="$2"; shift 2 ;;
+    --author) podcast_author="$2"; shift 2 ;;
     --website) podcast_website_url="$2"; shift 2 ;;
     --image-url) podcast_image_url="$2"; shift 2 ;;
     --feed-url) podcast_feed_url="$2"; shift 2 ;;
@@ -36,7 +38,7 @@ done
 
 # Validate required args
 if [[ -z "$input_file" || -z "$podcast_title" ]]; then
-  echo "Usage: $0 input_file --title TITLE [--description DESC] [--image-url URL] [--delimiter DELIMITER]" >&2
+  echo "Usage: $0 input_file --title TITLE [--description DESC] [--author AUTHOR] [--image-url URL] [--delimiter DELIMITER]" >&2
   echo "Error: Missing required argument(s)" >&2
   exit 1
 fi
@@ -97,6 +99,7 @@ fi
 
 echo "Podcast Title: \"$podcast_title\""
 echo "Podcast Description: \"$podcast_description\""
+echo "Podcast Author: \"$podcast_author\""
 echo "Podcast Website: \"$podcast_website_url\""
 echo "Podcast Image URL: \"$podcast_image_url\""
 echo "Podcast Feed URL: \"$podcast_feed_url\""
@@ -108,6 +111,11 @@ echo "CSV File: \"$csv_file\""
 echo "Temporary File: \"$tmp_xml\""
 echo "Output File: \"$output_file\""
 echo
+
+author_tag=""
+if [[ -n "$podcast_author" ]]; then
+  author_tag="<itunes:author>$podcast_author</itunes:author>"
+fi
 
 cat > "$tmp_xml" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -133,8 +141,8 @@ cat > "$tmp_xml" <<EOF
        <title>$podcast_title</title>
        <link>$podcast_website_url</link>
     </image>
-    <generator>Stephan5/podcasts</generator>
-    <ttl>1440</ttl>
+    <generator>$repo</generator>
+    $author_tag
 EOF
 
 {
