@@ -81,9 +81,9 @@ xmllint --format "$tmp_xml_file" -o "$tmp_xml_file"
 # extract and echo top-level metadata
 feed_title=$(xmlstarlet sel -t -v "normalize-space(//channel/title)" "$tmp_xml_file")
 feed_description=$(xmlstarlet sel -t -v "normalize-space(//channel/description)" "$tmp_xml_file")
-feed_website=$(xmlstarlet sel -t -v "normalize-space(//channel/link)" "$tmp_xml_file")
-image_url=$(xmlstarlet sel -t -v "normalize-space(//channel/image/url)" "$tmp_xml_file")
-self_feed_url=$(xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -v "//atom:link[@rel='self']/@href" "$tmp_xml_file")
+feed_website=$(xmlstarlet sel -t -v "normalize-space(//channel/link)" "$tmp_xml_file") || true
+image_url=$(xmlstarlet sel -t -v "normalize-space(//channel/image/url)" "$tmp_xml_file") || true
+self_feed_url=$(xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -v "//atom:link[@rel='self']/@href" "$tmp_xml_file") || true
 
 # write CSV headers
 echo "title${csv_delimiter}description${csv_delimiter}date${csv_delimiter}url" > "$tmp_output_file"
