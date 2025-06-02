@@ -134,65 +134,89 @@ while IFS= read -r line; do
   echo "File Name: \"$file_name\""
   echo "Extension: \"$extension\""
 
-  # Check already exists, if so, skip
-  if [[ "$src_url_enc" == "$http_dst_url" ]]; then
-        echo "Link already self-hosted: \"$src_url_enc\". Skipping."
-        new_link="$src_url_enc"
 
-  # Check if link is already in the bucket, if so move it
-  elif [[ "$src_url_enc" == "https://s3.$region.amazonaws.com/$bucket"* ]]; then
-      echo "Link already self-hosted: \"$src_url_enc\". Moving to new location \"$http_dst_url\""
-      new_link="$http_dst_url"
+  if [[ "$src_url" =~ ^(http|https):// ]]; then
+    echo "Detected remote URL: \"$src_url_enc\""
 
-      # Check src link is a valid link
-      validate_url "$src_url_enc"
+    # Check already exists, if so, skip
+    if [[ "$src_url_enc" == "$http_dst_url" ]]; then
+          echo "Link already self-hosted: \"$src_url_enc\" - Skipping."
+          new_link="$src_url_enc"
 
-     decoded_src_link=$(url_decode "$src_url")
-     echo "Src URL (decoded): \"$decoded_src_link\""
-     s3_src_link=$(convert_to_s3 "$decoded_src_link")
-     echo "Src S3: \"$s3_src_link\""
+    # Check if link is already in the bucket, if so move it
+    elif [[ "$src_url_enc" == "https://s3.$region.amazonaws.com/$bucket"* ]]; then
+        echo "Link already self-hosted: \"$src_url_enc\". Moving to new location \"$http_dst_url\""
+        new_link="$http_dst_url"
 
-     if s3_mv "$s3_src_link" "$s3_dst_url"; then
-       new_link="$http_dst_url"
+        # Check src link is a valid link
+        validate_url "$src_url_enc"
+
+       decoded_src_link=$(url_decode "$src_url")
+       echo "Src URL (decoded): \"$decoded_src_link\""
+       s3_src_link=$(convert_to_s3 "$decoded_src_link")
+       echo "Src S3: \"$s3_src_link\""
+
+       if s3_mv "$s3_src_link" "$s3_dst_url"; then
+         new_link="$http_dst_url"
+       else
+         new_link="$src_url_enc"
+       fi
+
+    elif validate_url "$src_url_enc"; then
+      # Download the file locally
+      temp_download=$(mktemp)
+      echo "Attempting to download file for \"$file_name\" from provided link"
+      if curl --silent --fail --location "$src_url_enc" --output "$temp_download"; then
+        # Transfer the downloaded file to S3
+        echo "Attempting to upload file for \"$file_name\" to S3"
+        if s3_cp "$temp_download" "$s3_dst_url"; then
+          new_link="$http_dst_url"
+        else
+          echo "Failed to upload \"$file_name\" to S3"
+          exit 1
+        fi
+      else
+        echo "Failed to download: \"$src_url_enc\""
+        exit 1
+      fi
+
+      # Clean up the temporary file
+      rm -f "$temp_download"
+    else
+      echo "Couldn't validate remote URL: \"$src_url_enc\""
+      exit 1
+    fi
+  elif [[ "$src_url" =~ ^file:// ]]; then
+    echo "Detected local file URL: \"$src_url\""
+    local_path="${src_url#file://}"
+     if [[ -f "$local_path" ]]; then
+        # Absolute path or relative to working directory
+        local_file="$local_path"
      else
-       new_link="$src_url_enc"
+       # Try relative to input file directory
+       input_dir="$(dirname "$input_file_abs")"
+       potential_file_path="$input_dir/$local_path"
+       echo "Checking for local file at: \"$potential_file_path\""
+       if [[ -f "$potential_file_path" ]]; then
+         local_file="$potential_file_path"
+       else
+         echo "File not found: \"$local_path\""
+         exit 1
+       fi
+     fi
+     if [[ -n "$local_file" ]]; then
+       echo "Local file detected: \"$local_file\". Attempting to upload to S3."
+       if s3_cp "$local_file" "$s3_dst_url"; then
+         new_link="$http_dst_url"
+       else
+         echo "Failed to upload local file \"$local_file\" to S3."
+         exit 1
+       fi
      fi
 
-  # Check if the link is a local file
-  elif [[ -f "$src_url" ]]; then
-    echo "Local file detected: \"$src_url\". Attempting to upload to S3."
-
-    if s3_cp "$src_url" "$s3_dst_url"; then
-      new_link="$http_dst_url"
-    else
-      echo "Failed to upload local file \"$src_url\" to S3."
-      new_link="$src_url"
-    fi
-
-  # Check if the link is valid
-  elif validate_url "$src_url_enc"; then
-    # Download the file locally
-    temp_download=$(mktemp)
-    echo "Attempting to download file for \"$file_name\" from provided link"
-    if curl --silent --fail --location "$src_url_enc" --output "$temp_download"; then
-      # Transfer the downloaded file to S3
-      echo "Attempting to upload file for \"$file_name\" to S3"
-      if s3_cp "$temp_download" "$s3_dst_url"; then
-        new_link="$http_dst_url"
-      else
-        new_link="$src_url_enc"
-      fi
-    else
-      echo "Failed to download $src_url_enc. Keeping the original link."
-      new_link="$src_url_enc"
-    fi
-
-    # Clean up the temporary file
-    rm -f "$temp_download"
-
   else
-    echo "Invalid link: \"$src_url_enc\". Keeping the original link."
-    new_link="$src_url_enc"
+    echo "Unknown URL scheme: \"$src_url\""
+    exit 1
   fi
 
   echo
