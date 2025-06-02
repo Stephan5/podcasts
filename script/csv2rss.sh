@@ -133,6 +133,7 @@ cat > "$tmp_xml" <<EOF
     <atom:link href="$podcast_feed_url" rel="self" type="application/rss+xml"/>
     <title>$podcast_title</title>
     <description>&lt;p&gt;$podcast_description &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using $repo.&lt;/p&gt;</description>
+    $author_tag
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>$podcast_website_url</link>
@@ -142,7 +143,6 @@ cat > "$tmp_xml" <<EOF
        <link>$podcast_website_url</link>
     </image>
     <generator>$repo</generator>
-    $author_tag
 EOF
 
 {

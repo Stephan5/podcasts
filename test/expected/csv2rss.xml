@@ -4,6 +4,7 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/test/csv2rss.xml" rel="self" type="application/rss+xml"/>
     <title>Dudes Rock</title>
     <description>&lt;p&gt;Hell yeah dude! &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>Real-ass dudes</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/test</link>
@@ -13,7 +14,6 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/test</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <ttl>1440</ttl>
     <lastBuildDate>Tue, 20 May 2025 22:05:59 +0100</lastBuildDate>
     <pubDate>Tue, 20 May 2025 22:05:59 +0100</pubDate>
     <item>
