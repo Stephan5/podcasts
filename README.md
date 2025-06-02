@@ -79,17 +79,4 @@ Requirements:
  * xmlstarlet (brew install xmlstarlet)
 
 ## TODO
-- [x] Generate for all directories
-- [x] Add script for append arbitrary pre-formatted items 
-- [x] Add some rudimentary tests
-- [x] Only bump `pubDate` and `lastBuildDate` if there are changes to the file (if it already exists)
-- [x] Add script to convert CSV to self-hosted 
-- [x] Support local file URLs in selfhost.sh
-- [x] Pull out common functions
-- [x] remove need for repo-dir argument in scripts
-- [x] Onboard RSK XFM, Athletico Mince, and TFTM
-- [x] Onboard The Basement Yard
-- [ ] Allow output directory / file to be passed in as an argument
 - [ ] Support updating existing feeds with new episodes from external feed
-- [ ] In csv2rss.sh, write out content-length back to CSV and make it optional on input and skip CURL HEAD request if provided.
-- [ ] In rss2csv.sh, extract content-length from the XML and add to CSV
