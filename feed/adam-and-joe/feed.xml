@@ -4,6 +4,7 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/adam-and-joe/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Adam and Joe</title>
     <description>&lt;p&gt;The Adam Buxton and Joe Cornish archive of shows across XFM and 6Music. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>XFM &amp; BBC 6Music</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/adam-and-joe</link>
@@ -13,9 +14,8 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/adam-and-joe</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <itunes:author>XFM &amp; 6Music</itunes:author>
-    <lastBuildDate>Sat, 31 May 2025 00:39:13 +0100</lastBuildDate>
-    <pubDate>Sat, 31 May 2025 00:39:13 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 22:05:41 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2025 22:05:41 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adam-and-joe/1-adam-and-joe-on-xfm-30-aug-2003.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/adam-and-joe/1-adam-and-joe-on-xfm-30-aug-2003.mp3</guid>

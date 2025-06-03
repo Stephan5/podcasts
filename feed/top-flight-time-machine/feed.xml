@@ -4,6 +4,7 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/top-flight-time-machine/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Top Flight Time Machine</title>
     <description>&lt;p&gt;Andy Dawson &amp; Sam Delaney - used to be football, all over the place now. Coins, ghosts, digging, dis, dat... &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>Andy Dawson &amp; Sam Delaney</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/top-flight-time-machine</link>
@@ -13,9 +14,8 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/top-flight-time-machine</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <itunes:author>Andy Dawson &amp; Sam Delaney</itunes:author>
-    <lastBuildDate>Sat, 31 May 2025 00:48:25 +0100</lastBuildDate>
-    <pubDate>Sat, 31 May 2025 00:48:25 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 22:19:19 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2025 22:19:19 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/top-flight-time-machine/1-1992-1993.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/top-flight-time-machine/1-1992-1993.mp3</guid>

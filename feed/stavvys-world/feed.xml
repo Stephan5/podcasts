@@ -4,6 +4,7 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/stavvys-world/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Stavvy's World</title>
     <description>&lt;p&gt;A podcast where you can hang out with your pal Stav. Every week Stavros Halkias and his friends will help you solve all your problems. Wanna be a part of the show? Call 904-800-STAV, leave a voicemail and get some advice! &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>Stavros Halkias</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/stavvys-world</link>
@@ -13,9 +14,8 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/stavvys-world</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <itunes:author>Stavros Halkias</itunes:author>
-    <lastBuildDate>Sat, 31 May 2025 00:44:53 +0100</lastBuildDate>
-    <pubDate>Sat, 31 May 2025 00:44:53 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 22:14:26 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2025 22:14:26 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/stavvys-world/1-1-sam-morril.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/stavvys-world/1-1-sam-morril.mp3</guid>

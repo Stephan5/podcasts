@@ -4,6 +4,7 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/rsk-xfm/feed.xml" rel="self" type="application/rss+xml"/>
     <title>RSK XFM</title>
     <description>&lt;p&gt;The original and complete RSK audio archive. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>Ricky, Steve &amp; Karl</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/rsk-xfm</link>
@@ -13,9 +14,8 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/rsk-xfm</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <itunes:author>Ricky, Steve &amp; Karl</itunes:author>
-    <lastBuildDate>Sat, 31 May 2025 00:44:27 +0100</lastBuildDate>
-    <pubDate>Sat, 31 May 2025 00:44:27 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 22:13:54 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2025 22:13:54 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/rsk-xfm/1-s00e01.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/rsk-xfm/1-s00e01.mp3</guid>

@@ -4,6 +4,7 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/athletico-mince/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Athletico Mince</title>
     <description>&lt;p&gt;Bob Mortimer and Andy Dawson's podcast - brass hands, blue drink and more. It's not really about football, d'you know what I mean? &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>Bob Mortimer &amp; Andy Dawson</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/athletico-mince</link>
@@ -13,9 +14,8 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/athletico-mince</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <itunes:author>Bob Mortimer &amp; Andy Dawson</itunes:author>
-    <lastBuildDate>Sat, 31 May 2025 00:39:46 +0100</lastBuildDate>
-    <pubDate>Sat, 31 May 2025 00:39:46 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 22:06:27 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2025 22:06:27 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/athletico-mince/1-mince-1-the-power-of-gentleness.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/athletico-mince/1-mince-1-the-power-of-gentleness.mp3</guid>

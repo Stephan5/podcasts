@@ -4,6 +4,7 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/the-steve-show/feed.xml" rel="self" type="application/rss+xml"/>
     <title>The Steve Show</title>
     <description>&lt;p&gt;Stephen Merchant's Sunday afternoon show on BBC 6Music. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>BBC 6Music</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/the-steve-show</link>
@@ -13,9 +14,8 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/the-steve-show</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <itunes:author>BBC 6Music</itunes:author>
-    <lastBuildDate>Sat, 31 May 2025 00:48:09 +0100</lastBuildDate>
-    <pubDate>Sat, 31 May 2025 00:48:09 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 22:18:59 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2025 22:18:59 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/1-s01e01-14-january-2007.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-steve-show/1-s01e01-14-january-2007.mp3</guid>

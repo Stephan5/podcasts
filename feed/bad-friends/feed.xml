@@ -4,6 +4,7 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/bad-friends/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Bad Friends</title>
     <description>&lt;p&gt;Andrew Santino and Bobby Lee present BAD FRIENDS &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>Andrew Santino &amp; Bobby Lee</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/bad-friends</link>
@@ -13,9 +14,8 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/bad-friends</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <itunes:author>Andrew Santino &amp; Bobby Lee</itunes:author>
-    <lastBuildDate>Sat, 31 May 2025 02:30:05 +0100</lastBuildDate>
-    <pubDate>Sat, 31 May 2025 02:30:05 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 22:07:14 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2025 22:07:14 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/bad-friends/1-pilot-bad-friends-with-andrew-santino-amp-bobby-lee.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/bad-friends/1-pilot-bad-friends-with-andrew-santino-amp-bobby-lee.mp3</guid>

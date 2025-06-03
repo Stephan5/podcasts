@@ -4,6 +4,7 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/the-basement-yard/feed.xml" rel="self" type="application/rss+xml"/>
     <title>The Basement Yard</title>
     <description>&lt;p&gt;A podcast hosted by lifelong friends Joe Santagato &amp; Frank Alvarez. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>Joe Santagato &amp; Frank Alvarez</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/the-basement-yard</link>
@@ -13,9 +14,8 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/the-basement-yard</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <itunes:author>Joe Santagato &amp; Frank Alvarez</itunes:author>
-    <lastBuildDate>Sat, 31 May 2025 00:45:33 +0100</lastBuildDate>
-    <pubDate>Sat, 31 May 2025 00:45:33 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 22:15:21 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2025 22:15:21 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-basement-yard/1-19-inch-penis-amp-masturbation-methods.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-basement-yard/1-19-inch-penis-amp-masturbation-methods.mp3</guid>

@@ -4,6 +4,7 @@
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/russell-and-karl/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Russell Brand and Karl Pilkington</title>
     <description>&lt;p&gt;A few one-off shows of the Russell Brand Show where Karl Pilkington joins as co-host. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>BBC 6Music</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
     <link>https://github.com/Stephan5/podcasts/tree/main/feed/russell-and-karl</link>
@@ -13,9 +14,8 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/russell-and-karl</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <itunes:author>BBC 6Music</itunes:author>
-    <lastBuildDate>Sat, 31 May 2025 01:27:04 +0100</lastBuildDate>
-    <pubDate>Sat, 31 May 2025 01:27:04 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 22:14:24 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2025 22:14:24 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/1-2005-12-27.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/russell-and-karl/1-2005-12-27.mp3</guid>
