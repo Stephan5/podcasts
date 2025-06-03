@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/the-mighty-boosh/feed.xml" rel="self" type="application/rss+xml"/>
+    <title>The Mighty Boosh</title>
+    <description>&lt;p&gt;The Mighty Boosh Radio Series &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>Noel Fielding &amp; Julian Barratt</itunes:author>
+    <language>en-gb</language>
+    <copyright>none</copyright>
+    <link>https://github.com/Stephan5/podcasts/tree/main/feed/the-mighty-boosh</link>
+    <image>
+      <url>https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/the-mighty-boosh/image.jpg</url>
+      <title>The Mighty Boosh</title>
+      <link>https://github.com/Stephan5/podcasts/tree/main/feed/the-mighty-boosh</link>
+    </image>
+    <generator>Stephan5/podcasts</generator>
+    <lastBuildDate>Tue, 03 Jun 2025 18:57:28 +0100</lastBuildDate>
+    <pubDate>Tue, 03 Jun 2025 18:57:28 +0100</pubDate>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/1-stolen.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/1-stolen.mp3</guid>
+      <title>1: Stolen</title>
+      <description>A mysterious character called "The Phantom" is stealing animals from the zoo. Howard and Vince go on a mission to find the thief and the sinister figure behind the plot.&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Tue, 16 Oct 2001 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/1-stolen.mp3" length="39679581" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/2-jungle.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/2-jungle.mp3</guid>
+      <title>2: Jungle</title>
+      <description>Tired of Bob Fossil's management, Howard and Vince venture into the zoo's Jungle Room in search of former zoo boss Tommy Nookah, (Howard's Idol) who disappeared there long ago.&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Tue, 23 Oct 2001 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/2-jungle.mp3" length="40068910" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/3-jazz.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/3-jazz.mp3</guid>
+      <title>3: Jazz</title>
+      <description>Vince forms a rock band, but after annoying the guitarist Dave, and driving him to quit, he calls on Howard to overcome the Spirit of Jazz and join them.&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Tue, 30 Oct 2001 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/3-jazz.mp3" length="40243824" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/4-mutants.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/4-mutants.mp3</guid>
+      <title>4: Mutants</title>
+      <description>When keeper Joey Moose is savagely bitten, Howard and Vince investigate and discover Bob Fossil is breeding mutant animals to sell to wealthy Japanese businessmen.&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Tue, 06 Nov 2001 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/4-mutants.mp3" length="38872085" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/5-tundra.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/5-tundra.mp3</guid>
+      <title>5: Tundra</title>
+      <description>Bob Fossil sends Vince to Spain and Howard to the Arctic to collect more animals for the zoo. The two end up back together facing the perils of the tundra.&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Tue, 13 Nov 2001 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/5-tundra.mp3" length="39566105" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/6-hitcher.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/6-hitcher.mp3</guid>
+      <title>6: Hitcher</title>
+      <description>Howard and Vince take Tony the prawn to the Zoo For Animal Offenders. Along the way they meet a mysterious hitch-hiker, and end up in the bizarre world of "The People of the Box".&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Tue, 20 Nov 2001 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/6-hitcher.mp3" length="39975497" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/7-outtakes.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/7-outtakes.mp3</guid>
+      <title>7: Outtakes</title>
+      <description>Outtakes - Episode 7 of The Mighty Boosh&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Mon, 08 Nov 2004 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/7-outtakes.mp3" length="6910748" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/8-interview.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/8-interview.mp3</guid>
+      <title>8: Interview</title>
+      <description>Interview - Episode 8 of The Mighty Boosh&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Mon, 08 Nov 2004 03:00:01 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/the-mighty-boosh/8-interview.mp3" length="15637735" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
