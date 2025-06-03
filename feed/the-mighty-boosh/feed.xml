@@ -3,7 +3,7 @@
   <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/the-mighty-boosh/feed.xml" rel="self" type="application/rss+xml"/>
     <title>The Mighty Boosh</title>
-    <description>&lt;p&gt;The Mighty Boosh Radio Series. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <description>&lt;p&gt;The Mighty Boosh Radio Series. &lt;/p&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
     <itunes:author>Noel Fielding &amp; Julian Barratt</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
