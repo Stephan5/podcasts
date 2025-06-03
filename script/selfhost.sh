@@ -100,7 +100,13 @@ while IFS= read -r line; do
   fi
 
   # Remove query parameters
-  clean_url="${src_url%%\?*}"
+  if [[ "$src_url" == https://* || "$src_url" == http://* ]]; then
+    echo "cleaning url"
+    clean_url="${src_url%%\?*}"
+  else
+    echo "skipping clean"
+    clean_url="$src_url"
+  fi
 
   # Extract the filename
   url_filename="${clean_url##*/}"

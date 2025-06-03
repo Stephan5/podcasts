@@ -137,7 +137,7 @@ while IFS= read -r line; do
   fi
 
   local_file="file://$(basename "$media_dir")/$filename"
-  echo "Eventual file location: \"$local_file\""
+  echo "Eventual relative file location: \"$local_file\""
   echo "$item_title$csv_delimiter$item_description$csv_delimiter$item_date$csv_delimiter$local_file" >> "$tmp_csv"
 
   echo
