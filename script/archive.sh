@@ -84,8 +84,6 @@ echo "Temp Directory: \"$tmp_directory\""
 echo "Temp CSV: \"$tmp_csv\""
 echo "CSV Delimiter: \"$csv_delimiter\""
 
-item_number=1  # initialize before the loop
-
 # Read the CSV line by line
 while IFS= read -r line; do
   IFS=$csv_delimiter read -r item_title item_description item_date src_url <<< "$line"
@@ -98,19 +96,13 @@ while IFS= read -r line; do
 
   # Extract filename from URL
   clean_url="${src_url%%\?*}"
-  url_filename="${clean_url##*/}"
+  filename="${clean_url##*/}"
 
-  # Extract extension
-  if [[ "$url_filename" == *.* ]]; then
-    extension="${url_filename##*.}"
-  else
-    echo "No extension found in filename from URL \"$url_filename\""
-    exit 1
+  # Check extension
+  if [[ ! "$url_filename" =~ \.(mp3|m4a|m4b)$ ]]; then
+      echo "Failed to detect supported extension in filename from URL \"$url_filename\""
+      exit 1
   fi
-
-  # Build filename
-  filename=$(echo "$item_number-$item_title" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9' '-' | sed 's/^-//' | sed 's/-$//')
-  filename="${filename}.${extension}"
 
   # Encode URLs
   echo "Src URL: \"$src_url\""
@@ -142,7 +134,6 @@ while IFS= read -r line; do
 
   echo
 
-  ((item_number++))  # increment item_number
 done < "$input_csv"
 
 echo "Moving downloaded files to output directory: $media_dir"
@@ -151,6 +142,7 @@ mv "$tmp_directory"/* "$media_dir"
 echo "Copying any files in input directory to output directory: $feed_dir"
 cp "$tmp_csv" "$feed_dir/local.csv"
 cp -r $input_dir/* "$feed_dir"
+rm -r "$feed_dir/cmd.sh"
 
 echo "Archive of podcast files completed successfully in: $output_dir"
 rm -rf "$tmp_directory"
