@@ -3,7 +3,7 @@
   <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/matt-and-shane/feed.xml" rel="self" type="application/rss+xml"/>
     <title>Matt and Shane's Secret Podcast</title>
-    <description>&lt;p&gt;Grab onto this fast moving train and witness two comedians rise to victory and splendor. &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <description>&lt;p&gt;Grab onto this fast moving train and witness two comedians rise to victory and splendor. &lt;/p&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
     <itunes:author>Matt McCusker &amp; Shane Gillis</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
@@ -14,8 +14,8 @@
       <link>https://github.com/Stephan5/podcasts/tree/main/feed/matt-and-shane</link>
     </image>
     <generator>Stephan5/podcasts</generator>
-    <lastBuildDate>Mon, 02 Jun 2025 22:11:00 +0100</lastBuildDate>
-    <pubDate>Mon, 02 Jun 2025 22:11:00 +0100</pubDate>
+    <lastBuildDate>Wed, 04 Jun 2025 11:26:33 +0100</lastBuildDate>
+    <pubDate>Wed, 04 Jun 2025 11:26:33 +0100</pubDate>
     <item>
       <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/matt-and-shane/1-inaugral-business.mp3</link>
       <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/matt-and-shane/1-inaugral-business.mp3</guid>
