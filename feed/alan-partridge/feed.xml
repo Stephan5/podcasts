@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/alan-partridge/feed.xml" rel="self" type="application/rss+xml"/>
+    <title>Alan Partridge</title>
+    <description>&lt;p&gt;A collection of audiobooks and podcasts from Alan Partridge. &lt;/p&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <itunes:author>Steve Coogan</itunes:author>
+    <language>en-gb</language>
+    <copyright>none</copyright>
+    <link>https://github.com/Stephan5/podcasts/tree/main/feed/alan-partridge</link>
+    <image>
+      <url>https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/alan-partridge/image.jpg</url>
+      <title>Alan Partridge</title>
+      <link>https://github.com/Stephan5/podcasts/tree/main/feed/alan-partridge</link>
+    </image>
+    <generator>Stephan5/podcasts</generator>
+    <lastBuildDate>Wed, 04 Jun 2025 16:16:12 +0100</lastBuildDate>
+    <pubDate>Wed, 04 Jun 2025 16:16:12 +0100</pubDate>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/1-i-partridge.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/1-i-partridge.mp3</guid>
+      <title>1: I, Partridge</title>
+      <description>I, Partridge - Episode 1 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 29 Sep 2011 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/1-i-partridge.mp3" length="229296137" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/2-nomad.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/2-nomad.mp3</guid>
+      <title>2: Nomad</title>
+      <description>Nomad - Episode 2 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 20 Oct 2016 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/2-nomad.mp3" length="174274143" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/3-from-the-oasthouse-s01.m4a</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/3-from-the-oasthouse-s01.m4a</guid>
+      <title>3: From the Oasthouse - S01</title>
+      <description>From the Oasthouse - S01 - Episode 3 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 03 Sep 2020 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/3-from-the-oasthouse-s01.m4a" length="385577371" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/4-from-the-oasthouse-s02e01-rekindlings.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/4-from-the-oasthouse-s02e01-rekindlings.mp3</guid>
+      <title>4: From The Oasthouse – S02E01 Rekindlings</title>
+      <description>From The Oasthouse – S02E01 Rekindlings - Episode 4 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:01 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/4-from-the-oasthouse-s02e01-rekindlings.mp3" length="22403281" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/5-from-the-oasthouse-s02e02-novel.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/5-from-the-oasthouse-s02e02-novel.mp3</guid>
+      <title>5: From The Oasthouse – S02E02 Novel</title>
+      <description>From The Oasthouse – S02E02 Novel - Episode 5 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:02 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/5-from-the-oasthouse-s02e02-novel.mp3" length="24901005" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/6-from-the-oasthouse-s02e03-stake-out.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/6-from-the-oasthouse-s02e03-stake-out.mp3</guid>
+      <title>6: From The Oasthouse – S02E03 Stake Out</title>
+      <description>From The Oasthouse – S02E03 Stake Out - Episode 6 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:03 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/6-from-the-oasthouse-s02e03-stake-out.mp3" length="22151672" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/7-from-the-oasthouse-s02e04-potholing.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/7-from-the-oasthouse-s02e04-potholing.mp3</guid>
+      <title>7: From The Oasthouse – S02E04 Potholing</title>
+      <description>From The Oasthouse – S02E04 Potholing - Episode 7 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:04 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/7-from-the-oasthouse-s02e04-potholing.mp3" length="26780454" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/8-from-the-oasthouse-s02e05-tyneham.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/8-from-the-oasthouse-s02e05-tyneham.mp3</guid>
+      <title>8: From The Oasthouse – S02E05 Tyneham</title>
+      <description>From The Oasthouse – S02E05 Tyneham - Episode 8 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:05 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/8-from-the-oasthouse-s02e05-tyneham.mp3" length="22274968" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/9-from-the-oasthouse-s02e06-wild-swimming.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/9-from-the-oasthouse-s02e06-wild-swimming.mp3</guid>
+      <title>9: From The Oasthouse – S02E06 Wild Swimming</title>
+      <description>From The Oasthouse – S02E06 Wild Swimming - Episode 9 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:06 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/9-from-the-oasthouse-s02e06-wild-swimming.mp3" length="19495124" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/10-from-the-oasthouse-s02e07-time-travel.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/10-from-the-oasthouse-s02e07-time-travel.mp3</guid>
+      <title>10: From The Oasthouse – S02E07 Time Travel</title>
+      <description>From The Oasthouse – S02E07 Time Travel - Episode 10 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:07 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/10-from-the-oasthouse-s02e07-time-travel.mp3" length="20978460" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/11-from-the-oasthouse-s02e08-katarina.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/11-from-the-oasthouse-s02e08-katarina.mp3</guid>
+      <title>11: From The Oasthouse – S02E08 Katarina</title>
+      <description>From The Oasthouse – S02E08 Katarina - Episode 11 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:08 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/11-from-the-oasthouse-s02e08-katarina.mp3" length="19887588" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/12-from-the-oasthouse-s02e09-brand-ambassador.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/12-from-the-oasthouse-s02e09-brand-ambassador.mp3</guid>
+      <title>12: From The Oasthouse – S02E09 Brand Ambassador</title>
+      <description>From The Oasthouse – S02E09 Brand Ambassador - Episode 12 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:09 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/12-from-the-oasthouse-s02e09-brand-ambassador.mp3" length="24164978" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/13-from-the-oasthouse-s02e10-alpha-male.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/13-from-the-oasthouse-s02e10-alpha-male.mp3</guid>
+      <title>13: From The Oasthouse – S02E10 Alpha Male</title>
+      <description>From The Oasthouse – S02E10 Alpha Male - Episode 13 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:10 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/13-from-the-oasthouse-s02e10-alpha-male.mp3" length="19100988" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/14-from-the-oasthouse-s02e11-perfect-day.mp3</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/14-from-the-oasthouse-s02e11-perfect-day.mp3</guid>
+      <title>14: From The Oasthouse – S02E11 Perfect Day</title>
+      <description>From The Oasthouse – S02E11 Perfect Day - Episode 14 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 22 Sep 2022 03:00:11 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/14-from-the-oasthouse-s02e11-perfect-day.mp3" length="23531354" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/15-from-the-oasthouse-s03.m4a</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/15-from-the-oasthouse-s03.m4a</guid>
+      <title>15: From the Oasthouse - S03</title>
+      <description>From the Oasthouse - S03 - Episode 15 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 31 Aug 2023 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/15-from-the-oasthouse-s03.m4a" length="219519534" type="audio/mpeg"/>
+    </item>
+    <item>
+      <link>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/16-big-beacon.m4a</link>
+      <guid>https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/16-big-beacon.m4a</guid>
+      <title>16: Big Beacon</title>
+      <description>Big Beacon - Episode 16 of Alan Partridge&lt;br/&gt;&lt;br/&gt;&lt;a href="https://github.com/Stephan5/podcasts" rel="nofollow noopener" target="_blank"&gt;Generated using Stephan5/podcasts&lt;/a&gt;</description>
+      <pubDate>Thu, 12 Oct 2023 03:00:00 GMT</pubDate>
+      <enclosure url="https://s3.eu-west-2.amazonaws.com/podcast.blakeslee.uk/alan-partridge/16-big-beacon.m4a" length="452071736" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
