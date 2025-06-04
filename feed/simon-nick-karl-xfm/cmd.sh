@@ -9,4 +9,4 @@ base_dir="$(cd "$csv_dir/../.." && pwd)"
   --title "Simon, Nick &amp; Karl" \
   --description "Simon Pegg, Nick Frost and Karl Pilkington on XFM." \
   --author "XFM" \
-  --delimiter ";"
+  --delimiter $'\x1F'

@@ -9,4 +9,4 @@ base_dir="$(cd "$csv_dir/../.." && pwd)"
   --title "The Mighty Boosh" \
   --description "The Mighty Boosh Radio Series" \
   --author "Noel Fielding &amp; Julian Barratt" \
-  --delimiter ";"
+  --delimiter $'\x1F'

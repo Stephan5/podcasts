@@ -9,4 +9,4 @@ base_dir="$(cd "$csv_dir/../.." && pwd)"
   --title "The Geoff Show" \
   --description "The Geoff Show was a humorous radio program, broadcast on Virgin Radio from 3 January 2006 to 25 September 2008. The show ran for three hours, between 10 pm and 1 am, Monday to Thursday." \
   --author "Virgin Radio" \
-  --delimiter ";"
+  --delimiter $'\x1F'
