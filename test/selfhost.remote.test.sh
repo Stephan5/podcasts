@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -Eeuo pipefail
 
 cleanup() {
   aws s3 rm "s3://$BUCKET$BUCKET_PREFIX/$(basename "$TEST_DIR")/" --recursive || true

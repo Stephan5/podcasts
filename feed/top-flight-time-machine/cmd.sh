@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -Eeuo pipefail
 
 # Get absolute paths
 csv_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

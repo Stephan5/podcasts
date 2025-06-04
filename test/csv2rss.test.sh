@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -Eeuo pipefail
 
 cleanup() {
   rm -rf "$TEST_DIR"

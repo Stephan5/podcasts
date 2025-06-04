@@ -1,12 +1,12 @@
 #!/bin/bash
 source "$(dirname "$0")/common.sh"
-set -euo pipefail
+set -Eeuo pipefail
 trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 
 # Input Defaults
 input_file=""
 repo_dir=""
-csv_delimiter=","
+csv_delimiter=$'\x1F'
 
 while [[ $# -gt 0 ]]; do
   case "$1" in

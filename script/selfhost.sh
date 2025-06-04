@@ -1,6 +1,6 @@
 #!/bin/bash
 source "$(dirname "$0")/common.sh"
-set -euo pipefail
+set -Eeuo pipefail
 trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 
 # Example:
@@ -34,7 +34,7 @@ input_file=""
 bucket=""
 prefix=""
 region="eu-west-2"
-csv_delimiter=","
+csv_delimiter=$'\x1F'
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
@@ -101,10 +101,8 @@ while IFS= read -r line; do
 
   # Remove query parameters
   if [[ "$src_url" == https://* || "$src_url" == http://* ]]; then
-    echo "cleaning url"
     clean_url="${src_url%%\?*}"
   else
-    echo "skipping clean"
     clean_url="$src_url"
   fi
 
@@ -139,7 +137,6 @@ while IFS= read -r line; do
   echo "Dst S3: \"$http_dst_url\""
   echo "File Name: \"$file_name\""
   echo "Extension: \"$extension\""
-
 
   if [[ "$src_url" =~ ^(http|https):// ]]; then
     echo "Detected remote URL: \"$src_url_enc\""

@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -Eeuo pipefail
 
 # Create a temporary directory for test files
 TEST_DIR=$(mktemp -d)

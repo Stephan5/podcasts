@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -Eeuo pipefail
 trap 'echo "Error on line $LINENO: Command exited with status $?" >&2' ERR
 
 # Handle exclude argument
