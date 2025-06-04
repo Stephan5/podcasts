@@ -36,8 +36,8 @@ echo "foo" > "$INPUT_DIR/foo.txt"
 
 cat > "$EXPECTED" <<EOF
 title;description;date;url
-Episode 1;Desc 1;Jun 1, 2023;file://items/1-episode-1.mp3
-Episode 2;Desc 2;Jul 2, 2023;file://items/2-episode-2.ogg
+Episode 1;Desc 1;Jun 1, 2023;file://items/Free_Test_Data_100KB_MP3.mp3
+Episode 2;Desc 2;Jul 2, 2023;file://items/Free_Test_Data_100KB_OGG.ogg
 EOF
 
 # When
@@ -47,14 +47,14 @@ EOF
 OUTPUT_FEED="$OUTPUT_DIR/$(basename "$INPUT_DIR")"
 
 # Check MP3 file
-MP3_FILE="$OUTPUT_FEED/items/1-episode-1.mp3"
+MP3_FILE="$OUTPUT_FEED/items/Free_Test_Data_100KB_MP3.mp3"
 if [[ ! -f "$MP3_FILE" ]]; then
   echo "❌ TEST FAIL: MP3 file not found at $MP3_FILE"
   exit 1
 fi
 
 # Check OGG file
-OGG_FILE="$OUTPUT_FEED/items/2-episode-2.ogg"
+OGG_FILE="$OUTPUT_FEED/items/Free_Test_Data_100KB_OGG.ogg"
 if [[ ! -f "$OGG_FILE" ]]; then
   echo "❌ TEST FAIL: OGG file not found at $OGG_FILE"
   exit 1

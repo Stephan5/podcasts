@@ -99,8 +99,8 @@ while IFS= read -r line; do
   filename="${clean_url##*/}"
 
   # Check extension
-  if [[ ! "$url_filename" =~ \.(mp3|m4a|m4b)$ ]]; then
-      echo "Failed to detect supported extension in filename from URL \"$url_filename\""
+  if [[ ! "$filename" =~ \.(mp3|m4a|m4b|ogg)$ ]]; then
+      echo "Failed to detect supported extension in filename \"$filename\""
       exit 1
   fi
 
@@ -142,7 +142,7 @@ mv "$tmp_directory"/* "$media_dir"
 echo "Copying any files in input directory to output directory: $feed_dir"
 cp "$tmp_csv" "$feed_dir/local.csv"
 cp -r $input_dir/* "$feed_dir"
-rm -r "$feed_dir/cmd.sh"
+rm -r "$feed_dir/cmd.sh" || true
 
 echo "Archive of podcast files completed successfully in: $output_dir"
 rm -rf "$tmp_directory"

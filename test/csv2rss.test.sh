@@ -50,7 +50,7 @@ cat > "$EXPECTED" <<EOF
   <channel>
     <atom:link href="https://raw.githubusercontent.com/Stephan5/podcasts/refs/heads/main/feed/test/test.xml" rel="self" type="application/rss+xml"/>
     <title>Dudes Rock</title>
-    <description>&lt;p&gt;Hell yeah dude! &lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
+    <description>&lt;p&gt;Hell yeah dude! &lt;/p&gt;&lt;br/&gt;&lt;p&gt;Generated using Stephan5/podcasts.&lt;/p&gt;</description>
     <itunes:author>Real-ass dudes</itunes:author>
     <language>en-gb</language>
     <copyright>none</copyright>
