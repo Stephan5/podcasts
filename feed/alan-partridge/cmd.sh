@@ -9,4 +9,4 @@ base_dir="$(cd "$csv_dir/../.." && pwd)"
   --title "Alan Partridge" \
   --description "A collection of audiobooks and podcasts from Alan Partridge." \
   --author "Steve Coogan" \
-  --delimiter ";"
+  --delimiter $'\x1F'
