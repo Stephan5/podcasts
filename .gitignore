@@ -1,6 +1,3 @@
-# Ignore external feeds file
-/external-feeds.txt
-
 # Ignore IDEA
 .idea
 
