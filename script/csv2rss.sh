@@ -167,7 +167,7 @@ while IFS= read -r line; do
 
   # fallback to default description if not specified
   item_desc=${item_description:-"$item_title - Episode $item_number of $podcast_title"}
-  item_desc=$(echo "$item_desc&lt;br/&gt;&lt;br/&gt;&lt;a href=\"$repo_link\" rel=\"nofollow noopener\" target=\"_blank\"&gt;Generated using $repo&lt;/a&gt;")
+  item_desc=$(echo "$item_desc&lt;br/&gt;&lt;a href=\"$repo_link\" rel=\"nofollow noopener\" target=\"_blank\"&gt;Generated using $repo&lt;/a&gt;")
 
   # url encode URL
   if ! has_encoding "$item_link"; then
