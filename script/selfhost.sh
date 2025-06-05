@@ -88,6 +88,13 @@ echo "Prefix: \"$prefix\""
 echo "Region: \"$region\""
 
 item_number=1  # initialize before the loop
+line_count=$(wc -l < "$input_file")
+item_count=$(($line_count - 1))
+padding_width=${#item_count}
+padded_item_number=$(printf "%0${padding_width}d" "$item_number")
+
+echo "Item count: $item_count (requires $padding_width digits of padding)"
+echo "First item will be numbered as: $padded_item_number"
 
 # Read the CSV line by line
 while IFS= read -r line; do
@@ -109,16 +116,17 @@ while IFS= read -r line; do
   # Extract the filename
   url_filename="${clean_url##*/}"
 
-  # Extract extension
-  if [[ "$url_filename" == *.* ]]; then
+  # Check extension
+  if [[ "$url_filename" =~ \.(mp3|m4a|m4b|ogg)$ ]]; then
     extension="${url_filename##*.}"
   else
-    echo "No extension found in filename from URL \"$url_filename\", defaulting to mp3"
-    extension="mp3"
+    echo "Failed to detect supported extension in filename \"$url_filename\""
+    exit 1
   fi
 
   # Build filename
-  file_name=$(echo "$item_number-$item_title" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9' '-' | sed 's/^-//' | sed 's/-$//')
+  padded_item_number=$(printf "%0${padding_width}d" "$item_number")
+  file_name=$(echo "$padded_item_number-$item_title" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9' '-' | sed 's/^-//' | sed 's/-$//')
   file_name="${file_name}.${extension}"
 
   # Encode URLs
