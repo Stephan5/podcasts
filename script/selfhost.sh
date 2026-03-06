@@ -117,7 +117,7 @@ while IFS= read -r line; do
   url_filename="${clean_url##*/}"
 
   # Check extension
-  if [[ "$url_filename" =~ \.(mp3|m4a|m4b|ogg)$ ]]; then
+  if [[ "$url_filename" =~ \.(mp3|m4a|m4b|ogg|wav)$ ]]; then
     extension="${url_filename##*.}"
   else
     echo "Failed to detect supported extension in filename \"$url_filename\""
