@@ -28,9 +28,6 @@ jobs:
             -e MINIO_SECRET_KEY=minioadmin \
             minio/minio server /data
 
-      - name: Make test scripts executable
-        run: chmod +x test/*.sh script/*.sh
-
       - name: Create test S3 bucket
         env:
           AWS_ACCESS_KEY_ID: minioadmin

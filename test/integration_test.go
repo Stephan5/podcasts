@@ -71,7 +71,7 @@ func runInDir(dir string, args ...string) (string, int) {
 // --- csv2rss integration tests ---
 
 // TestCSV2RSSGoldenSnapshot build RSS from the test CSV and compare its parsed content
-// against test/testdata/feedfeed.xml.
+// against test/testdata/feed.xml.
 // Comparison is semantic (title, date, URL per item) so XML formatting differences
 // between the Go template and the legacy xmllint output do not cause false failures.
 func TestCSV2RSSGoldenSnapshot(t *testing.T) {
@@ -107,7 +107,7 @@ func TestCSV2RSSGoldenSnapshot(t *testing.T) {
 	if err != nil {
 		t.Fatalf("output XML not found: %v", err)
 	}
-	goldenXML, err := os.ReadFile("testdata/feedfeed.xml")
+	goldenXML, err := os.ReadFile("testdata/feed.xml")
 	if err != nil {
 		t.Fatalf("golden file not found: %v", err)
 	}
