@@ -180,8 +180,10 @@ func Build(opts FeedOptions, records []feedcsv.Record, logger io.Writer) ([]byte
 		// Fetch content-length
 		length, err := fetcher(encodedURL)
 		if err != nil {
-			fmt.Fprintf(logger, "Warning: could not fetch content-length for %s: %v\n", encodedURL, err)
-			length = ""
+			return nil, fmt.Errorf("item %d (%q): resolve URL %q for content-length: %w", num, rec.Title, encodedURL, err)
+		}
+		if strings.TrimSpace(length) == "" {
+			return nil, fmt.Errorf("item %d (%q): resolve URL %q for content-length: empty Content-Length", num, rec.Title, encodedURL)
 		}
 		fmt.Fprintf(logger, "Content-Length fetched: %q\n", length)
 

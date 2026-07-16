@@ -166,6 +166,58 @@ func TestBuildItemEnclosureContentLength(t *testing.T) {
 	}
 }
 
+func TestBuildFailsWhenContentLengthFetchFails(t *testing.T) {
+	opts := feedrss.FeedOptions{
+		Title:   "My Show",
+		RepoDir: "my-show",
+		ContentLengthFetcher: func(url string) (string, error) {
+			return "", fmt.Errorf("HTTP 403")
+		},
+	}
+	opts.SetDefaults()
+
+	records := []feedcsv.Record{
+		{
+			Title: "Ep1",
+			Date:  "Sat, 29 Jun 2002 03:00:00 GMT",
+			URL:   "https://example.com/ep1.mp3",
+		},
+	}
+
+	_, err := feedrss.Build(opts, records, io.Discard)
+	if err == nil {
+		t.Fatal("expected Build to fail when content-length lookup fails")
+	}
+	if !strings.Contains(err.Error(), `resolve URL "https://example.com/ep1.mp3" for content-length`) {
+		t.Fatalf("unexpected error: %v", err)
+	}
+}
+
+func TestBuildFailsWhenContentLengthIsEmpty(t *testing.T) {
+	opts := feedrss.FeedOptions{
+		Title:                "My Show",
+		RepoDir:              "my-show",
+		ContentLengthFetcher: mockFetcher(""),
+	}
+	opts.SetDefaults()
+
+	records := []feedcsv.Record{
+		{
+			Title: "Ep1",
+			Date:  "Sat, 29 Jun 2002 03:00:00 GMT",
+			URL:   "https://example.com/ep1.mp3",
+		},
+	}
+
+	_, err := feedrss.Build(opts, records, io.Discard)
+	if err == nil {
+		t.Fatal("expected Build to fail when content-length is empty")
+	}
+	if !strings.Contains(err.Error(), "empty Content-Length") {
+		t.Fatalf("unexpected error: %v", err)
+	}
+}
+
 func TestBuildDefaultDescriptionFallback(t *testing.T) {
 	xmlBytes, _ := buildTestFeed(t)
 	src := string(xmlBytes)

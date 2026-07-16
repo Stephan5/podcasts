@@ -212,6 +212,25 @@ func TestCSV2RSSLoadsFeedJSON(t *testing.T) {
 	}
 }
 
+func TestCSV2RSSFailsWhenURLCannotBeResolved(t *testing.T) {
+	dir := t.TempDir()
+	feedDir := filepath.Join(dir, "feed", "broken")
+	os.MkdirAll(feedDir, 0755)
+	csvPath := filepath.Join(feedDir, "feed.csv")
+	os.WriteFile(csvPath, []byte(
+		"title\x1fdescription\x1fdate\x1furl\n"+
+			"Ep1\x1f\x1fSat, 29 Jun 2002 03:00:00 GMT\x1fhttp://127.0.0.1:1/ep1.mp3\n"),
+		0644)
+
+	out, code := run("csv2rss", csvPath, "--title", "Broken Show")
+	if code == 0 {
+		t.Fatalf("expected csv2rss to fail when URL cannot be resolved")
+	}
+	if !strings.Contains(out, "resolve URL") {
+		t.Fatalf("expected resolve URL error in output, got:\n%s", out)
+	}
+}
+
 // --- pubdate integration tests ---
 
 func TestPubdateMirroringBashTest(t *testing.T) {
