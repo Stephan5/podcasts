@@ -45,4 +45,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: minioadmin
           AWS_DEFAULT_REGION: eu-west-2
           AWS_ENDPOINT_URL: http://localhost:9000
-        run: ./test/test.sh
+        run: make test-all
